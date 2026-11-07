@@ -104,7 +104,9 @@
                 { id: 10, nombre: "TERESIANO", abreviatura: "TER", ciudad: "Cajeme", color: "#7c3aed" },
                 { id: 11, nombre: "DRINKES", abreviatura: "DRI", ciudad: "Cajeme", color: "#16a34a" },
                 { id: 12, nombre: "Y-TEAM", abreviatura: "YTM", ciudad: "Cajeme", color: "#0ea5e9" },
-                { id: 13, nombre: "RANGERS", abreviatura: "RAN", ciudad: "Cajeme", color: "#b45309" }
+                { id: 13, nombre: "RANGERS", abreviatura: "RAN", ciudad: "Cajeme", color: "#b45309" },
+                { id: 14, nombre: "PELICANOS", abreviatura: "PEL", ciudad: "Cajeme", color: "#0284c7" },
+                { id: 15, nombre: "HORTITEC", abreviatura: "HOR", ciudad: "Cajeme", color: "#15803d" }
             ],
 
             jugadores: [
@@ -257,7 +259,7 @@
                 { id: 128, nombre: "Ricardo Ronquillo Gonzalez", numero: 69, posicion: "Desconocida", equipo: "TERESIANO" },
                 { id: 129, nombre: "Mario Zazueta Germán", numero: 29, posicion: "Desconocida", equipo: "TERESIANO" },
 
-                // DRINKES
+                // DRINKES / DRINKERS
                 { id: 130, nombre: "Daniel Cordova", numero: 5, posicion: "Desconocida", equipo: "DRINKES" },
                 { id: 131, nombre: "José Cordova", numero: 6, posicion: "Desconocida", equipo: "DRINKES" },
                 { id: 132, nombre: "Antonio Cordova", numero: 7, posicion: "Desconocida", equipo: "DRINKES" },
@@ -293,130 +295,188 @@
                 { id: 158, nombre: "Diego Josian Aguilar Sepulveda", numero: 27, posicion: "Desconocida", equipo: "RANGERS" },
                 { id: 159, nombre: "Miguel Arturo Tapia Garcia", numero: 7, posicion: "Desconocida", equipo: "RANGERS" },
                 { id: 160, nombre: "Alan Rogelio Castelo Olivas", numero: 13, posicion: "Desconocida", equipo: "RANGERS" },
-                { id: 161, nombre: "Martin Bustamante Hinojosa", numero: 2, posicion: "Desconocida", equipo: "RANGERS" }
+                { id: 161, nombre: "Martin Bustamante Hinojosa", numero: 2, posicion: "Desconocida", equipo: "RANGERS" },
+
+                // PELICANOS
+                { id: 162, nombre: "MARIO SEPULVEDA", numero: 23, posicion: "Desconocida", equipo: "PELICANOS" },
+                { id: 163, nombre: "SERGIO BOJORQUEZ", numero: 24, posicion: "Desconocida", equipo: "PELICANOS" },
+                { id: 164, nombre: "HERIBERTO ALVAREZ", numero: 19, posicion: "Desconocida", equipo: "PELICANOS" },
+                { id: 165, nombre: "ABEL OCHOA", numero: "XX", posicion: "Desconocida", equipo: "PELICANOS" },
+                { id: 166, nombre: "ALVARO ALMADA", numero: 0, posicion: "Desconocida", equipo: "PELICANOS" },
+                { id: 167, nombre: "JORGE PORTELA", numero: 10, posicion: "Desconocida", equipo: "PELICANOS" },
+                { id: 168, nombre: "MANUEL SANTAMARIA OCHOA", numero: 4, posicion: "Desconocida", equipo: "PELICANOS" },
+                { id: 169, nombre: "SANTIAGO SANTAMARIA", numero: 12, posicion: "Desconocida", equipo: "PELICANOS" },
+                { id: 170, nombre: "CUTINO MECHUCA", numero: 34, posicion: "Desconocida", equipo: "PELICANOS" },
+                { id: 171, nombre: "PELAGIO DE COOCRIT", numero: 7, posicion: "Desconocida", equipo: "PELICANOS" },
+
+                // HORTITEC
+                { id: 172, nombre: "Benjamin terrazas", numero: 30, posicion: "Desconocida", equipo: "HORTITEC" },
+                { id: 173, nombre: "Emir sonoqui", numero: 11, posicion: "Desconocida", equipo: "HORTITEC" },
+                { id: 174, nombre: "Pablo perez", numero: 17, posicion: "Desconocida", equipo: "HORTITEC" },
+                { id: 175, nombre: "Luis angulo", numero: 4, posicion: "Desconocida", equipo: "HORTITEC" },
+                { id: 176, nombre: "Luis angulo jr", numero: 2, posicion: "Desconocida", equipo: "HORTITEC" },
+                { id: 177, nombre: "Javier favela", numero: 21, posicion: "Desconocida", equipo: "HORTITEC" },
+                { id: 178, nombre: "Manuel ross", numero: 11, posicion: "Desconocida", equipo: "HORTITEC" },
+                { id: 179, nombre: "German valle", numero: 24, posicion: "Desconocida", equipo: "HORTITEC" },
+                { id: 180, nombre: "Brayan aguilar", numero: 78, posicion: "Desconocida", equipo: "HORTITEC" },
+                { id: 181, nombre: "Frnacisco valenzuela", numero: 8, posicion: "Desconocida", equipo: "HORTITEC" },
+                { id: 182, nombre: "Jose carras", numero: "07", posicion: "Desconocida", equipo: "HORTITEC" }
             ],
 
             // ======================================================
-            // 📅 CALENDARIO Y PARTIDOS (TODOS CONTRA TODOS - 13 JORNADAS - 78 PARTIDOS)
+            // 📅 CALENDARIO Y PARTIDOS (ROL OFICIAL DE JUEGOS)
             // ======================================================
             partidos: [
-                // Jornada 1
-                { id: 1, jornada: 1, fecha: "Por definir", dia: "Martes", hora: "7:00 PM", local: "PIRATAS", visitante: "RANGERS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 2, jornada: 1, fecha: "Por definir", dia: "Miércoles", hora: "8:00 PM", local: "PLAZA", visitante: "Y-TEAM", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 3, jornada: 1, fecha: "Por definir", dia: "Jueves", hora: "9:00 PM", local: "FINCA DON CHEMA", visitante: "DRINKES", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 4, jornada: 1, fecha: "Por definir", dia: "Viernes", hora: "7:00 PM", local: "TITANES", visitante: "TERESIANO", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 5, jornada: 1, fecha: "Por definir", dia: "Viernes", hora: "8:30 PM", local: "SPARTANS", visitante: "LIRIX", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 6, jornada: 1, fecha: "Por definir", dia: "Sábado", hora: "6:00 PM", local: "ZOMBIES", visitante: "ZORROS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                // JORNADA 1 (Descansa: LIRIX)
+                { id: 1, jornada: 1, fecha: "Por definir", dia: "Martes", hora: "7:30 PM", local: "Y-TEAM", visitante: "HORTITEC", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "LIRIX" },
+                { id: 2, jornada: 1, fecha: "Por definir", dia: "Martes", hora: "8:30 PM", local: "ZOMBIES", visitante: "PLAZA", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "LIRIX" },
+                { id: 3, jornada: 1, fecha: "Por definir", dia: "Miércoles", hora: "7:00 PM", local: "PELICANOS", visitante: "TITANES", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "LIRIX" },
+                { id: 4, jornada: 1, fecha: "Por definir", dia: "Miércoles", hora: "8:00 PM", local: "PIRATAS", visitante: "TERESIANO", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "LIRIX" },
+                { id: 5, jornada: 1, fecha: "Por definir", dia: "Miércoles", hora: "9:00 PM", local: "ZORROS", visitante: "RANGERS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "LIRIX" },
+                { id: 6, jornada: 1, fecha: "Por definir", dia: "Jueves", hora: "7:30 PM", local: "DESTROYERS", visitante: "SPARTANS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "LIRIX" },
+                { id: 7, jornada: 1, fecha: "Por definir", dia: "Jueves", hora: "8:30 PM", local: "FINCA DON CHEMA", visitante: "DRINKES", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "LIRIX" },
 
-                // Jornada 2
-                { id: 7, jornada: 2, fecha: "Por definir", dia: "Martes", hora: "7:00 PM", local: "PLAZA", visitante: "DESTROYERS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 8, jornada: 2, fecha: "Por definir", dia: "Miércoles", hora: "8:00 PM", local: "FINCA DON CHEMA", visitante: "RANGERS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 9, jornada: 2, fecha: "Por definir", dia: "Jueves", hora: "9:00 PM", local: "TITANES", visitante: "Y-TEAM", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 10, jornada: 2, fecha: "Por definir", dia: "Viernes", hora: "7:00 PM", local: "SPARTANS", visitante: "DRINKES", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 11, jornada: 2, fecha: "Por definir", dia: "Viernes", hora: "8:30 PM", local: "ZOMBIES", visitante: "TERESIANO", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 12, jornada: 2, fecha: "Por definir", dia: "Sábado", hora: "6:00 PM", local: "ZORROS", visitante: "LIRIX", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                // JORNADA 2 (Descansa: PLAZA)
+                { id: 8, jornada: 2, fecha: "Por definir", dia: "Martes", hora: "7:30 PM", local: "PIRATAS", visitante: "LIRIX", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "PLAZA" },
+                { id: 9, jornada: 2, fecha: "Por definir", dia: "Martes", hora: "8:30 PM", local: "DRINKES", visitante: "RANGERS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "PLAZA" },
+                { id: 10, jornada: 2, fecha: "Por definir", dia: "Miércoles", hora: "7:00 PM", local: "DESTROYERS", visitante: "FINCA DON CHEMA", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "PLAZA" },
+                { id: 11, jornada: 2, fecha: "Por definir", dia: "Miércoles", hora: "8:00 PM", local: "ZOMBIES", visitante: "PELICANOS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "PLAZA" },
+                { id: 12, jornada: 2, fecha: "Por definir", dia: "Miércoles", hora: "9:00 PM", local: "TERESIANO", visitante: "SPARTANS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "PLAZA" },
+                { id: 13, jornada: 2, fecha: "Por definir", dia: "Jueves", hora: "7:30 PM", local: "Y-TEAM", visitante: "ZORROS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "PLAZA" },
+                { id: 14, jornada: 2, fecha: "Por definir", dia: "Jueves", hora: "8:30 PM", local: "HORTITEC", visitante: "TITANES", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "PLAZA" },
 
-                // Jornada 3
-                { id: 13, jornada: 3, fecha: "Por definir", dia: "Martes", hora: "7:00 PM", local: "FINCA DON CHEMA", visitante: "PIRATAS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 14, jornada: 3, fecha: "Por definir", dia: "Miércoles", hora: "8:00 PM", local: "TITANES", visitante: "DESTROYERS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 15, jornada: 3, fecha: "Por definir", dia: "Jueves", hora: "9:00 PM", local: "SPARTANS", visitante: "RANGERS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 16, jornada: 3, fecha: "Por definir", dia: "Viernes", hora: "7:00 PM", local: "ZOMBIES", visitante: "Y-TEAM", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 17, jornada: 3, fecha: "Por definir", dia: "Viernes", hora: "8:30 PM", local: "ZORROS", visitante: "DRINKES", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 18, jornada: 3, fecha: "Por definir", dia: "Sábado", hora: "6:00 PM", local: "LIRIX", visitante: "TERESIANO", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                // JORNADA 3 (Descansa: PIRATAS)
+                { id: 15, jornada: 3, fecha: "Por definir", dia: "Martes", hora: "7:30 PM", local: "PLAZA", visitante: "RANGERS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "PIRATAS" },
+                { id: 16, jornada: 3, fecha: "Por definir", dia: "Martes", hora: "8:30 PM", local: "HORTITEC", visitante: "DRINKES", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "PIRATAS" },
+                { id: 17, jornada: 3, fecha: "Por definir", dia: "Miércoles", hora: "7:00 PM", local: "TERESIANO", visitante: "TITANES", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "PIRATAS" },
+                { id: 18, jornada: 3, fecha: "Por definir", dia: "Miércoles", hora: "8:00 PM", local: "DESTROYERS", visitante: "ZORROS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "PIRATAS" },
+                { id: 19, jornada: 3, fecha: "Por definir", dia: "Miércoles", hora: "9:00 PM", local: "FINCA DON CHEMA", visitante: "PELICANOS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "PIRATAS" },
+                { id: 20, jornada: 3, fecha: "Por definir", dia: "Jueves", hora: "7:30 PM", local: "Y-TEAM", visitante: "LIRIX", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "PIRATAS" },
+                { id: 21, jornada: 3, fecha: "Por definir", dia: "Jueves", hora: "8:30 PM", local: "ZOMBIES", visitante: "SPARTANS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "PIRATAS" },
 
-                // Jornada 4
-                { id: 19, jornada: 4, fecha: "Por definir", dia: "Martes", hora: "7:00 PM", local: "TITANES", visitante: "PLAZA", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 20, jornada: 4, fecha: "Por definir", dia: "Miércoles", hora: "8:00 PM", local: "SPARTANS", visitante: "PIRATAS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 21, jornada: 4, fecha: "Por definir", dia: "Jueves", hora: "9:00 PM", local: "ZOMBIES", visitante: "DESTROYERS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 22, jornada: 4, fecha: "Por definir", dia: "Viernes", hora: "7:00 PM", local: "ZORROS", visitante: "RANGERS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 23, jornada: 4, fecha: "Por definir", dia: "Viernes", hora: "8:30 PM", local: "LIRIX", visitante: "Y-TEAM", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 24, jornada: 4, fecha: "Por definir", dia: "Sábado", hora: "6:00 PM", local: "TERESIANO", visitante: "DRINKES", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                // JORNADA 4 (Descansa: HORTITEC)
+                { id: 22, jornada: 4, fecha: "Por definir", dia: "Martes", hora: "7:30 PM", local: "ZORROS", visitante: "ZOMBIES", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "HORTITEC" },
+                { id: 23, jornada: 4, fecha: "Por definir", dia: "Martes", hora: "8:30 PM", local: "SPARTANS", visitante: "PLAZA", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "HORTITEC" },
+                { id: 24, jornada: 4, fecha: "Por definir", dia: "Miércoles", hora: "7:00 PM", local: "PELICANOS", visitante: "PIRATAS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "HORTITEC" },
+                { id: 25, jornada: 4, fecha: "Por definir", dia: "Miércoles", hora: "8:00 PM", local: "DESTROYERS", visitante: "RANGERS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "HORTITEC" },
+                { id: 26, jornada: 4, fecha: "Por definir", dia: "Miércoles", hora: "9:00 PM", local: "TITANES", visitante: "DRINKES", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "HORTITEC" },
+                { id: 27, jornada: 4, fecha: "Por definir", dia: "Jueves", hora: "7:30 PM", local: "FINCA DON CHEMA", visitante: "Y-TEAM", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "HORTITEC" },
+                { id: 28, jornada: 4, fecha: "Por definir", dia: "Jueves", hora: "8:30 PM", local: "LIRIX", visitante: "TERESIANO", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "HORTITEC" },
 
-                // Jornada 5
-                { id: 25, jornada: 5, fecha: "Por definir", dia: "Martes", hora: "7:00 PM", local: "SPARTANS", visitante: "FINCA DON CHEMA", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 26, jornada: 5, fecha: "Por definir", dia: "Miércoles", hora: "8:00 PM", local: "ZOMBIES", visitante: "PLAZA", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 27, jornada: 5, fecha: "Por definir", dia: "Jueves", hora: "9:00 PM", local: "ZORROS", visitante: "PIRATAS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 28, jornada: 5, fecha: "Por definir", dia: "Viernes", hora: "7:00 PM", local: "LIRIX", visitante: "DESTROYERS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 29, jornada: 5, fecha: "Por definir", dia: "Viernes", hora: "8:30 PM", local: "TERESIANO", visitante: "RANGERS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 30, jornada: 5, fecha: "Por definir", dia: "Sábado", hora: "6:00 PM", local: "DRINKES", visitante: "Y-TEAM", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                // JORNADA 5 (Descansa: ZOMBIES)
+                { id: 29, jornada: 5, fecha: "Por definir", dia: "Martes", hora: "7:30 PM", local: "PELICANOS", visitante: "ZORROS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "ZOMBIES" },
+                { id: 30, jornada: 5, fecha: "Por definir", dia: "Martes", hora: "8:30 PM", local: "DRINKES", visitante: "PLAZA", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "ZOMBIES" },
+                { id: 31, jornada: 5, fecha: "Por definir", dia: "Miércoles", hora: "7:00 PM", local: "TITANES", visitante: "PIRATAS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "ZOMBIES" },
+                { id: 32, jornada: 5, fecha: "Por definir", dia: "Miércoles", hora: "8:00 PM", local: "DESTROYERS", visitante: "HORTITEC", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "ZOMBIES" },
+                { id: 33, jornada: 5, fecha: "Por definir", dia: "Miércoles", hora: "9:00 PM", local: "SPARTANS", visitante: "Y-TEAM", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "ZOMBIES" },
+                { id: 34, jornada: 5, fecha: "Por definir", dia: "Jueves", hora: "7:30 PM", local: "LIRIX", visitante: "FINCA DON CHEMA", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "ZOMBIES" },
+                { id: 35, jornada: 5, fecha: "Por definir", dia: "Jueves", hora: "8:30 PM", local: "RANGERS", visitante: "TERESIANO", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "ZOMBIES" },
 
-                // Jornada 6
-                { id: 31, jornada: 6, fecha: "Por definir", dia: "Martes", hora: "7:00 PM", local: "ZOMBIES", visitante: "TITANES", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 32, jornada: 6, fecha: "Por definir", dia: "Miércoles", hora: "8:00 PM", local: "ZORROS", visitante: "FINCA DON CHEMA", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 33, jornada: 6, fecha: "Por definir", dia: "Jueves", hora: "9:00 PM", local: "LIRIX", visitante: "PLAZA", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 34, jornada: 6, fecha: "Por definir", dia: "Viernes", hora: "7:00 PM", local: "TERESIANO", visitante: "PIRATAS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 35, jornada: 6, fecha: "Por definir", dia: "Viernes", hora: "8:30 PM", local: "DRINKES", visitante: "DESTROYERS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 36, jornada: 6, fecha: "Por definir", dia: "Sábado", hora: "6:00 PM", local: "Y-TEAM", visitante: "RANGERS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                // JORNADA 6 (Descansa: DRINKES)
+                { id: 36, jornada: 6, fecha: "Por definir", dia: "Martes", hora: "7:30 PM", local: "RANGERS", visitante: "TITANES", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "DRINKES" },
+                { id: 37, jornada: 6, fecha: "Por definir", dia: "Martes", hora: "8:30 PM", local: "HORTITEC", visitante: "SPARTANS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "DRINKES" },
+                { id: 38, jornada: 6, fecha: "Por definir", dia: "Miércoles", hora: "7:00 PM", local: "ZOMBIES", visitante: "FINCA DON CHEMA", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "DRINKES" },
+                { id: 39, jornada: 6, fecha: "Por definir", dia: "Miércoles", hora: "8:00 PM", local: "DESTROYERS", visitante: "Y-TEAM", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "DRINKES" },
+                { id: 40, jornada: 6, fecha: "Por definir", dia: "Miércoles", hora: "9:00 PM", local: "PIRATAS", visitante: "ZORROS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "DRINKES" },
+                { id: 41, jornada: 6, fecha: "Por definir", dia: "Jueves", hora: "7:30 PM", local: "TERESIANO", visitante: "PELICANOS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "DRINKES" },
+                { id: 42, jornada: 6, fecha: "Por definir", dia: "Jueves", hora: "8:30 PM", local: "PLAZA", visitante: "LIRIX", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "DRINKES" },
 
-                // Jornada 7
-                { id: 37, jornada: 7, fecha: "Por definir", dia: "Martes", hora: "7:00 PM", local: "ZORROS", visitante: "SPARTANS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 38, jornada: 7, fecha: "Por definir", dia: "Miércoles", hora: "8:00 PM", local: "LIRIX", visitante: "TITANES", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 39, jornada: 7, fecha: "Por definir", dia: "Jueves", hora: "9:00 PM", local: "TERESIANO", visitante: "FINCA DON CHEMA", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 40, jornada: 7, fecha: "Por definir", dia: "Viernes", hora: "7:00 PM", local: "DRINKES", visitante: "PLAZA", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 41, jornada: 7, fecha: "Por definir", dia: "Viernes", hora: "8:30 PM", local: "Y-TEAM", visitante: "PIRATAS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 42, jornada: 7, fecha: "Por definir", dia: "Sábado", hora: "6:00 PM", local: "RANGERS", visitante: "DESTROYERS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                // JORNADA 7 (Descansa: SPARTANS)
+                { id: 43, jornada: 7, fecha: "Por definir", dia: "Martes", hora: "7:30 PM", local: "DRINKES", visitante: "ZORROS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "SPARTANS" },
+                { id: 44, jornada: 7, fecha: "Por definir", dia: "Martes", hora: "8:30 PM", local: "TERESIANO", visitante: "ZOMBIES", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "SPARTANS" },
+                { id: 45, jornada: 7, fecha: "Por definir", dia: "Miércoles", hora: "7:00 PM", local: "DESTROYERS", visitante: "PIRATAS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "SPARTANS" },
+                { id: 46, jornada: 7, fecha: "Por definir", dia: "Miércoles", hora: "8:00 PM", local: "HORTITEC", visitante: "FINCA DON CHEMA", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "SPARTANS" },
+                { id: 47, jornada: 7, fecha: "Por definir", dia: "Miércoles", hora: "9:00 PM", local: "PLAZA", visitante: "Y-TEAM", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "SPARTANS" },
+                { id: 48, jornada: 7, fecha: "Por definir", dia: "Jueves", hora: "7:30 PM", local: "TITANES", visitante: "LIRIX", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "SPARTANS" },
+                { id: 49, jornada: 7, fecha: "Por definir", dia: "Jueves", hora: "8:30 PM", local: "RANGERS", visitante: "PELICANOS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "SPARTANS" },
 
-                // Jornada 8
-                { id: 43, jornada: 8, fecha: "Por definir", dia: "Martes", hora: "7:00 PM", local: "LIRIX", visitante: "ZOMBIES", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 44, jornada: 8, fecha: "Por definir", dia: "Miércoles", hora: "8:00 PM", local: "TERESIANO", visitante: "SPARTANS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 45, jornada: 8, fecha: "Por definir", dia: "Jueves", hora: "9:00 PM", local: "DRINKES", visitante: "TITANES", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 46, jornada: 8, fecha: "Por definir", dia: "Viernes", hora: "7:00 PM", local: "Y-TEAM", visitante: "FINCA DON CHEMA", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 47, jornada: 8, fecha: "Por definir", dia: "Viernes", hora: "8:30 PM", local: "RANGERS", visitante: "PLAZA", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 48, jornada: 8, fecha: "Por definir", dia: "Sábado", hora: "6:00 PM", local: "DESTROYERS", visitante: "PIRATAS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                // JORNADA 8 (Descansa: TITANES)
+                { id: 50, jornada: 8, fecha: "Por definir", dia: "Martes", hora: "7:30 PM", local: "PIRATAS", visitante: "Y-TEAM", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "TITANES" },
+                { id: 51, jornada: 8, fecha: "Por definir", dia: "Martes", hora: "8:30 PM", local: "DRINKES", visitante: "LIRIX", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "TITANES" },
+                { id: 52, jornada: 8, fecha: "Por definir", dia: "Miércoles", hora: "7:00 PM", local: "PLAZA", visitante: "ZORROS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "TITANES" },
+                { id: 53, jornada: 8, fecha: "Por definir", dia: "Miércoles", hora: "8:00 PM", local: "DESTROYERS", visitante: "ZOMBIES", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "TITANES" },
+                { id: 54, jornada: 8, fecha: "Por definir", dia: "Miércoles", hora: "9:00 PM", local: "TERESIANO", visitante: "FINCA DON CHEMA", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "TITANES" },
+                { id: 55, jornada: 8, fecha: "Por definir", dia: "Jueves", hora: "7:30 PM", local: "HORTITEC", visitante: "PELICANOS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "TITANES" },
+                { id: 56, jornada: 8, fecha: "Por definir", dia: "Jueves", hora: "8:30 PM", local: "RANGERS", visitante: "SPARTANS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "TITANES" },
 
-                // Jornada 9
-                { id: 49, jornada: 9, fecha: "Por definir", dia: "Martes", hora: "7:00 PM", local: "TERESIANO", visitante: "ZORROS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 50, jornada: 9, fecha: "Por definir", dia: "Miércoles", hora: "8:00 PM", local: "DRINKES", visitante: "ZOMBIES", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 51, jornada: 9, fecha: "Por definir", dia: "Jueves", hora: "9:00 PM", local: "Y-TEAM", visitante: "SPARTANS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 52, jornada: 9, fecha: "Por definir", dia: "Viernes", hora: "7:00 PM", local: "RANGERS", visitante: "TITANES", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 53, jornada: 9, fecha: "Por definir", dia: "Viernes", hora: "8:30 PM", local: "DESTROYERS", visitante: "FINCA DON CHEMA", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 54, jornada: 9, fecha: "Por definir", dia: "Sábado", hora: "6:00 PM", local: "PIRATAS", visitante: "PLAZA", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                // JORNADA 9 (Descansa: ZORROS)
+                { id: 57, jornada: 9, fecha: "Por definir", dia: "Martes", hora: "7:30 PM", local: "PELICANOS", visitante: "SPARTANS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "ZORROS" },
+                { id: 58, jornada: 9, fecha: "Por definir", dia: "Martes", hora: "8:30 PM", local: "FINCA DON CHEMA", visitante: "TITANES", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "ZORROS" },
+                { id: 59, jornada: 9, fecha: "Por definir", dia: "Miércoles", hora: "7:00 PM", local: "TERESIANO", visitante: "PLAZA", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "ZORROS" },
+                { id: 60, jornada: 9, fecha: "Por definir", dia: "Miércoles", hora: "8:00 PM", local: "PIRATAS", visitante: "HORTITEC", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "ZORROS" },
+                { id: 61, jornada: 9, fecha: "Por definir", dia: "Miércoles", hora: "9:00 PM", local: "Y-TEAM", visitante: "RANGERS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "ZORROS" },
+                { id: 62, jornada: 9, fecha: "Por definir", dia: "Jueves", hora: "7:30 PM", local: "DESTROYERS", visitante: "LIRIX", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "ZORROS" },
+                { id: 63, jornada: 9, fecha: "Por definir", dia: "Jueves", hora: "8:30 PM", local: "ZOMBIES", visitante: "DRINKES", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "ZORROS" },
 
-                // Jornada 10
-                { id: 55, jornada: 10, fecha: "Por definir", dia: "Martes", hora: "7:00 PM", local: "DRINKES", visitante: "LIRIX", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 56, jornada: 10, fecha: "Por definir", dia: "Miércoles", hora: "8:00 PM", local: "Y-TEAM", visitante: "ZORROS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 57, jornada: 10, fecha: "Por definir", dia: "Jueves", hora: "9:00 PM", local: "RANGERS", visitante: "ZOMBIES", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 58, jornada: 10, fecha: "Por definir", dia: "Viernes", hora: "7:00 PM", local: "DESTROYERS", visitante: "SPARTANS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 59, jornada: 10, fecha: "Por definir", dia: "Viernes", hora: "8:30 PM", local: "PIRATAS", visitante: "TITANES", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 60, jornada: 10, fecha: "Por definir", dia: "Sábado", hora: "6:00 PM", local: "PLAZA", visitante: "FINCA DON CHEMA", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                // JORNADA 10 (Descansa: PELICANOS)
+                { id: 64, jornada: 10, fecha: "Por definir", dia: "Martes", hora: "7:30 PM", local: "HORTITEC", visitante: "ZOMBIES", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "PELICANOS" },
+                { id: 65, jornada: 10, fecha: "Por definir", dia: "Martes", hora: "8:30 PM", local: "SPARTANS", visitante: "LIRIX", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "PELICANOS" },
+                { id: 66, jornada: 10, fecha: "Por definir", dia: "Miércoles", hora: "7:00 PM", local: "TITANES", visitante: "ZORROS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "PELICANOS" },
+                { id: 67, jornada: 10, fecha: "Por definir", dia: "Miércoles", hora: "8:00 PM", local: "DRINKES", visitante: "Y-TEAM", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "PELICANOS" },
+                { id: 68, jornada: 10, fecha: "Por definir", dia: "Miércoles", hora: "9:00 PM", local: "RANGERS", visitante: "FINCA DON CHEMA", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "PELICANOS" },
+                { id: 69, jornada: 10, fecha: "Por definir", dia: "Jueves", hora: "7:30 PM", local: "DESTROYERS", visitante: "TERESIANO", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "PELICANOS" },
+                { id: 70, jornada: 10, fecha: "Por definir", dia: "Jueves", hora: "8:30 PM", local: "PLAZA", visitante: "PIRATAS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "PELICANOS" },
 
-                // Jornada 11
-                { id: 61, jornada: 11, fecha: "Por definir", dia: "Martes", hora: "7:00 PM", local: "Y-TEAM", visitante: "TERESIANO", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 62, jornada: 11, fecha: "Por definir", dia: "Miércoles", hora: "8:00 PM", local: "RANGERS", visitante: "LIRIX", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 63, jornada: 11, fecha: "Por definir", dia: "Jueves", hora: "9:00 PM", local: "DESTROYERS", visitante: "ZORROS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 64, jornada: 11, fecha: "Por definir", dia: "Viernes", hora: "7:00 PM", local: "PIRATAS", visitante: "ZOMBIES", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 65, jornada: 11, fecha: "Por definir", dia: "Viernes", hora: "8:30 PM", local: "PLAZA", visitante: "SPARTANS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 66, jornada: 11, fecha: "Por definir", dia: "Sábado", hora: "6:00 PM", local: "FINCA DON CHEMA", visitante: "TITANES", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                // JORNADA 11 (Descansa: Y-TEAM)
+                { id: 71, jornada: 11, fecha: "Por definir", dia: "Martes", hora: "7:30 PM", local: "ZOMBIES", visitante: "TITANES", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "Y-TEAM" },
+                { id: 72, jornada: 11, fecha: "Por definir", dia: "Martes", hora: "8:30 PM", local: "ZORROS", visitante: "LIRIX", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "Y-TEAM" },
+                { id: 73, jornada: 11, fecha: "Por definir", dia: "Miércoles", hora: "7:00 PM", local: "PLAZA", visitante: "HORTITEC", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "Y-TEAM" },
+                { id: 74, jornada: 11, fecha: "Por definir", dia: "Miércoles", hora: "8:00 PM", local: "TERESIANO", visitante: "DRINKES", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "Y-TEAM" },
+                { id: 75, jornada: 11, fecha: "Por definir", dia: "Miércoles", hora: "9:00 PM", local: "FINCA DON CHEMA", visitante: "SPARTANS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "Y-TEAM" },
+                { id: 76, jornada: 11, fecha: "Por definir", dia: "Jueves", hora: "7:30 PM", local: "DESTROYERS", visitante: "PELICANOS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "Y-TEAM" },
+                { id: 77, jornada: 11, fecha: "Por definir", dia: "Jueves", hora: "8:30 PM", local: "PIRATAS", visitante: "RANGERS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "Y-TEAM" },
 
-                // Jornada 12
-                { id: 67, jornada: 12, fecha: "Por definir", dia: "Martes", hora: "7:00 PM", local: "RANGERS", visitante: "DRINKES", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 68, jornada: 12, fecha: "Por definir", dia: "Miércoles", hora: "8:00 PM", local: "DESTROYERS", visitante: "TERESIANO", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 69, jornada: 12, fecha: "Por definir", dia: "Jueves", hora: "9:00 PM", local: "PIRATAS", visitante: "LIRIX", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 70, jornada: 12, fecha: "Por definir", dia: "Viernes", hora: "7:00 PM", local: "PLAZA", visitante: "ZORROS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 71, jornada: 12, fecha: "Por definir", dia: "Viernes", hora: "8:30 PM", local: "FINCA DON CHEMA", visitante: "ZOMBIES", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 72, jornada: 12, fecha: "Por definir", dia: "Sábado", hora: "6:00 PM", local: "TITANES", visitante: "SPARTANS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                // JORNADA 12 (Descansa: FINCA DON CHEMA)
+                { id: 78, jornada: 12, fecha: "Por definir", dia: "Martes", hora: "7:30 PM", local: "LIRIX", visitante: "PELICANOS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "FINCA DON CHEMA" },
+                { id: 79, jornada: 12, fecha: "Por definir", dia: "Martes", hora: "8:30 PM", local: "DRINKES", visitante: "PIRATAS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "FINCA DON CHEMA" },
+                { id: 80, jornada: 12, fecha: "Por definir", dia: "Miércoles", hora: "7:00 PM", local: "SPARTANS", visitante: "ZORROS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "FINCA DON CHEMA" },
+                { id: 81, jornada: 12, fecha: "Por definir", dia: "Miércoles", hora: "8:00 PM", local: "DESTROYERS", visitante: "PLAZA", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "FINCA DON CHEMA" },
+                { id: 82, jornada: 12, fecha: "Por definir", dia: "Miércoles", hora: "9:00 PM", local: "TITANES", visitante: "Y-TEAM", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "FINCA DON CHEMA" },
+                { id: 83, jornada: 12, fecha: "Por definir", dia: "Jueves", hora: "7:30 PM", local: "HORTITEC", visitante: "TERESIANO", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "FINCA DON CHEMA" },
+                { id: 84, jornada: 12, fecha: "Por definir", dia: "Jueves", hora: "8:30 PM", local: "RANGERS", visitante: "ZOMBIES", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "FINCA DON CHEMA" },
 
-                // Jornada 13
-                { id: 73, jornada: 13, fecha: "Por definir", dia: "Martes", hora: "7:00 PM", local: "DESTROYERS", visitante: "Y-TEAM", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 74, jornada: 13, fecha: "Por definir", dia: "Miércoles", hora: "8:00 PM", local: "PIRATAS", visitante: "DRINKES", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 75, jornada: 13, fecha: "Por definir", dia: "Jueves", hora: "9:00 PM", local: "PLAZA", visitante: "TERESIANO", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 76, jornada: 13, fecha: "Por definir", dia: "Viernes", hora: "7:00 PM", local: "FINCA DON CHEMA", visitante: "LIRIX", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 77, jornada: 13, fecha: "Por definir", dia: "Viernes", hora: "8:30 PM", local: "TITANES", visitante: "ZORROS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-                { id: 78, jornada: 13, fecha: "Por definir", dia: "Sábado", hora: "6:00 PM", local: "SPARTANS", visitante: "ZOMBIES", estado: "pendiente", puntosLocal: null, puntosVisitante: null }
+                // JORNADA 13 (Descansa: RANGERS)
+                { id: 85, jornada: 13, fecha: "Por definir", dia: "Martes", hora: "7:30 PM", local: "PELICANOS", visitante: "PLAZA", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "RANGERS" },
+                { id: 86, jornada: 13, fecha: "Por definir", dia: "Martes", hora: "8:30 PM", local: "ZORROS", visitante: "TERESIANO", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "RANGERS" },
+                { id: 87, jornada: 13, fecha: "Por definir", dia: "Miércoles", hora: "7:00 PM", local: "Y-TEAM", visitante: "ZOMBIES", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "RANGERS" },
+                { id: 88, jornada: 13, fecha: "Por definir", dia: "Miércoles", hora: "8:00 PM", local: "DESTROYERS", visitante: "TITANES", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "RANGERS" },
+                { id: 89, jornada: 13, fecha: "Por definir", dia: "Miércoles", hora: "9:00 PM", local: "SPARTANS", visitante: "DRINKES", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "RANGERS" },
+                { id: 90, jornada: 13, fecha: "Por definir", dia: "Jueves", hora: "7:30 PM", local: "LIRIX", visitante: "HORTITEC", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "RANGERS" },
+                { id: 91, jornada: 13, fecha: "Por definir", dia: "Jueves", hora: "8:30 PM", local: "FINCA DON CHEMA", visitante: "PIRATAS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "RANGERS" },
+
+                // JORNADA 14 (Descansa: DESTROYERS)
+                { id: 92, jornada: 14, fecha: "Por definir", dia: "Martes", hora: "7:30 PM", local: "Y-TEAM", visitante: "TERESIANO", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "DESTROYERS" },
+                { id: 93, jornada: 14, fecha: "Por definir", dia: "Martes", hora: "8:30 PM", local: "LIRIX", visitante: "RANGERS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "DESTROYERS" },
+                { id: 94, jornada: 14, fecha: "Por definir", dia: "Miércoles", hora: "7:00 PM", local: "ZOMBIES", visitante: "PIRATAS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "DESTROYERS" },
+                { id: 95, jornada: 14, fecha: "Por definir", dia: "Miércoles", hora: "8:00 PM", local: "PELICANOS", visitante: "DRINKES", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "DESTROYERS" },
+                { id: 96, jornada: 14, fecha: "Por definir", dia: "Miércoles", hora: "9:00 PM", local: "FINCA DON CHEMA", visitante: "PLAZA", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "DESTROYERS" },
+                { id: 97, jornada: 14, fecha: "Por definir", dia: "Jueves", hora: "7:30 PM", local: "SPARTANS", visitante: "TITANES", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "DESTROYERS" },
+                { id: 98, jornada: 14, fecha: "Por definir", dia: "Jueves", hora: "8:30 PM", local: "ZORROS", visitante: "HORTITEC", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "DESTROYERS" },
+
+                // JORNADA 15 (MODIFICADA - Descansa: TERESIANO)
+                { id: 99, jornada: 15, fecha: "Por definir", dia: "Martes", hora: "7:30 PM", local: "RANGERS", visitante: "HORTITEC", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "TERESIANO" },
+                { id: 100, jornada: 15, fecha: "Por definir", dia: "Martes", hora: "8:30 PM", local: "TITANES", visitante: "PLAZA", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "TERESIANO" },
+                { id: 101, jornada: 15, fecha: "Por definir", dia: "Miércoles", hora: "7:00 PM", local: "LIRIX", visitante: "ZOMBIES", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "TERESIANO" },
+                { id: 102, jornada: 15, fecha: "Por definir", dia: "Miércoles", hora: "8:00 PM", local: "SPARTANS", visitante: "PIRATAS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "TERESIANO" },
+                { id: 103, jornada: 15, fecha: "Por definir", dia: "Miércoles", hora: "9:00 PM", local: "ZORROS", visitante: "FINCA DON CHEMA", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "TERESIANO" },
+                { id: 104, jornada: 15, fecha: "Por definir", dia: "Jueves", hora: "7:30 PM", local: "DESTROYERS", visitante: "DRINKES", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "TERESIANO" },
+                { id: 105, jornada: 15, fecha: "Por definir", dia: "Jueves", hora: "8:30 PM", local: "PELICANOS", visitante: "Y-TEAM", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "TERESIANO" }
             ],
 
             // ======================================================
-            // 🏀 REGISTRAR LOS PUNTOS DE LOS JUGADORES
+            // 🏀 REGISTRAR LOS PUNTOS DE LOS JUGADORES Y PARTICIPACIÓN
+            // Estructura de cada registro: 
+            // { partidoId: 1, jugador: "Nombre", puntos: 12, triples: 3, jugo: true }
             // ======================================================
             puntosJugadoresPartidos: [
-                // Todos los registros de puntos se han reiniciado a cero para la nueva temporada
+                // Registros con soporte de triples y bandera de jugo (participación)
             ],
 
             // ======================================================
-            // 🏆 REGISTRAR LOS MVP DE CADA JORNADA
+            // 🏆 REGISTRAR "MEJOR JUGADOR DE LA JORNADA"
             // ======================================================
             mvpJornadas: [
-                // Todos los premios MVP se han reiniciado para la nueva temporada
+                // Registros del mejor jugador de cada jornada
             ]
         };
     </script>
@@ -469,7 +529,7 @@
                 <button onclick="cambiarVista('equipos')" class="nav-btn px-4 py-2 rounded-lg text-sm font-semibold transition-all text-slate-600 hover:text-slate-900 hover:bg-slate-100" data-view="equipos">🏀 Equipos</button>
                 <button onclick="cambiarVista('jugadores')" class="nav-btn px-4 py-2 rounded-lg text-sm font-semibold transition-all text-slate-600 hover:text-slate-900 hover:bg-slate-100" data-view="jugadores">👥 Jugadores</button>
                 <button onclick="cambiarVista('estadisticas')" class="nav-btn px-4 py-2 rounded-lg text-sm font-semibold transition-all text-slate-600 hover:text-slate-900 hover:bg-slate-100" data-view="estadisticas">📊 Estadísticas</button>
-                <button onclick="cambiarVista('mvp')" class="nav-btn px-4 py-2 rounded-lg text-sm font-semibold transition-all text-slate-600 hover:text-slate-900 hover:bg-slate-100" data-view="mvp">🏆 MVP</button>
+                <button onclick="cambiarVista('mvp')" class="nav-btn px-4 py-2 rounded-lg text-sm font-semibold transition-all text-slate-600 hover:text-slate-900 hover:bg-slate-100" data-view="mvp">🏆 Mejor Jugador de la Jornada</button>
                 <button onclick="cambiarVista('jornadas')" class="nav-btn px-4 py-2 rounded-lg text-sm font-semibold transition-all text-slate-600 hover:text-slate-900 hover:bg-slate-100" data-view="jornadas">📅 Jornadas</button>
                 <button onclick="cambiarVista('clasificacion')" class="nav-btn px-4 py-2 rounded-lg text-sm font-semibold transition-all text-slate-600 hover:text-slate-900 hover:bg-slate-100" data-view="clasificacion">🥇 Clasificación</button>
                 <button onclick="cambiarVista('informacion')" class="nav-btn px-4 py-2 rounded-lg text-sm font-semibold transition-all text-slate-600 hover:text-slate-900 hover:bg-slate-100" data-view="informacion">ℹ️ Información</button>
@@ -488,7 +548,7 @@
             <button onclick="cambiarVista('equipos'); toggleMobileMenu();" class="block w-full text-left px-3 py-2.5 rounded-xl text-sm font-semibold text-slate-700 hover:bg-slate-100">🏀 Equipos</button>
             <button onclick="cambiarVista('jugadores'); toggleMobileMenu();" class="block w-full text-left px-3 py-2.5 rounded-xl text-sm font-semibold text-slate-700 hover:bg-slate-100">👥 Jugadores</button>
             <button onclick="cambiarVista('estadisticas'); toggleMobileMenu();" class="block w-full text-left px-3 py-2.5 rounded-xl text-sm font-semibold text-slate-700 hover:bg-slate-100">📊 Estadísticas</button>
-            <button onclick="cambiarVista('mvp'); toggleMobileMenu();" class="block w-full text-left px-3 py-2.5 rounded-xl text-sm font-semibold text-slate-700 hover:bg-slate-100">🏆 MVP</button>
+            <button onclick="cambiarVista('mvp'); toggleMobileMenu();" class="block w-full text-left px-3 py-2.5 rounded-xl text-sm font-semibold text-slate-700 hover:bg-slate-100">🏆 Mejor Jugador de la Jornada</button>
             <button onclick="cambiarVista('jornadas'); toggleMobileMenu();" class="block w-full text-left px-3 py-2.5 rounded-xl text-sm font-semibold text-slate-700 hover:bg-slate-100">📅 Jornadas</button>
             <button onclick="cambiarVista('clasificacion'); toggleMobileMenu();" class="block w-full text-left px-3 py-2.5 rounded-xl text-sm font-semibold text-slate-700 hover:bg-slate-100">🥇 Clasificación</button>
             <button onclick="cambiarVista('informacion'); toggleMobileMenu();" class="block w-full text-left px-3 py-2.5 rounded-xl text-sm font-semibold text-slate-700 hover:bg-slate-100">ℹ️ Información</button>
@@ -529,15 +589,15 @@
                 <!-- Stats flotantes en el Hero -->
                 <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4 mt-8 sm:mt-10 pt-6 sm:pt-8 border-t border-slate-200">
                     <div class="bg-white/80 p-3 sm:p-4 rounded-2xl border border-slate-200 text-center sm:text-left">
-                        <span class="text-2xl sm:text-4xl font-black text-orange-600" id="statEquiposCount">13</span>
+                        <span class="text-2xl sm:text-4xl font-black text-orange-600" id="statEquiposCount">15</span>
                         <p class="text-[10px] sm:text-xs uppercase tracking-wider text-slate-500 mt-1 font-semibold">Equipos</p>
                     </div>
                     <div class="bg-white/80 p-3 sm:p-4 rounded-2xl border border-slate-200 text-center sm:text-left">
-                        <span class="text-2xl sm:text-4xl font-black text-orange-600" id="statJugadoresCount">161</span>
+                        <span class="text-2xl sm:text-4xl font-black text-orange-600" id="statJugadoresCount">182</span>
                         <p class="text-[10px] sm:text-xs uppercase tracking-wider text-slate-500 mt-1 font-semibold">Jugadores</p>
                     </div>
                     <div class="bg-white/80 p-3 sm:p-4 rounded-2xl border border-slate-200 text-center sm:text-left">
-                        <span class="text-2xl sm:text-4xl font-black text-orange-600" id="statJornadasCount">13</span>
+                        <span class="text-2xl sm:text-4xl font-black text-orange-600" id="statJornadasCount">15</span>
                         <p class="text-[10px] sm:text-xs uppercase tracking-wider text-slate-500 mt-1 font-semibold">Jornadas</p>
                     </div>
                     <div class="bg-white/80 p-3 sm:p-4 rounded-2xl border border-slate-200 text-center sm:text-left">
@@ -564,7 +624,7 @@
                 </div>
             </div>
 
-            <!-- TOP 10 ANOTADORES & ÚLTIMOS RESULTADOS -->
+            <!-- TABLAS DE LÍDERES: TOP 10 ANOTADORES, LÍDERES EN TRIPLES Y ÚLTIMOS RESULTADOS -->
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
                 <!-- Top 10 Anotadores -->
                 <div class="lg:col-span-1 glass-panel rounded-3xl p-5 sm:p-6">
@@ -578,8 +638,20 @@
                     </div>
                 </div>
 
+                <!-- Líderes en Triples -->
+                <div class="lg:col-span-1 glass-panel rounded-3xl p-5 sm:p-6">
+                    <div class="flex items-center justify-between mb-6">
+                        <h3 class="text-xl font-black text-slate-900 flex items-center space-x-2">
+                            <span>👌 Líderes en Triples</span>
+                        </h3>
+                    </div>
+                    <div id="topTriplesList" class="space-y-3">
+                        <!-- Generado dinámicamente -->
+                    </div>
+                </div>
+
                 <!-- Últimos Resultados y Clasificación rápida -->
-                <div class="lg:col-span-2 space-y-8">
+                <div class="lg:col-span-1 space-y-8">
                     <div class="glass-panel rounded-3xl p-5 sm:p-6">
                         <div class="flex items-center justify-between mb-6">
                             <h3 class="text-xl font-black text-slate-900 flex items-center space-x-2">
@@ -617,7 +689,7 @@
                     <span class="text-xs uppercase font-extrabold tracking-widest text-orange-600">Franquicias</span>
                     <h2 class="text-3xl font-black text-slate-900">Equipos de la Liga</h2>
                 </div>
-                <p class="text-sm text-slate-500">Selecciona un equipo para ver su plantilla completa y estadísticas</p>
+                <p class="text-sm text-slate-500">Selecciona un equipo para ver su plantilla completa, estadísticas o rol de partidos</p>
             </div>
             <div id="equiposGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 <!-- Generado dinámicamente -->
@@ -658,8 +730,9 @@
                     <label class="text-sm text-slate-500">Ordenar por:</label>
                     <select id="selectOrdenEstadisticas" onchange="cambiarOrdenEstadisticas(this.value)" class="w-full sm:w-auto px-4 py-2 bg-white border border-slate-300 rounded-xl text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-orange-500">
                         <option value="puntos">Puntos Totales (PTS)</option>
+                        <option value="triples">Triples (3PM)</option>
                         <option value="ppg">Puntos por Partido (PPG)</option>
-                        <option value="mvp">MVP</option>
+                        <option value="mvp">Mejor Jugador de la Jornada</option>
                     </select>
                 </div>
             </div>
@@ -672,27 +745,27 @@
             </div>
         </section>
 
-        <!-- 5. VISTA MVP -->
+        <!-- 5. VISTA MEJOR JUGADOR DE LA JORNADA -->
         <section id="vista-mvp" class="space-y-8 hidden fade-in">
             <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
                 <div>
                     <span class="text-xs uppercase font-extrabold tracking-widest text-orange-600">Reconocimientos</span>
-                    <h2 class="text-3xl font-black text-slate-900">MVP de la Jornada</h2>
+                    <h2 class="text-3xl font-black text-slate-900">Mejor Jugador de la Jornada</h2>
                 </div>
                 <div class="flex items-center space-x-2 overflow-x-auto pb-2 w-full sm:w-auto" id="mvpJornadaSelectors">
                     <!-- Generado dinámicamente -->
                 </div>
             </div>
 
-            <!-- Tarjeta destacada MVP -->
+            <!-- Tarjeta destacada Mejor Jugador -->
             <div id="mvpDetalleContainer" class="glass-panel rounded-3xl p-6 sm:p-10 relative overflow-hidden shadow-xl border-orange-500/35">
                 <!-- Generado dinámicamente -->
             </div>
 
-            <!-- MVPs de la temporada (Ranking) -->
+            <!-- Mejores Jugadores acumulados en la temporada (Ranking) -->
             <div class="space-y-4 pt-4">
                 <h3 class="text-2xl font-black text-slate-900 flex items-center space-x-2">
-                    <span>👑 MVPs Acumulados en la Temporada</span>
+                    <span>👑 Mejores Jugadores Acumulados en la Temporada</span>
                 </h3>
                 <div id="mvpTemporadaList" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                     <!-- Generado dinámicamente -->
@@ -800,7 +873,7 @@
     </div>
 
     <!-- ========================================== -->
-    <!-- MODAL DE DETALLE DE EQUIPO -->
+    <!-- MODAL DE DETALLE DE EQUIPO Y CALENDARIO DEL EQUIPO -->
     <!-- ========================================== -->
     <div id="modalEquipo" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-md hidden fade-in">
         <div class="glass-panel w-full max-w-4xl rounded-3xl overflow-hidden shadow-2xl relative max-h-[90vh] overflow-y-auto">
@@ -833,11 +906,42 @@
         let jornadaSeleccionadaMVP = 1;
         let jornadaSeleccionadaPartidos = 1;
 
-        // Inicialización al cargar la página
+        // Carga inicial y persistencia en localStorage
         document.addEventListener('DOMContentLoaded', () => {
+            cargarDatosGuardados();
             renderizarTodo();
             setupFiltrosEquipos();
         });
+
+        // Cargar datos persistidos (puntosJugadoresPartidos y mvpJornadas) si existen
+        function cargarDatosGuardados() {
+            try {
+                const registrosGuardados = localStorage.getItem('lnc_puntosJugadoresPartidos');
+                if (registrosGuardados) {
+                    LIGA_DATA.puntosJugadoresPartidos = JSON.parse(registrosGuardados);
+                }
+                const mvpsGuardados = localStorage.getItem('lnc_mvpJornadas');
+                if (mvpsGuardados) {
+                    LIGA_DATA.mvpJornadas = JSON.parse(mvpsGuardados);
+                }
+                const partidosGuardados = localStorage.getItem('lnc_partidos');
+                if (partidosGuardados) {
+                    LIGA_DATA.partidos = JSON.parse(partidosGuardados);
+                }
+            } catch (e) {
+                console.error("Error al cargar datos de localStorage:", e);
+            }
+        }
+
+        function guardarDatos() {
+            try {
+                localStorage.setItem('lnc_puntosJugadoresPartidos', JSON.stringify(LIGA_DATA.puntosJugadoresPartidos));
+                localStorage.setItem('lnc_mvpJornadas', JSON.stringify(LIGA_DATA.mvpJornadas));
+                localStorage.setItem('lnc_partidos', JSON.stringify(LIGA_DATA.partidos));
+            } catch (e) {
+                console.error("Error al guardar datos en localStorage:", e);
+            }
+        }
 
         // Cambiar entre vistas
         function cambiarVista(vista) {
@@ -864,11 +968,20 @@
             menu.classList.toggle('hidden');
         }
 
+        // Normalización para comparaciones de nombres de equipo (sensible a DRINKES / DRINKERS)
+        function normalizarNombreEquipo(nombre) {
+            if (!nombre) return '';
+            const n = nombre.trim().toUpperCase();
+            if (n === 'DRINKES' || n === 'DRINKERS') return 'DRINKES';
+            return n;
+        }
+
         // ========================================== -->
         // FUNCIONES DE ESTADÍSTICAS Y CÁLCULOS AUTOMÁTICOS
         // ========================================== -->
 
-        // Obtener jugadores enriquecidos con puntos y partidos calculados exclusivamente a partir de partidos finalizados
+        // Obtener jugadores enriquecidos con puntos, triples y partidos jugados.
+        // Un partido se contabiliza si el jugador participó (jugo === true) o si anotó puntos/triples en un partido finalizado.
         function getJugadores() {
             const partidosFinalizadosIds = LIGA_DATA.partidos
                 .filter(p => p.estado === 'finalizado')
@@ -881,11 +994,18 @@
                 );
 
                 const partidosMap = {};
+                let triplesTotales = 0;
+
                 registrosValidos.forEach(r => {
-                    if (!partidosMap[r.partidoId]) {
-                        partidosMap[r.partidoId] = 0;
+                    // Si jugo === true explícito, o no se definió pero sumó puntos > 0
+                    const participo = (r.jugo !== undefined) ? r.jugo : ((r.puntos || 0) > 0 || (r.triples || 0) > 0);
+                    if (participo) {
+                        if (!partidosMap[r.partidoId]) {
+                            partidosMap[r.partidoId] = 0;
+                        }
+                        partidosMap[r.partidoId] += (r.puntos || 0);
                     }
-                    partidosMap[r.partidoId] += r.puntos;
+                    triplesTotales += (r.triples || 0);
                 });
 
                 const partidosIds = Object.keys(partidosMap);
@@ -895,12 +1015,13 @@
                 return {
                     ...j,
                     puntos,
+                    triples: triplesTotales,
                     partidos
                 };
             });
         }
         
-        // Calcular MVPs automáticamente a partir de mvpJornadas
+        // Calcular "Mejor jugador de la jornada" acumulados automáticamente
         function calcularMVPsJugador(nombreJugador) {
             return LIGA_DATA.mvpJornadas.filter(m => m.jugador.toLowerCase() === nombreJugador.toLowerCase()).length;
         }
@@ -922,6 +1043,7 @@
             renderHeroStats();
             renderLideres();
             renderTop10();
+            renderTopTriples();
             renderUltimosResultados();
             renderClasificacionBreve();
             renderEquipos();
@@ -937,7 +1059,7 @@
         function renderHeroStats() {
             document.getElementById('statEquiposCount').textContent = LIGA_DATA.equipos.length;
             document.getElementById('statJugadoresCount').textContent = LIGA_DATA.jugadores.length;
-            document.getElementById('statJornadasCount').textContent = 13;
+            document.getElementById('statJornadasCount').textContent = 15;
             const partidosJugadosCount = LIGA_DATA.partidos.filter(p => p.estado === 'finalizado').length;
             document.getElementById('statPartidosCount').textContent = partidosJugadosCount;
         }
@@ -1000,6 +1122,32 @@
             `).join('');
         }
 
+        // 3b. NUEVA TABLA: Render Líderes en Triples
+        function renderTopTriples() {
+            const topTriples = [...getJugadores()].sort((a, b) => b.triples - a.triples || b.puntos - a.puntos).slice(0, 10);
+            const container = document.getElementById('topTriplesList');
+            if (!container) return;
+            if (topTriples.every(j => (j.triples || 0) === 0)) {
+                container.innerHTML = `<div class="text-xs text-slate-500 text-center py-4">Sin triples registrados.</div>`;
+                return;
+            }
+            container.innerHTML = topTriples.map((j, index) => `
+                <div class="flex items-center justify-between p-3 rounded-2xl bg-slate-50 border border-slate-200 hover:bg-slate-100 transition-colors cursor-pointer" onclick="abrirPerfilJugador(${j.id})">
+                    <div class="flex items-center space-x-3 min-w-0">
+                        <span class="w-6 text-center font-black text-sm flex-shrink-0 ${index === 0 ? 'text-amber-500 text-lg' : index === 1 ? 'text-slate-400' : index === 2 ? 'text-amber-700' : 'text-slate-500'}">#${index + 1}</span>
+                        <div class="min-w-0">
+                            <h5 class="font-bold text-sm text-slate-900 truncate">${j.nombre}</h5>
+                            <p class="text-xs text-slate-500 truncate">${j.equipo} • #${j.numero}</p>
+                        </div>
+                    </div>
+                    <div class="text-right flex-shrink-0 pl-2">
+                        <span class="font-black text-emerald-600 text-sm">${j.triples || 0} 🎯</span>
+                        <p class="text-[10px] text-slate-400">Triples Totales</p>
+                    </div>
+                </div>
+            `).join('');
+        }
+
         // 4. Render Últimos Resultados (Solo partidos finalizados)
         function renderUltimosResultados() {
             const partidosFinalizados = LIGA_DATA.partidos.filter(p => p.estado === 'finalizado');
@@ -1029,7 +1177,7 @@
             }).join('');
         }
 
-        // Calcular Clasificación ordenada por PUNTOS (Victoria = 2 pts, Derrota = 1 pt) - Ignorando pendientes
+        // Calcular Clasificación ordenada por PUNTOS (Victoria = 2 pts, Derrota = 1 pt)
         function calcularClasificacion() {
             const stats = {};
             LIGA_DATA.equipos.forEach(eq => {
@@ -1048,23 +1196,27 @@
             });
 
             LIGA_DATA.partidos.forEach(p => {
-                if (p.estado === 'finalizado' && stats[p.local] && stats[p.visitante]) {
-                    // Local
-                    stats[p.local].pj++;
-                    stats[p.local].pf += p.puntosLocal;
-                    stats[p.local].pc += p.puntosVisitante;
+                const localNorm = normalizarNombreEquipo(p.local);
+                const visNorm = normalizarNombreEquipo(p.visitante);
+                
+                const keyLocal = Object.keys(stats).find(k => normalizarNombreEquipo(k) === localNorm);
+                const keyVis = Object.keys(stats).find(k => normalizarNombreEquipo(k) === visNorm);
 
-                    // Visitante
-                    stats[p.visitante].pj++;
-                    stats[p.visitante].pf += p.puntosVisitante;
-                    stats[p.visitante].pc += p.puntosLocal;
+                if (p.estado === 'finalizado' && keyLocal && keyVis) {
+                    stats[keyLocal].pj++;
+                    stats[keyLocal].pf += p.puntosLocal;
+                    stats[keyLocal].pc += p.puntosVisitante;
+
+                    stats[keyVis].pj++;
+                    stats[keyVis].pf += p.puntosVisitante;
+                    stats[keyVis].pc += p.puntosLocal;
 
                     if (p.puntosLocal > p.puntosVisitante) {
-                        stats[p.local].pg++;
-                        stats[p.visitante].pp++;
+                        stats[keyLocal].pg++;
+                        stats[keyVis].pp++;
                     } else if (p.puntosVisitante > p.puntosLocal) {
-                        stats[p.visitante].pg++;
-                        stats[p.local].pp++;
+                        stats[keyVis].pg++;
+                        stats[keyLocal].pp++;
                     }
                 }
             });
@@ -1114,17 +1266,17 @@
             `;
         }
 
-        // 6. Render Equipos
+        // 6. Render Equipos con Botón "Ver partidos" incorporado
         function renderEquipos() {
             const container = document.getElementById('equiposGrid');
             const jugadores = getJugadores();
             container.innerHTML = LIGA_DATA.equipos.map(eq => {
-                const jugadoresEq = jugadores.filter(j => j.equipo === eq.nombre);
+                const jugadoresEq = jugadores.filter(j => normalizarNombreEquipo(j.equipo) === normalizarNombreEquipo(eq.nombre));
                 const puntosTotales = jugadoresEq.reduce((acc, j) => acc + j.puntos, 0);
                 const mvpsTotales = jugadoresEq.reduce((acc, j) => acc + calcularMVPsJugador(j.nombre), 0);
                 return `
-                    <div class="glass-panel p-5 sm:p-6 rounded-3xl hover:border-orange-500/50 transition-all group cursor-pointer flex flex-col justify-between" onclick="abrirDetalleEquipo('${eq.nombre}')">
-                        <div>
+                    <div class="glass-panel p-5 sm:p-6 rounded-3xl hover:border-orange-500/50 transition-all group flex flex-col justify-between space-y-4">
+                        <div class="cursor-pointer" onclick="abrirDetalleEquipo('${eq.nombre}', 'plantilla')">
                             <div class="flex items-center space-x-4 mb-4">
                                 <div class="w-14 h-14 sm:w-16 sm:h-16 rounded-2xl flex items-center justify-center font-black text-xl sm:text-2xl text-white shadow-md flex-shrink-0" style="background: linear-gradient(135deg, ${eq.color}, #0f172a)">
                                     ${eq.abreviatura}
@@ -1134,20 +1286,30 @@
                                     <h3 class="text-lg sm:text-xl font-black text-slate-900 group-hover:text-orange-600 transition-colors truncate">${eq.nombre}</h3>
                                 </div>
                             </div>
+                            <div class="grid grid-cols-3 gap-2 sm:gap-3 pt-4 border-t border-slate-200 text-center">
+                                <div class="bg-slate-50 p-2.5 rounded-xl border border-slate-200">
+                                    <span class="text-base sm:text-lg font-black text-slate-900">${jugadoresEq.length}</span>
+                                    <p class="text-[9px] sm:text-[10px] text-slate-500 uppercase">Plantilla</p>
+                                </div>
+                                <div class="bg-slate-50 p-2.5 rounded-xl border border-slate-200">
+                                    <span class="text-base sm:text-lg font-black text-orange-600">${puntosTotales}</span>
+                                    <p class="text-[9px] sm:text-[10px] text-slate-500 uppercase">PTS Equipo</p>
+                                </div>
+                                <div class="bg-slate-50 p-2.5 rounded-xl border border-slate-200">
+                                    <span class="text-base sm:text-lg font-black text-emerald-600">${mvpsTotales}</span>
+                                    <p class="text-[9px] sm:text-[10px] text-slate-500 uppercase">Premios</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="grid grid-cols-3 gap-2 sm:gap-3 pt-4 border-t border-slate-200 text-center">
-                            <div class="bg-slate-50 p-2.5 rounded-xl border border-slate-200">
-                                <span class="text-base sm:text-lg font-black text-slate-900">${jugadoresEq.length}</span>
-                                <p class="text-[9px] sm:text-[10px] text-slate-500 uppercase">Plantilla</p>
-                            </div>
-                            <div class="bg-slate-50 p-2.5 rounded-xl border border-slate-200">
-                                <span class="text-base sm:text-lg font-black text-orange-600">${puntosTotales}</span>
-                                <p class="text-[9px] sm:text-[10px] text-slate-500 uppercase">PTS Equipo</p>
-                            </div>
-                            <div class="bg-slate-50 p-2.5 rounded-xl border border-slate-200">
-                                <span class="text-base sm:text-lg font-black text-emerald-600">${mvpsTotales}</span>
-                                <p class="text-[9px] sm:text-[10px] text-slate-500 uppercase">MVPs</p>
-                            </div>
+
+                        <!-- Botones de Acción -->
+                        <div class="grid grid-cols-2 gap-2 pt-2 border-t border-slate-100">
+                            <button onclick="abrirDetalleEquipo('${eq.nombre}', 'plantilla')" class="px-3 py-2 bg-slate-100 hover:bg-slate-200 text-slate-800 text-xs font-bold rounded-xl transition-all text-center">
+                                👥 Plantilla
+                            </button>
+                            <button onclick="abrirDetalleEquipo('${eq.nombre}', 'partidos')" class="px-3 py-2 bg-orange-600 hover:bg-orange-700 text-white text-xs font-bold rounded-xl shadow-md shadow-orange-600/20 transition-all text-center">
+                                📅 Ver partidos
+                            </button>
                         </div>
                     </div>
                 `;
@@ -1168,7 +1330,7 @@
             const textoBusqueda = document.getElementById('busquedaJugadoresInput')?.value.toLowerCase() || '';
 
             let jugadoresFiltrados = getJugadores().filter(j => {
-                const matchEquipo = filtroEquipo === 'todos' || j.equipo === filtroEquipo;
+                const matchEquipo = filtroEquipo === 'todos' || normalizarNombreEquipo(j.equipo) === normalizarNombreEquipo(filtroEquipo);
                 const matchTexto = j.nombre.toLowerCase().includes(textoBusqueda) || 
                                    j.numero.toString().includes(textoBusqueda) || 
                                    j.equipo.toLowerCase().includes(textoBusqueda) ||
@@ -1197,10 +1359,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="grid grid-cols-2 gap-2 pt-3 border-t border-slate-200 text-center">
+                    <div class="grid grid-cols-3 gap-1 pt-3 border-t border-slate-200 text-center">
                         <div>
                             <span class="text-xs sm:text-sm font-black text-orange-600">${j.puntos} PTS</span>
                             <p class="text-[9px] text-slate-400 uppercase">Totales</p>
+                        </div>
+                        <div>
+                            <span class="text-xs sm:text-sm font-black text-emerald-600">${j.triples || 0} 👌</span>
+                            <p class="text-[9px] text-slate-400 uppercase">Triples</p>
                         </div>
                         <div>
                             <span class="text-xs sm:text-sm font-black text-slate-800">${calcularPPG(j.puntos, j.partidos)}</span>
@@ -1222,6 +1388,7 @@
             
             jugadores.sort((a, b) => {
                 if (ordenEstadisticasActual === 'puntos') return b.puntos - a.puntos;
+                if (ordenEstadisticasActual === 'triples') return (b.triples || 0) - (a.triples || 0);
                 if (ordenEstadisticasActual === 'ppg') return (b.puntos/b.partidos || 0) - (a.puntos/a.partidos || 0);
                 if (ordenEstadisticasActual === 'mvp') return calcularMVPsJugador(b.nombre) - calcularMVPsJugador(a.nombre);
                 return b.puntos - a.puntos;
@@ -1236,8 +1403,9 @@
                         <th class="py-3 px-4">EQUIPO</th>
                         <th class="py-3 px-4 text-center">PJ</th>
                         <th class="py-3 px-4 text-center">PTS</th>
+                        <th class="py-3 px-4 text-center">3PM</th>
                         <th class="py-3 px-4 text-center">PPG</th>
-                        <th class="py-3 px-4 text-center">MVP</th>
+                        <th class="py-3 px-4 text-center">MEJOR JUGADOR</th>
                     </tr>
                 </thead>
                 <tbody class="divide-y divide-slate-100 text-sm">
@@ -1253,6 +1421,7 @@
                                 <td class="py-3 px-4 text-slate-600 font-medium">${j.equipo}</td>
                                 <td class="py-3 px-4 text-center text-slate-600">${j.partidos}</td>
                                 <td class="py-3 px-4 text-center font-black text-orange-600">${j.puntos}</td>
+                                <td class="py-3 px-4 text-center font-bold text-emerald-600">${j.triples || 0}</td>
                                 <td class="py-3 px-4 text-center text-slate-800 font-bold">${calcularPPG(j.puntos, j.partidos)}</td>
                                 <td class="py-3 px-4 text-center font-bold text-amber-500">${mvps > 0 ? mvps : '-'}</td>
                             </tr>
@@ -1262,12 +1431,12 @@
             `;
         }
 
-        // 9. Render MVP Section
+        // 9. Render Vista "Mejor Jugador de la Jornada"
         function renderMVPSection() {
             const jornadasMVP = LIGA_DATA.mvpJornadas;
             const selectorsContainer = document.getElementById('mvpJornadaSelectors');
             
-            selectorsContainer.innerHTML = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13].map(j => `
+            selectorsContainer.innerHTML = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15].map(j => `
                 <button onclick="seleccionarJornadaMVP(${j})" class="px-4 py-2 rounded-xl text-sm font-bold transition-all whitespace-nowrap ${jornadaSeleccionadaMVP === j ? 'bg-orange-600 text-white shadow-md shadow-orange-600/30' : 'bg-white text-slate-600 hover:text-slate-900 border border-slate-200'}">
                     Jornada ${j}
                 </button>
@@ -1282,8 +1451,8 @@
                         <span class="px-3 py-1 rounded-full text-xs font-black bg-amber-500/10 text-amber-600 border border-amber-500/30">
                             🏆 JORNADA ${jornadaSeleccionadaMVP}
                         </span>
-                        <h3 class="text-xl sm:text-2xl font-black text-slate-900">Sin MVP registrado</h3>
-                        <p class="text-slate-500 text-sm">Aún no se ha disputado o asignado el MVP para esta jornada.</p>
+                        <h3 class="text-xl sm:text-2xl font-black text-slate-900">Sin registro de Mejor Jugador</h3>
+                        <p class="text-slate-500 text-sm">Aún no se ha disputado o asignado el mejor jugador para esta jornada.</p>
                     </div>
                 `;
             } else {
@@ -1291,7 +1460,7 @@
                     <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-6 relative z-10">
                         <div class="space-y-3">
                             <span class="px-3 py-1 rounded-full text-xs font-black bg-amber-500/10 text-amber-600 border border-amber-500/30">
-                                🏆 MVP JORNADA ${mvpActual.jornada}
+                                🏆 MEJOR JUGADOR — JORNADA ${mvpActual.jornada}
                             </span>
                             <h3 class="text-2xl sm:text-4xl lg:text-5xl font-black text-slate-900">${mvpActual.jugador}</h3>
                             <p class="text-base sm:text-lg font-bold text-orange-600">${mvpActual.equipo}</p>
@@ -1305,7 +1474,7 @@
                 `;
             }
 
-            // Render MVPs Temporada calculados automáticamente
+            // Render Mejores Jugadores Temporada calculados automáticamente
             const mvpConteo = {};
             getJugadores().forEach(j => {
                 const totalMvp = calcularMVPsJugador(j.nombre);
@@ -1316,7 +1485,7 @@
             const mvpList = Object.values(mvpConteo).sort((a, b) => b.mvps - a.mvps);
             const temporadaContainer = document.getElementById('mvpTemporadaList');
             if (mvpList.length === 0) {
-                temporadaContainer.innerHTML = `<div class="col-span-full text-xs text-slate-500 text-center py-4">No hay premios MVP acumulados aún.</div>`;
+                temporadaContainer.innerHTML = `<div class="col-span-full text-xs text-slate-500 text-center py-4">No hay reconocimientos de Mejor Jugador acumulados aún.</div>`;
                 return;
             }
             temporadaContainer.innerHTML = mvpList.map(m => `
@@ -1330,7 +1499,7 @@
                     </div>
                     <div class="text-right flex-shrink-0 pl-2">
                         <span class="text-xl sm:text-2xl font-black text-amber-500">👑 ${m.mvps}</span>
-                        <p class="text-[10px] text-slate-500 uppercase">Premios MVP</p>
+                        <p class="text-[10px] text-slate-500 uppercase">Premios</p>
                     </div>
                 </div>
             `).join('');
@@ -1341,9 +1510,9 @@
             renderMVPSection();
         }
 
-        // 10. Render Jornadas Section (Soporta partidos finalizados y pendientes)
+        // 10. Render Jornadas Section
         function renderJornadasSection() {
-            const jornadas = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
+            const jornadas = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
             const selectorsContainer = document.getElementById('jornadasSelectors');
             
             selectorsContainer.innerHTML = jornadas.map(j => `
@@ -1353,9 +1522,20 @@
             `).join('');
 
             const partidosJornada = LIGA_DATA.partidos.filter(p => p.jornada === jornadaSeleccionadaPartidos);
+            const equipoDescansa = partidosJornada.length > 0 ? partidosJornada[0].descansa : null;
             const container = document.getElementById('jornadasPartidosContainer');
             
-            container.innerHTML = partidosJornada.map(p => {
+            let html = '';
+            if (equipoDescansa) {
+                html += `
+                    <div class="col-span-full p-4 rounded-2xl bg-orange-500/10 border border-orange-500/30 text-center flex items-center justify-center space-x-2">
+                        <span class="text-base">☕</span>
+                        <span class="text-sm font-black text-orange-700 uppercase tracking-wider">Equipo que descansa en la Jornada ${jornadaSeleccionadaPartidos}: <span class="underline">${equipoDescansa}</span></span>
+                    </div>
+                `;
+            }
+
+            html += partidosJornada.map(p => {
                 if (p.estado === 'pendiente') {
                     return `
                         <div class="glass-panel p-5 sm:p-6 rounded-3xl flex flex-col justify-between space-y-4 border border-amber-500/20">
@@ -1398,6 +1578,8 @@
                     `;
                 }
             }).join('');
+
+            container.innerHTML = html;
         }
 
         function seleccionarJornadaPartidos(j) {
@@ -1405,7 +1587,7 @@
             renderJornadasSection();
         }
 
-        // 11. Render Clasificación Completa (Ordenada por PUNTOS de clasificación)
+        // 11. Render Clasificación Completa
         function renderClasificacionCompleta() {
             const clasificacion = calcularClasificacion();
             const container = document.getElementById('tablaClasificacionCompleta');
@@ -1425,7 +1607,7 @@
                 </thead>
                 <tbody class="divide-y divide-slate-100 text-sm">
                     ${clasificacion.map((eq, index) => `
-                        <tr class="hover:bg-slate-50 transition-colors cursor-pointer" onclick="abrirDetalleEquipo('${eq.nombre}')">
+                        <tr class="hover:bg-slate-50 transition-colors cursor-pointer" onclick="abrirDetalleEquipo('${eq.nombre}', 'plantilla')">
                             <td class="py-3 px-4 font-black text-orange-600">#${index + 1}</td>
                             <td class="py-3 px-4 font-bold text-slate-900 flex items-center space-x-3">
                                 <span class="w-3 h-3 rounded-full flex-shrink-0" style="background: ${eq.color}"></span>
@@ -1444,7 +1626,7 @@
             `;
         }
 
-        // 12. Render Información de la Liga (Facebook URL dinámica)
+        // 12. Render Información de la Liga
         function renderInformacionLiga() {
             const fbContainer = document.getElementById('facebookSection');
             if (!fbContainer) return;
@@ -1509,7 +1691,7 @@
             if (equiposCoincidentes.length > 0) {
                 html += `<div class="px-3 py-1.5 bg-slate-100 text-[10px] font-extrabold text-orange-600 uppercase tracking-wider">Equipos</div>`;
                 html += equiposCoincidentes.map(e => `
-                    <div class="p-3 hover:bg-slate-100 cursor-pointer flex items-center justify-between border-b border-slate-200" onclick="abrirDetalleEquipo('${e.nombre}'); ocultarBusqueda(); if(${isMobile}){ toggleMobileMenu(); }">
+                    <div class="p-3 hover:bg-slate-100 cursor-pointer flex items-center justify-between border-b border-slate-200" onclick="abrirDetalleEquipo('${e.nombre}', 'plantilla'); ocultarBusqueda(); if(${isMobile}){ toggleMobileMenu(); }">
                         <span class="font-bold text-slate-900 text-sm">${e.nombre}</span>
                         <span class="text-xs text-slate-500">${e.ciudad}</span>
                     </div>
@@ -1562,10 +1744,14 @@
                         </div>
                     </div>
 
-                    <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4">
+                    <div class="grid grid-cols-2 sm:grid-cols-5 gap-3 sm:gap-4">
                         <div class="bg-slate-50 p-4 rounded-2xl border border-slate-200 text-center">
                             <span class="text-xl sm:text-2xl font-black text-orange-600">${j.puntos}</span>
                             <p class="text-[10px] uppercase text-slate-500 font-bold mt-1">Puntos Totales</p>
+                        </div>
+                        <div class="bg-slate-50 p-4 rounded-2xl border border-slate-200 text-center">
+                            <span class="text-xl sm:text-2xl font-black text-emerald-600">${j.triples || 0}</span>
+                            <p class="text-[10px] uppercase text-slate-500 font-bold mt-1">Triples</p>
                         </div>
                         <div class="bg-slate-50 p-4 rounded-2xl border border-slate-200 text-center">
                             <span class="text-xl sm:text-2xl font-black text-slate-800">${calcularPPG(j.puntos, j.partidos)}</span>
@@ -1577,7 +1763,7 @@
                         </div>
                         <div class="bg-slate-50 p-4 rounded-2xl border border-slate-200 text-center">
                             <span class="text-xl sm:text-2xl font-black text-amber-500">${totalMvps}</span>
-                            <p class="text-[10px] uppercase text-slate-500 font-bold mt-1">Premios MVP</p>
+                            <p class="text-[10px] uppercase text-slate-500 font-bold mt-1">Premios</p>
                         </div>
                     </div>
                 </div>
@@ -1590,29 +1776,49 @@
             document.getElementById('modalJugador').classList.add('hidden');
         }
 
-        // Modal Detalle de Equipo
-        function abrirDetalleEquipo(nombreEquipo) {
-            const eq = LIGA_DATA.equipos.find(e => e.nombre === nombreEquipo);
+        // Modal Detalle de Equipo con Solapas: Plantilla vs Ver Partidos (15 Jornadas)
+        function abrirDetalleEquipo(nombreEquipo, pestanaInicial = 'plantilla') {
+            const eq = LIGA_DATA.equipos.find(e => normalizarNombreEquipo(e.nombre) === normalizarNombreEquipo(nombreEquipo));
             if (!eq) return;
 
-            const jugadoresEq = getJugadores().filter(j => j.equipo === eq.nombre);
             const modal = document.getElementById('modalEquipo');
             const content = document.getElementById('modalEquipoContent');
 
+            // Partidos del equipo en las 15 jornadas respetando orden local/visitante
+            const partidosEquipo = LIGA_DATA.partidos.filter(p => 
+                normalizarNombreEquipo(p.local) === normalizarNombreEquipo(eq.nombre) || 
+                normalizarNombreEquipo(p.visitante) === normalizarNombreEquipo(eq.nombre)
+            ).sort((a, b) => a.jornada - b.jornada);
+
+            const jugadoresEq = getJugadores().filter(j => normalizarNombreEquipo(j.equipo) === normalizarNombreEquipo(eq.nombre));
+
             content.innerHTML = `
                 <div class="p-6 sm:p-8 space-y-6">
-                    <div class="flex items-center space-x-4">
-                        <div class="w-14 h-14 sm:w-16 sm:h-16 rounded-2xl flex items-center justify-center font-black text-xl sm:text-2xl text-white shadow-md flex-shrink-0" style="background: linear-gradient(135deg, ${eq.color}, #0f172a)">
-                            ${eq.abreviatura}
+                    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-200 pb-4">
+                        <div class="flex items-center space-x-4">
+                            <div class="w-14 h-14 sm:w-16 sm:h-16 rounded-2xl flex items-center justify-center font-black text-xl sm:text-2xl text-white shadow-md flex-shrink-0" style="background: linear-gradient(135deg, ${eq.color}, #0f172a)">
+                                ${eq.abreviatura}
+                            </div>
+                            <div class="min-w-0">
+                                <span class="text-xs uppercase font-extrabold text-orange-600">${eq.ciudad}</span>
+                                <h3 class="text-xl sm:text-3xl font-black text-slate-900 truncate">${eq.nombre}</h3>
+                            </div>
                         </div>
-                        <div class="min-w-0">
-                            <span class="text-xs uppercase font-extrabold text-orange-600">${eq.ciudad}</span>
-                            <h3 class="text-xl sm:text-3xl font-black text-slate-900 truncate">${eq.nombre}</h3>
+
+                        <!-- Selector de Pestañas -->
+                        <div class="flex items-center space-x-2 bg-slate-100 p-1.5 rounded-2xl self-start sm:self-auto">
+                            <button id="tabBtnPlantilla" onclick="cambiarPestanaEquipo('plantilla')" class="px-4 py-2 text-xs sm:text-sm font-bold rounded-xl transition-all">
+                                👥 Plantilla
+                            </button>
+                            <button id="tabBtnPartidos" onclick="cambiarPestanaEquipo('partidos')" class="px-4 py-2 text-xs sm:text-sm font-bold rounded-xl transition-all">
+                                📅 Ver partidos (${partidosEquipo.length})
+                            </button>
                         </div>
                     </div>
 
-                    <div class="space-y-4">
-                        <h4 class="text-sm font-extrabold text-orange-600 uppercase tracking-wider">Plantilla de Jugadores</h4>
+                    <!-- Contenido Pestaña 1: Plantilla -->
+                    <div id="tabContentPlantilla" class="space-y-4">
+                        <h4 class="text-sm font-extrabold text-orange-600 uppercase tracking-wider">Plantilla Oficial de Jugadores</h4>
                         <div class="overflow-x-auto">
                             <table class="w-full text-left text-sm whitespace-nowrap">
                                 <thead>
@@ -1620,7 +1826,9 @@
                                         <th class="py-2.5 px-3">#</th>
                                         <th class="py-2.5 px-3">JUGADOR</th>
                                         <th class="py-2.5 px-3">POSICIÓN</th>
+                                        <th class="py-2.5 px-3 text-center">PJ</th>
                                         <th class="py-2.5 px-3 text-center">PTS</th>
+                                        <th class="py-2.5 px-3 text-center">3PM</th>
                                         <th class="py-2.5 px-3 text-center">PPG</th>
                                     </tr>
                                 </thead>
@@ -1630,7 +1838,9 @@
                                             <td class="py-2.5 px-3 font-black text-orange-600">#${j.numero}</td>
                                             <td class="py-2.5 px-3 font-bold text-slate-900 truncate max-w-[140px] sm:max-w-none">${j.nombre}</td>
                                             <td class="py-2.5 px-3 text-slate-500">${j.posicion}</td>
+                                            <td class="py-2.5 px-3 text-center text-slate-700 font-bold">${j.partidos}</td>
                                             <td class="py-2.5 px-3 text-center font-black text-orange-600">${j.puntos}</td>
+                                            <td class="py-2.5 px-3 text-center font-bold text-emerald-600">${j.triples || 0}</td>
                                             <td class="py-2.5 px-3 text-center text-slate-600">${calcularPPG(j.puntos, j.partidos)}</td>
                                         </tr>
                                     `).join('')}
@@ -1638,14 +1848,126 @@
                             </table>
                         </div>
                     </div>
+
+                    <!-- Contenido Pestaña 2: Partidos del Equipo -->
+                    <div id="tabContentPartidos" class="space-y-4 hidden">
+                        <div class="flex items-center justify-between">
+                            <h4 class="text-sm font-extrabold text-orange-600 uppercase tracking-wider">Calendario Oficial de Juegos — 15 Jornadas</h4>
+                            <span class="text-xs text-slate-500 font-semibold">Mostrando ${partidosEquipo.length} de 14 encuentros</span>
+                        </div>
+                        <div class="space-y-3">
+                            ${partidosEquipo.map(p => {
+                                const esLocal = normalizarNombreEquipo(p.local) === normalizarNombreEquipo(eq.nombre);
+                                const rival = esLocal ? p.visitante : p.local;
+                                const condicion = esLocal ? 'Local' : 'Visitante';
+                                const esFinalizado = p.estado === 'finalizado';
+
+                                let resultadoHTML = '<span class="px-2.5 py-1 rounded-full text-xs font-bold bg-amber-500/10 text-amber-600 border border-amber-500/30">Pendiente</span>';
+                                if (esFinalizado) {
+                                    const gano = esLocal ? (p.puntosLocal > p.puntosVisitante) : (p.puntosVisitante > p.puntosLocal);
+                                    const marcadorStr = esLocal ? `${p.puntosLocal} - ${p.puntosVisitante}` : `${p.puntosVisitante} - ${p.puntosLocal}`;
+                                    resultadoHTML = `
+                                        <div class="flex items-center space-x-2">
+                                            <span class="px-2.5 py-1 rounded-full text-xs font-extrabold ${gano ? 'bg-emerald-500/10 text-emerald-700 border border-emerald-500/30' : 'bg-red-500/10 text-red-700 border border-red-500/30'}">
+                                                ${gano ? 'VICTORIA' : 'DERROTA'} (${marcadorStr})
+                                            </span>
+                                        </div>
+                                    `;
+                                }
+
+                                return `
+                                    <div class="p-4 rounded-2xl bg-slate-50 border border-slate-200 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 hover:bg-slate-100 transition-colors">
+                                        <div class="flex items-center space-x-3">
+                                            <span class="w-8 h-8 rounded-xl bg-slate-200 text-slate-700 font-black text-xs flex items-center justify-center flex-shrink-0">
+                                                J${p.jornada}
+                                            </span>
+                                            <div>
+                                                <div class="font-bold text-slate-900 text-sm sm:text-base flex items-center space-x-2">
+                                                    <span>vs ${rival}</span>
+                                                    <span class="text-xs px-2 py-0.5 rounded bg-slate-200 text-slate-600 font-semibold">${condicion}</span>
+                                                </div>
+                                                <div class="text-xs text-slate-500 mt-0.5">
+                                                    📅 ${p.dia} • 🕖 ${p.hora} (${p.fecha})
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="self-end sm:self-auto">
+                                            ${resultadoHTML}
+                                        </div>
+                                    </div>
+                                `;
+                            }).join('')}
+                        </div>
+                    </div>
                 </div>
             `;
 
             modal.classList.remove('hidden');
+            cambiarPestanaEquipo(pestanaInicial);
+        }
+
+        function cambiarPestanaEquipo(pestana) {
+            const btnPlantilla = document.getElementById('tabBtnPlantilla');
+            const btnPartidos = document.getElementById('tabBtnPartidos');
+            const contentPlantilla = document.getElementById('tabContentPlantilla');
+            const contentPartidos = document.getElementById('tabContentPartidos');
+
+            if (!btnPlantilla || !btnPartidos) return;
+
+            if (pestana === 'plantilla') {
+                btnPlantilla.className = "px-4 py-2 text-xs sm:text-sm font-bold rounded-xl transition-all bg-orange-600 text-white shadow-md shadow-orange-600/30";
+                btnPartidos.className = "px-4 py-2 text-xs sm:text-sm font-bold rounded-xl transition-all text-slate-600 hover:text-slate-900";
+                contentPlantilla.classList.remove('hidden');
+                contentPartidos.classList.add('hidden');
+            } else {
+                btnPartidos.className = "px-4 py-2 text-xs sm:text-sm font-bold rounded-xl transition-all bg-orange-600 text-white shadow-md shadow-orange-600/30";
+                btnPlantilla.className = "px-4 py-2 text-xs sm:text-sm font-bold rounded-xl transition-all text-slate-600 hover:text-slate-900";
+                contentPartidos.classList.remove('hidden');
+                contentPlantilla.classList.add('hidden');
+            }
         }
 
         function cerrarModalEquipo() {
             document.getElementById('modalEquipo').classList.add('hidden');
+        }
+
+        // ======================================================
+        // SISTEMA DE REGISTRO DE PARTICIPACIÓN Y ESTADÍSTICAS EN PARTIDOS
+        // Soporta marcar la participación explícita (jugo = true/false), puntos y triples
+        // ======================================================
+        function registrarPartidoEstadisticas(partidoId, listaJugadoresData, puntosLocal, puntosVisitante, mejorJugadorData = null) {
+            const partido = LIGA_DATA.partidos.find(p => p.id === partidoId);
+            if (!partido) return;
+
+            partido.estado = 'finalizado';
+            partido.puntosLocal = puntosLocal;
+            partido.puntosVisitante = puntosVisitante;
+
+            // Eliminar registros previos de este partido para evitar duplicidad
+            LIGA_DATA.puntosJugadoresPartidos = LIGA_DATA.puntosJugadoresPartidos.filter(r => r.partidoId !== partidoId);
+
+            // Agregar los nuevos registros de participación/puntos
+            listaJugadoresData.forEach(item => {
+                // item: { jugador: "Nombre", puntos: 10, triples: 2, jugo: true }
+                if (item.jugo || item.puntos > 0 || item.triples > 0) {
+                    LIGA_DATA.puntosJugadoresPartidos.push({
+                        partidoId: partidoId,
+                        jugador: item.jugador,
+                        puntos: Number(item.puntos) || 0,
+                        triples: Number(item.triples) || 0,
+                        jugo: item.jugo === true
+                    });
+                }
+            });
+
+            if (mejorJugadorData) {
+                // mejorJugadorData: { jornada: 1, jugador: "Nombre", equipo: "Equipo", puntos: 25, motivo: "..." }
+                LIGA_DATA.mvpJornadas = LIGA_DATA.mvpJornadas.filter(m => m.jornada !== partido.jornada);
+                LIGA_DATA.mvpJornadas.push(mejorJugadorData);
+            }
+
+            guardarDatos();
+            renderizarTodo();
         }
     </script>
 </body>
