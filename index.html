@@ -106,7 +106,8 @@
                 { id: 12, nombre: "Y-TEAM", abreviatura: "YTM", ciudad: "Cajeme", color: "#0ea5e9" },
                 { id: 13, nombre: "RANGERS", abreviatura: "RAN", ciudad: "Cajeme", color: "#b45309" },
                 { id: 14, nombre: "PELICANOS", abreviatura: "PEL", ciudad: "Cajeme", color: "#0284c7" },
-                { id: 15, nombre: "HORTITEC", abreviatura: "HOR", ciudad: "Cajeme", color: "#15803d" }
+                { id: 15, nombre: "HORTITEC", abreviatura: "HOR", ciudad: "Cajeme", color: "#15803d" },
+                { id: 16, nombre: "ONI GYM", abreviatura: "ONI", ciudad: "Cajeme", color: "#6366f1" }
             ],
 
             jugadores: [
@@ -320,164 +321,180 @@
                 { id: 179, nombre: "German valle", numero: 24, posicion: "Desconocida", equipo: "HORTITEC" },
                 { id: 180, nombre: "Brayan aguilar", numero: 78, posicion: "Desconocida", equipo: "HORTITEC" },
                 { id: 181, nombre: "Francisco valenzuela", numero: 8, posicion: "Desconocida", equipo: "HORTITEC" },
-                { id: 182, nombre: "Jose carras", numero: "07", posicion: "Desconocida", equipo: "HORTITEC" }
+                { id: 182, nombre: "Jose carras", numero: "07", posicion: "Desconocida", equipo: "HORTITEC" },
+
+                // ONI GYM
+                { id: 183, nombre: "David Meza Lopez", numero: 6, posicion: "Desconocida", equipo: "ONI GYM" },
+                { id: 184, nombre: "Hazael Villegas Esquer", numero: 4, posicion: "Desconocida", equipo: "ONI GYM" },
+                { id: 185, nombre: "Gerardo Guillen Vazquez", numero: 3, posicion: "Desconocida", equipo: "ONI GYM" },
+                { id: 186, nombre: "Julian Figueroa Felix", numero: 45, posicion: "Desconocida", equipo: "ONI GYM" },
+                { id: 187, nombre: "Jesus Ernesto Fonseca Delgado", numero: 8, posicion: "Desconocida", equipo: "ONI GYM" },
+                { id: 188, nombre: "Cesar Ivan Robles Gomez", numero: 16, posicion: "Desconocida", equipo: "ONI GYM" },
+                { id: 189, nombre: "Jose Armando Castro Lopez", numero: 12, posicion: "Desconocida", equipo: "ONI GYM" },
+                { id: 190, nombre: "Cesar Kimoto Higuera", numero: 2, posicion: "Desconocida", equipo: "ONI GYM" },
+                { id: 191, nombre: "Daniel Orlando Silva De la cruz", numero: "00", posicion: "Desconocida", equipo: "ONI GYM" }
             ],
 
             // ======================================================
-            // 📅 CALENDARIO Y PARTIDOS (ROL OFICIAL DE JUEGOS)
+            // 📅 CALENDARIO Y PARTIDOS (ROL OFICIAL EXACTO - 15 JORNADAS)
             // ======================================================
             partidos: [
-                // JORNADA 1 (Semana del Martes 10 de noviembre de 2026 - Descansa: LIRIX)
-                { id: 1, jornada: 1, fecha: "10 de noviembre de 2026", dia: "Martes", hora: "7:30 PM", local: "Y-TEAM", visitante: "HORTITEC", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "LIRIX" },
-                { id: 2, jornada: 1, fecha: "10 de noviembre de 2026", dia: "Martes", hora: "8:30 PM", local: "ZOMBIES", visitante: "PLAZA", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "LIRIX" },
-                { id: 3, jornada: 1, fecha: "11 de noviembre de 2026", dia: "Miércoles", hora: "7:00 PM", local: "PELICANOS", visitante: "TITANES", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "LIRIX" },
-                { id: 4, jornada: 1, fecha: "11 de noviembre de 2026", dia: "Miércoles", hora: "8:00 PM", local: "PIRATAS", visitante: "TERESIANO", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "LIRIX" },
-                { id: 5, jornada: 1, fecha: "11 de noviembre de 2026", dia: "Miércoles", hora: "9:00 PM", local: "ZORROS", visitante: "RANGERS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "LIRIX" },
-                { id: 6, jornada: 1, fecha: "12 de noviembre de 2026", dia: "Jueves", hora: "7:30 PM", local: "DESTROYERS", visitante: "SPARTANS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "LIRIX" },
-                { id: 7, jornada: 1, fecha: "12 de noviembre de 2026", dia: "Jueves", hora: "8:30 PM", local: "FINCA DON CHEMA", visitante: "DRINKERS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "LIRIX" },
+                // JORNADA 1 (10 al 12 de noviembre de 2026)
+                { id: 1, jornada: 1, fecha: "10 de noviembre de 2026", dia: "Martes", hora: "7:30 PM", local: "DRINKERS", visitante: "ZOMBIES", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 2, jornada: 1, fecha: "10 de noviembre de 2026", dia: "Martes", hora: "8:30 PM", local: "ONI GYM", visitante: "TITANES", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 3, jornada: 1, fecha: "11 de noviembre de 2026", dia: "Miércoles", hora: "7:00 PM", local: "ZORROS", visitante: "PLAZA", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 4, jornada: 1, fecha: "11 de noviembre de 2026", dia: "Miércoles", hora: "8:00 PM", local: "FINCA DON CHEMA", visitante: "TERESIANO", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 5, jornada: 1, fecha: "11 de noviembre de 2026", dia: "Miércoles", hora: "9:00 PM", local: "PELICANOS", visitante: "LIRIX", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 6, jornada: 1, fecha: "12 de noviembre de 2026", dia: "Jueves", hora: "7:00 PM", local: "DESTROYERS", visitante: "HORTITEC", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 7, jornada: 1, fecha: "12 de noviembre de 2026", dia: "Jueves", hora: "8:00 PM", local: "RANGERS", visitante: "Y-TEAM", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 8, jornada: 1, fecha: "12 de noviembre de 2026", dia: "Jueves", hora: "9:00 PM", local: "SPARTANS", visitante: "PIRATAS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
 
-                // JORNADA 2 (Semana del Martes 17 de noviembre de 2026 - Descansa: PLAZA)
-                { id: 8, jornada: 2, fecha: "17 de noviembre de 2026", dia: "Martes", hora: "7:30 PM", local: "PIRATAS", visitante: "LIRIX", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "PLAZA" },
-                { id: 9, jornada: 2, fecha: "17 de noviembre de 2026", dia: "Martes", hora: "8:30 PM", local: "DRINKERS", visitante: "RANGERS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "PLAZA" },
-                { id: 10, jornada: 2, fecha: "18 de noviembre de 2026", dia: "Miércoles", hora: "7:00 PM", local: "DESTROYERS", visitante: "FINCA DON CHEMA", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "PLAZA" },
-                { id: 11, jornada: 2, fecha: "18 de noviembre de 2026", dia: "Miércoles", hora: "8:00 PM", local: "ZOMBIES", visitante: "PELICANOS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "PLAZA" },
-                { id: 12, jornada: 2, fecha: "18 de noviembre de 2026", dia: "Miércoles", hora: "9:00 PM", local: "TERESIANO", visitante: "SPARTANS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "PLAZA" },
-                { id: 13, jornada: 2, fecha: "19 de noviembre de 2026", dia: "Jueves", hora: "7:30 PM", local: "Y-TEAM", visitante: "ZORROS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "PLAZA" },
-                { id: 14, jornada: 2, fecha: "19 de noviembre de 2026", dia: "Jueves", hora: "8:30 PM", local: "HORTITEC", visitante: "TITANES", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "PLAZA" },
+                // JORNADA 2 (17 al 19 de noviembre de 2026)
+                { id: 9, jornada: 2, fecha: "17 de noviembre de 2026", dia: "Martes", hora: "7:30 PM", local: "ONI GYM", visitante: "HORTITEC", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 10, jornada: 2, fecha: "17 de noviembre de 2026", dia: "Martes", hora: "8:30 PM", local: "ZORROS", visitante: "TERESIANO", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 11, jornada: 2, fecha: "18 de noviembre de 2026", dia: "Miércoles", hora: "7:00 PM", local: "TITANES", visitante: "PIRATAS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 12, jornada: 2, fecha: "18 de noviembre de 2026", dia: "Miércoles", hora: "8:00 PM", local: "DESTROYERS", visitante: "LIRIX", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 13, jornada: 2, fecha: "18 de noviembre de 2026", dia: "Miércoles", hora: "9:00 PM", local: "RANGERS", visitante: "ZOMBIES", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 14, jornada: 2, fecha: "19 de noviembre de 2026", dia: "Jueves", hora: "7:00 PM", local: "SPARTANS", visitante: "PLAZA", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 15, jornada: 2, fecha: "19 de noviembre de 2026", dia: "Jueves", hora: "8:00 PM", local: "FINCA DON CHEMA", visitante: "Y-TEAM", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 16, jornada: 2, fecha: "19 de noviembre de 2026", dia: "Jueves", hora: "9:00 PM", local: "PELICANOS", visitante: "DRINKERS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
 
-                // JORNADA 3 (Semana del Martes 24 de noviembre de 2026 - Descansa: PIRATAS)
-                { id: 15, jornada: 3, fecha: "24 de noviembre de 2026", dia: "Martes", hora: "7:30 PM", local: "PLAZA", visitante: "RANGERS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "PIRATAS" },
-                { id: 16, jornada: 3, fecha: "24 de noviembre de 2026", dia: "Martes", hora: "8:30 PM", local: "HORTITEC", visitante: "DRINKERS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "PIRATAS" },
-                { id: 17, jornada: 3, fecha: "25 de noviembre de 2026", dia: "Miércoles", hora: "7:00 PM", local: "TERESIANO", visitante: "TITANES", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "PIRATAS" },
-                { id: 18, jornada: 3, fecha: "25 de noviembre de 2026", dia: "Miércoles", hora: "8:00 PM", local: "DESTROYERS", visitante: "ZORROS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "PIRATAS" },
-                { id: 19, jornada: 3, fecha: "25 de noviembre de 2026", dia: "Miércoles", hora: "9:00 PM", local: "FINCA DON CHEMA", visitante: "PELICANOS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "PIRATAS" },
-                { id: 20, jornada: 3, fecha: "26 de noviembre de 2026", dia: "Jueves", hora: "7:30 PM", local: "Y-TEAM", visitante: "LIRIX", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "PIRATAS" },
-                { id: 21, jornada: 3, fecha: "26 de noviembre de 2026", dia: "Jueves", hora: "8:30 PM", local: "ZOMBIES", visitante: "SPARTANS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "PIRATAS" },
+                // JORNADA 3 (24 al 26 de noviembre de 2026)
+                { id: 17, jornada: 3, fecha: "24 de noviembre de 2026", dia: "Martes", hora: "7:30 PM", local: "LIRIX", visitante: "TERESIANO", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 18, jornada: 3, fecha: "24 de noviembre de 2026", dia: "Martes", hora: "8:30 PM", local: "PIRATAS", visitante: "ZOMBIES", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 19, jornada: 3, fecha: "25 de noviembre de 2026", dia: "Miércoles", hora: "7:00 PM", local: "PLAZA", visitante: "DRINKERS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 20, jornada: 3, fecha: "25 de noviembre de 2026", dia: "Miércoles", hora: "8:00 PM", local: "SPARTANS", visitante: "ZORROS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 21, jornada: 3, fecha: "25 de noviembre de 2026", dia: "Miércoles", hora: "9:00 PM", local: "HORTITEC", visitante: "Y-TEAM", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 22, jornada: 3, fecha: "26 de noviembre de 2026", dia: "Jueves", hora: "7:00 PM", local: "RANGERS", visitante: "DESTROYERS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 23, jornada: 3, fecha: "26 de noviembre de 2026", dia: "Jueves", hora: "8:00 PM", local: "ONI GYM", visitante: "PELICANOS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 24, jornada: 3, fecha: "26 de noviembre de 2026", dia: "Jueves", hora: "9:00 PM", local: "TITANES", visitante: "FINCA DON CHEMA", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
 
-                // JORNADA 4 (Semana del Martes 1 de diciembre de 2026 - Descansa: HORTITEC)
-                { id: 22, jornada: 4, fecha: "1 de diciembre de 2026", dia: "Martes", hora: "7:30 PM", local: "ZORROS", visitante: "ZOMBIES", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "HORTITEC" },
-                { id: 23, jornada: 4, fecha: "1 de diciembre de 2026", dia: "Martes", hora: "8:30 PM", local: "SPARTANS", visitante: "PLAZA", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "HORTITEC" },
-                { id: 24, jornada: 4, fecha: "2 de diciembre de 2026", dia: "Miércoles", hora: "7:00 PM", local: "PELICANOS", visitante: "PIRATAS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "HORTITEC" },
-                { id: 25, jornada: 4, fecha: "2 de diciembre de 2026", dia: "Miércoles", hora: "8:00 PM", local: "DESTROYERS", visitante: "RANGERS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "HORTITEC" },
-                { id: 26, jornada: 4, fecha: "2 de diciembre de 2026", dia: "Miércoles", hora: "9:00 PM", local: "TITANES", visitante: "DRINKERS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "HORTITEC" },
-                { id: 27, jornada: 4, fecha: "3 de diciembre de 2026", dia: "Jueves", hora: "7:30 PM", local: "FINCA DON CHEMA", visitante: "Y-TEAM", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "HORTITEC" },
-                { id: 28, jornada: 4, fecha: "3 de diciembre de 2026", dia: "Jueves", hora: "8:30 PM", local: "LIRIX", visitante: "TERESIANO", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "HORTITEC" },
+                // JORNADA 4 (1 al 3 de diciembre de 2026)
+                { id: 25, jornada: 4, fecha: "1 de diciembre de 2026", dia: "Martes", hora: "7:30 PM", local: "ZOMBIES", visitante: "LIRIX", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 26, jornada: 4, fecha: "1 de diciembre de 2026", dia: "Martes", hora: "8:30 PM", local: "Y-TEAM", visitante: "TERESIANO", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 27, jornada: 4, fecha: "2 de diciembre de 2026", dia: "Miércoles", hora: "7:00 PM", local: "RANGERS", visitante: "DRINKERS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 28, jornada: 4, fecha: "2 de diciembre de 2026", dia: "Miércoles", hora: "8:00 PM", local: "DESTROYERS", visitante: "TITANES", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 29, jornada: 4, fecha: "2 de diciembre de 2026", dia: "Miércoles", hora: "9:00 PM", local: "ZORROS", visitante: "PIRATAS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 30, jornada: 4, fecha: "3 de diciembre de 2026", dia: "Jueves", hora: "7:00 PM", local: "SPARTANS", visitante: "ONI GYM", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 31, jornada: 4, fecha: "3 de diciembre de 2026", dia: "Jueves", hora: "8:00 PM", local: "FINCA DON CHEMA", visitante: "PLAZA", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 32, jornada: 4, fecha: "3 de diciembre de 2026", dia: "Jueves", hora: "9:00 PM", local: "PELICANOS", visitante: "HORTITEC", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
 
-                // JORNADA 5 (Semana del Martes 8 de diciembre de 2026 - Descansa: ZOMBIES)
-                { id: 29, jornada: 5, fecha: "8 de diciembre de 2026", dia: "Martes", hora: "7:30 PM", local: "PELICANOS", visitante: "ZORROS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "ZOMBIES" },
-                { id: 30, jornada: 5, fecha: "8 de diciembre de 2026", dia: "Martes", hora: "8:30 PM", local: "DRINKERS", visitante: "PLAZA", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "ZOMBIES" },
-                { id: 31, jornada: 5, fecha: "9 de diciembre de 2026", dia: "Miércoles", hora: "7:00 PM", local: "TITANES", visitante: "PIRATAS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "ZOMBIES" },
-                { id: 32, jornada: 5, fecha: "9 de diciembre de 2026", dia: "Miércoles", hora: "8:00 PM", local: "DESTROYERS", visitante: "HORTITEC", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "ZOMBIES" },
-                { id: 33, jornada: 5, fecha: "9 de diciembre de 2026", dia: "Miércoles", hora: "9:00 PM", local: "SPARTANS", visitante: "Y-TEAM", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "ZOMBIES" },
-                { id: 34, jornada: 5, fecha: "10 de diciembre de 2026", dia: "Jueves", hora: "7:30 PM", local: "LIRIX", visitante: "FINCA DON CHEMA", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "ZOMBIES" },
-                { id: 35, jornada: 5, fecha: "10 de diciembre de 2026", dia: "Jueves", hora: "8:30 PM", local: "RANGERS", visitante: "TERESIANO", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "ZOMBIES" },
+                // JORNADA 5 (8 al 10 de diciembre de 2026)
+                { id: 33, jornada: 5, fecha: "8 de diciembre de 2026", dia: "Martes", hora: "7:30 PM", local: "PIRATAS", visitante: "PELICANOS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 34, jornada: 5, fecha: "8 de diciembre de 2026", dia: "Martes", hora: "8:30 PM", local: "TITANES", visitante: "ZORROS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 35, jornada: 5, fecha: "9 de diciembre de 2026", dia: "Miércoles", hora: "7:00 PM", local: "PLAZA", visitante: "ZOMBIES", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 36, jornada: 5, fecha: "9 de diciembre de 2026", dia: "Miércoles", hora: "8:00 PM", local: "LIRIX", visitante: "Y-TEAM", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 37, jornada: 5, fecha: "9 de diciembre de 2026", dia: "Miércoles", hora: "9:00 PM", local: "RANGERS", visitante: "SPARTANS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 38, jornada: 5, fecha: "10 de diciembre de 2026", dia: "Jueves", hora: "7:00 PM", local: "TERESIANO", visitante: "DRINKERS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 39, jornada: 5, fecha: "10 de diciembre de 2026", dia: "Jueves", hora: "8:00 PM", local: "ONI GYM", visitante: "DESTROYERS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 40, jornada: 5, fecha: "10 de diciembre de 2026", dia: "Jueves", hora: "9:00 PM", local: "HORTITEC", visitante: "FINCA DON CHEMA", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
 
-                // JORNADA 6 (Semana del Martes 15 de diciembre de 2026 - Descansa: DRINKERS)
-                { id: 36, jornada: 6, fecha: "15 de diciembre de 2026", dia: "Martes", hora: "7:30 PM", local: "RANGERS", visitante: "TITANES", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "DRINKERS" },
-                { id: 37, jornada: 6, fecha: "15 de diciembre de 2026", dia: "Martes", hora: "8:30 PM", local: "HORTITEC", visitante: "SPARTANS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "DRINKERS" },
-                { id: 38, jornada: 6, fecha: "16 de diciembre de 2026", dia: "Miércoles", hora: "7:00 PM", local: "ZOMBIES", visitante: "FINCA DON CHEMA", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "DRINKERS" },
-                { id: 39, jornada: 6, fecha: "16 de diciembre de 2026", dia: "Miércoles", hora: "8:00 PM", local: "DESTROYERS", visitante: "Y-TEAM", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "DRINKERS" },
-                { id: 40, jornada: 6, fecha: "16 de diciembre de 2026", dia: "Miércoles", hora: "9:00 PM", local: "PIRATAS", visitante: "ZORROS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "DRINKERS" },
-                { id: 41, jornada: 6, fecha: "17 de diciembre de 2026", dia: "Jueves", hora: "7:30 PM", local: "TERESIANO", visitante: "PELICANOS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "DRINKERS" },
-                { id: 42, jornada: 6, fecha: "17 de diciembre de 2026", dia: "Jueves", hora: "8:30 PM", local: "PLAZA", visitante: "LIRIX", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "DRINKERS" },
+                // JORNADA 6 (15 al 17 de diciembre de 2026)
+                { id: 41, jornada: 6, fecha: "15 de diciembre de 2026", dia: "Martes", hora: "7:30 PM", local: "ZOMBIES", visitante: "FINCA DON CHEMA", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 42, jornada: 6, fecha: "15 de diciembre de 2026", dia: "Martes", hora: "8:30 PM", local: "Y-TEAM", visitante: "PELICANOS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 43, jornada: 6, fecha: "16 de diciembre de 2026", dia: "Miércoles", hora: "7:00 PM", local: "LIRIX", visitante: "SPARTANS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 44, jornada: 6, fecha: "16 de diciembre de 2026", dia: "Miércoles", hora: "8:00 PM", local: "DRINKERS", visitante: "ZORROS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 45, jornada: 6, fecha: "16 de diciembre de 2026", dia: "Miércoles", hora: "9:00 PM", local: "HORTITEC", visitante: "TITANES", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 46, jornada: 6, fecha: "17 de diciembre de 2026", dia: "Jueves", hora: "7:00 PM", local: "PLAZA", visitante: "ONI GYM", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 47, jornada: 6, fecha: "17 de diciembre de 2026", dia: "Jueves", hora: "8:00 PM", local: "TERESIANO", visitante: "DESTROYERS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 48, jornada: 6, fecha: "17 de diciembre de 2026", dia: "Jueves", hora: "9:00 PM", local: "RANGERS", visitante: "PIRATAS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
 
-                // JORNADA 7 (Semana del Martes 22 de diciembre de 2026 - Descansa: SPARTANS)
-                { id: 43, jornada: 7, fecha: "22 de diciembre de 2026", dia: "Martes", hora: "7:30 PM", local: "DRINKERS", visitante: "ZORROS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "SPARTANS" },
-                { id: 44, jornada: 7, fecha: "22 de diciembre de 2026", dia: "Martes", hora: "8:30 PM", local: "TERESIANO", visitante: "ZOMBIES", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "SPARTANS" },
-                { id: 45, jornada: 7, fecha: "23 de diciembre de 2026", dia: "Miércoles", hora: "7:00 PM", local: "DESTROYERS", visitante: "PIRATAS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "SPARTANS" },
-                { id: 46, jornada: 7, fecha: "23 de diciembre de 2026", dia: "Miércoles", hora: "8:00 PM", local: "HORTITEC", visitante: "FINCA DON CHEMA", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "SPARTANS" },
-                { id: 47, jornada: 7, fecha: "23 de diciembre de 2026", dia: "Miércoles", hora: "9:00 PM", local: "PLAZA", visitante: "Y-TEAM", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "SPARTANS" },
-                { id: 48, jornada: 7, fecha: "24 de diciembre de 2026", dia: "Jueves", hora: "7:30 PM", local: "TITANES", visitante: "LIRIX", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "SPARTANS" },
-                { id: 49, jornada: 7, fecha: "24 de diciembre de 2026", dia: "Jueves", hora: "8:30 PM", local: "RANGERS", visitante: "PELICANOS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "SPARTANS" },
+                // JORNADA 7 (22 al 24 de diciembre de 2026)
+                { id: 49, jornada: 7, fecha: "22 de diciembre de 2026", dia: "Martes", hora: "7:30 PM", local: "PELICANOS", visitante: "ZOMBIES", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 50, jornada: 7, fecha: "22 de diciembre de 2026", dia: "Martes", hora: "8:30 PM", local: "PIRATAS", visitante: "HORTITEC", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 51, jornada: 7, fecha: "23 de diciembre de 2026", dia: "Miércoles", hora: "7:00 PM", local: "SPARTANS", visitante: "TERESIANO", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 52, jornada: 7, fecha: "23 de diciembre de 2026", dia: "Miércoles", hora: "8:00 PM", local: "TITANES", visitante: "PLAZA", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 53, jornada: 7, fecha: "23 de diciembre de 2026", dia: "Miércoles", hora: "9:00 PM", local: "RANGERS", visitante: "FINCA DON CHEMA", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 54, jornada: 7, fecha: "24 de diciembre de 2026", dia: "Jueves", hora: "7:00 PM", local: "DESTROYERS", visitante: "DRINKERS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 55, jornada: 7, fecha: "24 de diciembre de 2026", dia: "Jueves", hora: "8:00 PM", local: "ONI GYM", visitante: "LIRIX", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 56, jornada: 7, fecha: "24 de diciembre de 2026", dia: "Jueves", hora: "9:00 PM", local: "ZORROS", visitante: "Y-TEAM", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
 
-                // JORNADA 8 (Semana del Martes 29 de diciembre de 2026 - Descansa: TITANES)
-                { id: 50, jornada: 8, fecha: "29 de diciembre de 2026", dia: "Martes", hora: "7:30 PM", local: "PIRATAS", visitante: "Y-TEAM", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "TITANES" },
-                { id: 51, jornada: 8, fecha: "29 de diciembre de 2026", dia: "Martes", hora: "8:30 PM", local: "DRINKERS", visitante: "LIRIX", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "TITANES" },
-                { id: 52, jornada: 8, fecha: "30 de diciembre de 2026", dia: "Miércoles", hora: "7:00 PM", local: "PLAZA", visitante: "ZORROS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "TITANES" },
-                { id: 53, jornada: 8, fecha: "30 de diciembre de 2026", dia: "Miércoles", hora: "8:00 PM", local: "DESTROYERS", visitante: "ZOMBIES", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "TITANES" },
-                { id: 54, jornada: 8, fecha: "30 de diciembre de 2026", dia: "Miércoles", hora: "9:00 PM", local: "TERESIANO", visitante: "FINCA DON CHEMA", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "TITANES" },
-                { id: 55, jornada: 8, fecha: "31 de diciembre de 2026", dia: "Jueves", hora: "7:30 PM", local: "HORTITEC", visitante: "PELICANOS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "TITANES" },
-                { id: 56, jornada: 8, fecha: "31 de diciembre de 2026", dia: "Jueves", hora: "8:30 PM", local: "RANGERS", visitante: "SPARTANS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "TITANES" },
+                // JORNADA 8 (29 al 31 de diciembre de 2026)
+                { id: 57, jornada: 8, fecha: "29 de diciembre de 2026", dia: "Martes", hora: "7:30 PM", local: "PIRATAS", visitante: "ONI GYM", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 58, jornada: 8, fecha: "29 de diciembre de 2026", dia: "Martes", hora: "8:30 PM", local: "RANGERS", visitante: "TITANES", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 59, jornada: 8, fecha: "30 de diciembre de 2026", dia: "Miércoles", hora: "7:00 PM", local: "PLAZA", visitante: "DESTROYERS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 60, jornada: 8, fecha: "30 de diciembre de 2026", dia: "Miércoles", hora: "8:00 PM", local: "TERESIANO", visitante: "PELICANOS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 61, jornada: 8, fecha: "30 de diciembre de 2026", dia: "Miércoles", hora: "9:00 PM", local: "LIRIX", visitante: "ZORROS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 62, jornada: 8, fecha: "31 de diciembre de 2026", dia: "Jueves", hora: "7:00 PM", local: "Y-TEAM", visitante: "ZOMBIES", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 63, jornada: 8, fecha: "31 de diciembre de 2026", dia: "Jueves", hora: "8:00 PM", local: "HORTITEC", visitante: "SPARTANS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 64, jornada: 8, fecha: "31 de diciembre de 2026", dia: "Jueves", hora: "9:00 PM", local: "DRINKERS", visitante: "FINCA DON CHEMA", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
 
-                // JORNADA 9 (Semana del Martes 5 de enero de 2027 - Descansa: ZORROS)
-                { id: 57, jornada: 9, fecha: "5 de enero de 2027", dia: "Martes", hora: "7:30 PM", local: "PELICANOS", visitante: "SPARTANS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "ZORROS" },
-                { id: 58, jornada: 9, fecha: "5 de enero de 2027", dia: "Martes", hora: "8:30 PM", local: "FINCA DON CHEMA", visitante: "TITANES", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "ZORROS" },
-                { id: 59, jornada: 9, fecha: "6 de enero de 2027", dia: "Miércoles", hora: "7:00 PM", local: "TERESIANO", visitante: "PLAZA", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "ZORROS" },
-                { id: 60, jornada: 9, fecha: "6 de enero de 2027", dia: "Miércoles", hora: "8:00 PM", local: "PIRATAS", visitante: "HORTITEC", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "ZORROS" },
-                { id: 61, jornada: 9, fecha: "6 de enero de 2027", dia: "Miércoles", hora: "9:00 PM", local: "Y-TEAM", visitante: "RANGERS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "ZORROS" },
-                { id: 62, jornada: 9, fecha: "7 de enero de 2027", dia: "Jueves", hora: "7:30 PM", local: "DESTROYERS", visitante: "LIRIX", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "ZORROS" },
-                { id: 63, jornada: 9, fecha: "7 de enero de 2027", dia: "Jueves", hora: "8:30 PM", local: "ZOMBIES", visitante: "DRINKERS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "ZORROS" },
+                // JORNADA 9 (5 al 7 de enero de 2027)
+                { id: 65, jornada: 9, fecha: "5 de enero de 2027", dia: "Martes", hora: "7:30 PM", local: "SPARTANS", visitante: "Y-TEAM", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 66, jornada: 9, fecha: "5 de enero de 2027", dia: "Martes", hora: "8:30 PM", local: "ONI GYM", visitante: "DRINKERS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 67, jornada: 9, fecha: "6 de enero de 2027", dia: "Miércoles", hora: "7:00 PM", local: "ZORROS", visitante: "FINCA DON CHEMA", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 68, jornada: 9, fecha: "6 de enero de 2027", dia: "Miércoles", hora: "8:00 PM", local: "HORTITEC", visitante: "PLAZA", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 69, jornada: 9, fecha: "6 de enero de 2027", dia: "Miércoles", hora: "9:00 PM", local: "PIRATAS", visitante: "LIRIX", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 70, jornada: 9, fecha: "7 de enero de 2027", dia: "Jueves", hora: "7:00 PM", local: "DESTROYERS", visitante: "ZOMBIES", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 71, jornada: 9, fecha: "7 de enero de 2027", dia: "Jueves", hora: "8:00 PM", local: "TITANES", visitante: "TERESIANO", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 72, jornada: 9, fecha: "7 de enero de 2027", dia: "Jueves", hora: "9:00 PM", local: "RANGERS", visitante: "PELICANOS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
 
-                // JORNADA 10 (Semana del Martes 12 de enero de 2027 - Descansa: PELICANOS)
-                { id: 64, jornada: 10, fecha: "12 de enero de 2027", dia: "Martes", hora: "7:30 PM", local: "HORTITEC", visitante: "ZOMBIES", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "PELICANOS" },
-                { id: 65, jornada: 10, fecha: "12 de enero de 2027", dia: "Martes", hora: "8:30 PM", local: "SPARTANS", visitante: "LIRIX", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "PELICANOS" },
-                { id: 66, jornada: 10, fecha: "13 de enero de 2027", dia: "Miércoles", hora: "7:00 PM", local: "TITANES", visitante: "ZORROS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "PELICANOS" },
-                { id: 67, jornada: 10, fecha: "13 de enero de 2027", dia: "Miércoles", hora: "8:00 PM", local: "DRINKERS", visitante: "Y-TEAM", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "PELICANOS" },
-                { id: 68, jornada: 10, fecha: "13 de enero de 2027", dia: "Miércoles", hora: "9:00 PM", local: "RANGERS", visitante: "FINCA DON CHEMA", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "PELICANOS" },
-                { id: 69, jornada: 10, fecha: "14 de enero de 2027", dia: "Jueves", hora: "7:30 PM", local: "DESTROYERS", visitante: "TERESIANO", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "PELICANOS" },
-                { id: 70, jornada: 10, fecha: "14 de enero de 2027", dia: "Jueves", hora: "8:30 PM", local: "PLAZA", visitante: "PIRATAS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "PELICANOS" },
+                // JORNADA 10 (12 al 14 de enero de 2027)
+                { id: 73, jornada: 10, fecha: "12 de enero de 2027", dia: "Martes", hora: "7:30 PM", local: "LIRIX", visitante: "HORTITEC", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 74, jornada: 10, fecha: "12 de enero de 2027", dia: "Martes", hora: "8:30 PM", local: "Y-TEAM", visitante: "ONI GYM", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 75, jornada: 10, fecha: "13 de enero de 2027", dia: "Miércoles", hora: "7:00 PM", local: "TERESIANO", visitante: "PIRATAS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 76, jornada: 10, fecha: "13 de enero de 2027", dia: "Miércoles", hora: "8:00 PM", local: "FINCA DON CHEMA", visitante: "DESTROYERS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 77, jornada: 10, fecha: "13 de enero de 2027", dia: "Miércoles", hora: "9:00 PM", local: "DRINKERS", visitante: "TITANES", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 78, jornada: 10, fecha: "14 de enero de 2027", dia: "Jueves", hora: "7:00 PM", local: "RANGERS", visitante: "PLAZA", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 79, jornada: 10, fecha: "14 de enero de 2027", dia: "Jueves", hora: "8:00 PM", local: "ZOMBIES", visitante: "SPARTANS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 80, jornada: 10, fecha: "14 de enero de 2027", dia: "Jueves", hora: "9:00 PM", local: "PELICANOS", visitante: "ZORROS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
 
-                // JORNADA 11 (Semana del Martes 19 de enero de 2027 - Descansa: Y-TEAM)
-                { id: 71, jornada: 11, fecha: "19 de enero de 2027", dia: "Martes", hora: "7:30 PM", local: "ZOMBIES", visitante: "TITANES", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "Y-TEAM" },
-                { id: 72, jornada: 11, fecha: "19 de enero de 2027", dia: "Martes", hora: "8:30 PM", local: "ZORROS", visitante: "LIRIX", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "Y-TEAM" },
-                { id: 73, jornada: 11, fecha: "20 de enero de 2027", dia: "Miércoles", hora: "7:00 PM", local: "PLAZA", visitante: "HORTITEC", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "Y-TEAM" },
-                { id: 74, jornada: 11, fecha: "20 de enero de 2027", dia: "Miércoles", hora: "8:00 PM", local: "TERESIANO", visitante: "DRINKERS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "Y-TEAM" },
-                { id: 75, jornada: 11, fecha: "20 de enero de 2027", dia: "Miércoles", hora: "9:00 PM", local: "FINCA DON CHEMA", visitante: "SPARTANS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "Y-TEAM" },
-                { id: 76, jornada: 11, fecha: "21 de enero de 2027", dia: "Jueves", hora: "7:30 PM", local: "DESTROYERS", visitante: "PELICANOS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "Y-TEAM" },
-                { id: 77, jornada: 11, fecha: "21 de enero de 2027", dia: "Jueves", hora: "8:30 PM", local: "PIRATAS", visitante: "RANGERS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "Y-TEAM" },
+                // JORNADA 11 (19 al 21 de enero de 2027)
+                { id: 81, jornada: 11, fecha: "19 de enero de 2027", dia: "Martes", hora: "7:30 PM", local: "HORTITEC", visitante: "TERESIANO", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 82, jornada: 11, fecha: "19 de enero de 2027", dia: "Martes", hora: "8:30 PM", local: "ONI GYM", visitante: "ZOMBIES", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 83, jornada: 11, fecha: "20 de enero de 2027", dia: "Miércoles", hora: "7:00 PM", local: "PLAZA", visitante: "LIRIX", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 84, jornada: 11, fecha: "20 de enero de 2027", dia: "Miércoles", hora: "8:00 PM", local: "RANGERS", visitante: "ZORROS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 85, jornada: 11, fecha: "20 de enero de 2027", dia: "Miércoles", hora: "9:00 PM", local: "TITANES", visitante: "Y-TEAM", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 86, jornada: 11, fecha: "21 de enero de 2027", dia: "Jueves", hora: "7:00 PM", local: "DESTROYERS", visitante: "PELICANOS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 87, jornada: 11, fecha: "21 de enero de 2027", dia: "Jueves", hora: "8:00 PM", local: "SPARTANS", visitante: "FINCA DON CHEMA", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 88, jornada: 11, fecha: "21 de enero de 2027", dia: "Jueves", hora: "9:00 PM", local: "PIRATAS", visitante: "DRINKERS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
 
-                // JORNADA 12 (Semana del Martes 26 de enero de 2027 - Descansa: FINCA DON CHEMA)
-                { id: 78, jornada: 12, fecha: "26 de enero de 2027", dia: "Martes", hora: "7:30 PM", local: "LIRIX", visitante: "PELICANOS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "FINCA DON CHEMA" },
-                { id: 79, jornada: 12, fecha: "26 de enero de 2027", dia: "Martes", hora: "8:30 PM", local: "DRINKERS", visitante: "PIRATAS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "FINCA DON CHEMA" },
-                { id: 80, jornada: 12, fecha: "27 de enero de 2027", dia: "Miércoles", hora: "7:00 PM", local: "SPARTANS", visitante: "ZORROS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "FINCA DON CHEMA" },
-                { id: 81, jornada: 12, fecha: "27 de enero de 2027", dia: "Miércoles", hora: "8:00 PM", local: "DESTROYERS", visitante: "PLAZA", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "FINCA DON CHEMA" },
-                { id: 82, jornada: 12, fecha: "27 de enero de 2027", dia: "Miércoles", hora: "9:00 PM", local: "TITANES", visitante: "Y-TEAM", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "FINCA DON CHEMA" },
-                { id: 83, jornada: 12, fecha: "28 de enero de 2027", dia: "Jueves", hora: "7:30 PM", local: "HORTITEC", visitante: "TERESIANO", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "FINCA DON CHEMA" },
-                { id: 84, jornada: 12, fecha: "28 de enero de 2027", dia: "Jueves", hora: "8:30 PM", local: "RANGERS", visitante: "ZOMBIES", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "FINCA DON CHEMA" },
+                // JORNADA 12 (26 al 28 de enero de 2027)
+                { id: 89, jornada: 12, fecha: "26 de enero de 2027", dia: "Martes", hora: "7:30 PM", local: "HORTITEC", visitante: "ZORROS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 90, jornada: 12, fecha: "26 de enero de 2027", dia: "Martes", hora: "8:30 PM", local: "RANGERS", visitante: "ONI GYM", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 91, jornada: 12, fecha: "27 de enero de 2027", dia: "Miércoles", hora: "7:00 PM", local: "PLAZA", visitante: "PELICANOS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 92, jornada: 12, fecha: "27 de enero de 2027", dia: "Miércoles", hora: "8:00 PM", local: "LIRIX", visitante: "FINCA DON CHEMA", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 93, jornada: 12, fecha: "27 de enero de 2027", dia: "Miércoles", hora: "9:00 PM", local: "DRINKERS", visitante: "Y-TEAM", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 94, jornada: 12, fecha: "28 de enero de 2027", dia: "Jueves", hora: "7:00 PM", local: "TERESIANO", visitante: "ZOMBIES", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 95, jornada: 12, fecha: "28 de enero de 2027", dia: "Jueves", hora: "8:00 PM", local: "PIRATAS", visitante: "DESTROYERS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 96, jornada: 12, fecha: "28 de enero de 2027", dia: "Jueves", hora: "9:00 PM", local: "TITANES", visitante: "SPARTANS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
 
-                // JORNADA 13 (Semana del Martes 2 de febrero de 2027 - Descansa: RANGERS)
-                { id: 85, jornada: 13, fecha: "2 de febrero de 2027", dia: "Martes", hora: "7:30 PM", local: "PELICANOS", visitante: "PLAZA", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "RANGERS" },
-                { id: 86, jornada: 13, fecha: "2 de febrero de 2027", dia: "Martes", hora: "8:30 PM", local: "ZORROS", visitante: "TERESIANO", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "RANGERS" },
-                { id: 87, jornada: 13, fecha: "3 de febrero de 2027", dia: "Miércoles", hora: "7:00 PM", local: "Y-TEAM", visitante: "ZOMBIES", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "RANGERS" },
-                { id: 88, jornada: 13, fecha: "3 de febrero de 2027", dia: "Miércoles", hora: "8:00 PM", local: "DESTROYERS", visitante: "TITANES", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "RANGERS" },
-                { id: 89, jornada: 13, fecha: "3 de febrero de 2027", dia: "Miércoles", hora: "9:00 PM", local: "SPARTANS", visitante: "DRINKERS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "RANGERS" },
-                { id: 90, jornada: 13, fecha: "4 de febrero de 2027", dia: "Jueves", hora: "7:30 PM", local: "LIRIX", visitante: "HORTITEC", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "RANGERS" },
-                { id: 91, jornada: 13, fecha: "4 de febrero de 2027", dia: "Jueves", hora: "8:30 PM", local: "FINCA DON CHEMA", visitante: "PIRATAS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "RANGERS" },
+                // JORNADA 13 (2 al 4 de febrero de 2027)
+                { id: 97, jornada: 13, fecha: "2 de febrero de 2027", dia: "Martes", hora: "7:30 PM", local: "DRINKERS", visitante: "LIRIX", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 98, jornada: 13, fecha: "2 de febrero de 2027", dia: "Martes", hora: "8:30 PM", local: "ZOMBIES", visitante: "HORTITEC", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 99, jornada: 13, fecha: "3 de febrero de 2027", dia: "Miércoles", hora: "7:00 PM", local: "RANGERS", visitante: "TERESIANO", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 100, jornada: 13, fecha: "3 de febrero de 2027", dia: "Miércoles", hora: "8:00 PM", local: "FINCA DON CHEMA", visitante: "PIRATAS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 101, jornada: 13, fecha: "3 de febrero de 2027", dia: "Miércoles", hora: "9:00 PM", local: "PELICANOS", visitante: "TITANES", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 102, jornada: 13, fecha: "4 de febrero de 2027", dia: "Jueves", hora: "7:00 PM", local: "ZORROS", visitante: "ONI GYM", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 103, jornada: 13, fecha: "4 de febrero de 2027", dia: "Jueves", hora: "8:00 PM", local: "DESTROYERS", visitante: "SPARTANS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 104, jornada: 13, fecha: "4 de febrero de 2027", dia: "Jueves", hora: "9:00 PM", local: "Y-TEAM", visitante: "PLAZA", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
 
-                // JORNADA 14 (Semana del Martes 9 de febrero de 2027 - Descansa: DESTROYERS)
-                { id: 92, jornada: 14, fecha: "9 de febrero de 2027", dia: "Martes", hora: "7:30 PM", local: "Y-TEAM", visitante: "TERESIANO", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "DESTROYERS" },
-                { id: 93, jornada: 14, fecha: "9 de febrero de 2027", dia: "Martes", hora: "8:30 PM", local: "LIRIX", visitante: "RANGERS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "DESTROYERS" },
-                { id: 94, jornada: 14, fecha: "10 de febrero de 2027", dia: "Miércoles", hora: "7:00 PM", local: "ZOMBIES", visitante: "PIRATAS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "DESTROYERS" },
-                { id: 95, jornada: 14, fecha: "10 de febrero de 2027", dia: "Miércoles", hora: "8:00 PM", local: "PELICANOS", visitante: "DRINKERS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "DESTROYERS" },
-                { id: 96, jornada: 14, fecha: "10 de febrero de 2027", dia: "Miércoles", hora: "9:00 PM", local: "FINCA DON CHEMA", visitante: "PLAZA", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "DESTROYERS" },
-                { id: 97, jornada: 14, fecha: "11 de febrero de 2027", dia: "Jueves", hora: "7:30 PM", local: "SPARTANS", visitante: "TITANES", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "DESTROYERS" },
-                { id: 98, jornada: 14, fecha: "11 de febrero de 2027", dia: "Jueves", hora: "8:30 PM", local: "ZORROS", visitante: "HORTITEC", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "DESTROYERS" },
+                // JORNADA 14 (9 al 11 de febrero de 2027)
+                { id: 105, jornada: 14, fecha: "9 de febrero de 2027", dia: "Martes", hora: "7:30 PM", local: "TERESIANO", visitante: "ONI GYM", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 106, jornada: 14, fecha: "9 de febrero de 2027", dia: "Martes", hora: "8:30 PM", local: "FINCA DON CHEMA", visitante: "PELICANOS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 107, jornada: 14, fecha: "10 de febrero de 2027", dia: "Miércoles", hora: "7:00 PM", local: "DRINKERS", visitante: "SPARTANS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 108, jornada: 14, fecha: "10 de febrero de 2027", dia: "Miércoles", hora: "8:00 PM", local: "Y-TEAM", visitante: "DESTROYERS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 109, jornada: 14, fecha: "10 de febrero de 2027", dia: "Miércoles", hora: "9:00 PM", local: "PLAZA", visitante: "PIRATAS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 110, jornada: 14, fecha: "11 de febrero de 2027", dia: "Jueves", hora: "7:00 PM", local: "LIRIX", visitante: "TITANES", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 111, jornada: 14, fecha: "11 de febrero de 2027", dia: "Jueves", hora: "8:00 PM", local: "ZOMBIES", visitante: "ZORROS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 112, jornada: 14, fecha: "11 de febrero de 2027", dia: "Jueves", hora: "9:00 PM", local: "RANGERS", visitante: "HORTITEC", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
 
-                // JORNADA 15 (Semana del Martes 16 de febrero de 2027 - Descansa: TERESIANO)
-                { id: 99, jornada: 15, fecha: "16 de febrero de 2027", dia: "Martes", hora: "7:30 PM", local: "RANGERS", visitante: "HORTITEC", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "TERESIANO" },
-                { id: 100, jornada: 15, fecha: "16 de febrero de 2027", dia: "Martes", hora: "8:30 PM", local: "TITANES", visitante: "PLAZA", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "TERESIANO" },
-                { id: 101, jornada: 15, fecha: "17 de febrero de 2027", dia: "Miércoles", hora: "7:00 PM", local: "LIRIX", visitante: "ZOMBIES", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "TERESIANO" },
-                { id: 102, jornada: 15, fecha: "17 de febrero de 2027", dia: "Miércoles", hora: "8:00 PM", local: "SPARTANS", visitante: "PIRATAS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "TERESIANO" },
-                { id: 103, jornada: 15, fecha: "17 de febrero de 2027", dia: "Miércoles", hora: "9:00 PM", local: "ZORROS", visitante: "FINCA DON CHEMA", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "TERESIANO" },
-                { id: 104, jornada: 15, fecha: "18 de febrero de 2027", dia: "Jueves", hora: "7:30 PM", local: "DESTROYERS", visitante: "DRINKERS", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "TERESIANO" },
-                { id: 105, jornada: 15, fecha: "18 de febrero de 2027", dia: "Jueves", hora: "8:30 PM", local: "PELICANOS", visitante: "Y-TEAM", estado: "pendiente", puntosLocal: null, puntosVisitante: null, descansa: "TERESIANO" }
+                // JORNADA 15 (16 al 18 de febrero de 2027)
+                { id: 113, jornada: 15, fecha: "16 de febrero de 2027", dia: "Martes", hora: "7:30 PM", local: "PELICANOS", visitante: "SPARTANS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 114, jornada: 15, fecha: "16 de febrero de 2027", dia: "Martes", hora: "8:30 PM", local: "TERESIANO", visitante: "PLAZA", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 115, jornada: 15, fecha: "17 de febrero de 2027", dia: "Miércoles", hora: "7:00 PM", local: "RANGERS", visitante: "LIRIX", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 116, jornada: 15, fecha: "17 de febrero de 2027", dia: "Miércoles", hora: "8:00 PM", local: "ZORROS", visitante: "DESTROYERS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 117, jornada: 15, fecha: "17 de febrero de 2027", dia: "Miércoles", hora: "9:00 PM", local: "ZOMBIES", visitante: "TITANES", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 118, jornada: 15, fecha: "18 de febrero de 2027", dia: "Jueves", hora: "7:00 PM", local: "DRINKERS", visitante: "HORTITEC", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 119, jornada: 15, fecha: "18 de febrero de 2027", dia: "Jueves", hora: "8:00 PM", local: "FINCA DON CHEMA", visitante: "ONI GYM", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+                { id: 120, jornada: 15, fecha: "18 de febrero de 2027", dia: "Jueves", hora: "9:00 PM", local: "Y-TEAM", visitante: "PIRATAS", estado: "pendiente", puntosLocal: null, puntosVisitante: null }
             ],
 
             // ======================================================
-            // 🏀 REGISTRAR LOS PUNTOS DE LOS JUGADORES Y PARTICIPACIÓN
-            // Estructura de cada registro: 
-            // { partidoId: 1, jugador: "Nombre", puntos: 12, triples: 3, jugo: true }
+            // 🏀 REGISTRO DE ESTADÍSTICAS Y MVP
             // ======================================================
-            puntosJugadoresPartidos: [
-                // Registros con soporte de triples y bandera de jugo (participación)
-            ],
-
-            // ======================================================
-            // 🏆 REGISTRAR "MEJOR JUGADOR DE LA JORNADA"
-            // ======================================================
-            mvpJornadas: [
-                // Registros del mejor jugador de cada jornada
-            ]
+            puntosJugadoresPartidos: [],
+            mvpJornadas: []
         };
     </script>
 
@@ -510,7 +527,6 @@
                         <input type="text" id="searchInput" placeholder="Buscar jugador, equipo..." oninput="handleGlobalSearch(this.value, false)"
                             class="w-full pl-10 pr-4 py-2 bg-slate-100 border border-slate-300 rounded-xl text-sm text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-orange-500 transition-all">
                         
-                        <!-- Resultados de búsqueda rápida escritorio -->
                         <div id="searchResults" class="absolute left-0 right-0 mt-2 bg-white border border-slate-200 rounded-xl shadow-2xl overflow-hidden hidden z-50 max-h-96 overflow-y-auto"></div>
                     </div>
                 </div>
@@ -541,7 +557,6 @@
             <div class="mb-3 pt-1 relative">
                 <input type="text" placeholder="Buscar jugador, equipo..." oninput="handleGlobalSearch(this.value, true)"
                     class="w-full px-4 py-2.5 bg-slate-100 border border-slate-300 rounded-xl text-sm text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-orange-500">
-                <!-- Resultados de búsqueda móvil -->
                 <div id="mobileSearchResults" class="absolute left-0 right-0 mt-2 bg-white border border-slate-200 rounded-xl shadow-2xl overflow-hidden hidden z-50 max-h-80 overflow-y-auto"></div>
             </div>
             <button onclick="cambiarVista('inicio'); toggleMobileMenu();" class="block w-full text-left px-3 py-2.5 rounded-xl text-sm font-semibold text-slate-700 hover:bg-slate-100">🏠 Inicio</button>
@@ -562,7 +577,6 @@
 
         <!-- 1. VISTA INICIO -->
         <section id="vista-inicio" class="space-y-8 sm:space-y-12 fade-in">
-            <!-- HERO SECTION -->
             <div class="relative rounded-3xl overflow-hidden glass-panel p-6 sm:p-12 hero-gradient shadow-xl">
                 <div class="relative z-10 max-w-3xl">
                     <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold bg-orange-500/10 text-orange-600 border border-orange-500/30 mb-4">
@@ -586,14 +600,13 @@
                     </div>
                 </div>
 
-                <!-- Stats flotantes en el Hero -->
                 <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4 mt-8 sm:mt-10 pt-6 sm:pt-8 border-t border-slate-200">
                     <div class="bg-white/80 p-3 sm:p-4 rounded-2xl border border-slate-200 text-center sm:text-left">
-                        <span class="text-2xl sm:text-4xl font-black text-orange-600" id="statEquiposCount">15</span>
+                        <span class="text-2xl sm:text-4xl font-black text-orange-600" id="statEquiposCount">16</span>
                         <p class="text-[10px] sm:text-xs uppercase tracking-wider text-slate-500 mt-1 font-semibold">Equipos</p>
                     </div>
                     <div class="bg-white/80 p-3 sm:p-4 rounded-2xl border border-slate-200 text-center sm:text-left">
-                        <span class="text-2xl sm:text-4xl font-black text-orange-600" id="statJugadoresCount">182</span>
+                        <span class="text-2xl sm:text-4xl font-black text-orange-600" id="statJugadoresCount">191</span>
                         <p class="text-[10px] sm:text-xs uppercase tracking-wider text-slate-500 mt-1 font-semibold">Jugadores</p>
                     </div>
                     <div class="bg-white/80 p-3 sm:p-4 rounded-2xl border border-slate-200 text-center sm:text-left">
@@ -607,7 +620,6 @@
                 </div>
             </div>
 
-            <!-- LÍDER DE PUNTOS -->
             <div class="space-y-6">
                 <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
                     <div>
@@ -619,38 +631,28 @@
                         <span>→</span>
                     </button>
                 </div>
-                <div id="lideresGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-4">
-                    <!-- Generado dinámicamente -->
-                </div>
+                <div id="lideresGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-4"></div>
             </div>
 
-            <!-- TABLAS DE LÍDERES: TOP 10 ANOTADORES, LÍDERES EN TRIPLES Y ÚLTIMOS RESULTADOS -->
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
-                <!-- Top 10 Anotadores -->
                 <div class="lg:col-span-1 glass-panel rounded-3xl p-5 sm:p-6">
                     <div class="flex items-center justify-between mb-6">
                         <h3 class="text-xl font-black text-slate-900 flex items-center space-x-2">
                             <span>🎯 Top 10 Anotadores</span>
                         </h3>
                     </div>
-                    <div id="top10List" class="space-y-3">
-                        <!-- Generado dinámicamente -->
-                    </div>
+                    <div id="top10List" class="space-y-3"></div>
                 </div>
 
-                <!-- Líderes en Triples -->
                 <div class="lg:col-span-1 glass-panel rounded-3xl p-5 sm:p-6">
                     <div class="flex items-center justify-between mb-6">
                         <h3 class="text-xl font-black text-slate-900 flex items-center space-x-2">
                             <span>👌 Líderes en Triples</span>
                         </h3>
                     </div>
-                    <div id="topTriplesList" class="space-y-3">
-                        <!-- Generado dinámicamente -->
-                    </div>
+                    <div id="topTriplesList" class="space-y-3"></div>
                 </div>
 
-                <!-- Últimos Resultados y Clasificación rápida -->
                 <div class="lg:col-span-1 space-y-8">
                     <div class="glass-panel rounded-3xl p-5 sm:p-6">
                         <div class="flex items-center justify-between mb-6">
@@ -659,12 +661,9 @@
                             </h3>
                             <button onclick="cambiarVista('jornadas')" class="text-sm font-semibold text-orange-600 hover:underline">Ver todas</button>
                         </div>
-                        <div id="ultimosResultadosList" class="space-y-4">
-                            <!-- Generado dinámicamente -->
-                        </div>
+                        <div id="ultimosResultadosList" class="space-y-4"></div>
                     </div>
 
-                    <!-- Clasificación Breve -->
                     <div class="glass-panel rounded-3xl p-5 sm:p-6">
                         <div class="flex items-center justify-between mb-4">
                             <h3 class="text-xl font-black text-slate-900 flex items-center space-x-2">
@@ -673,9 +672,7 @@
                             <button onclick="cambiarVista('clasificacion')" class="text-sm font-semibold text-orange-600 hover:underline">Ver tabla</button>
                         </div>
                         <div class="overflow-x-auto">
-                            <table class="w-full text-left text-sm whitespace-nowrap" id="tablaClasificacionBreve">
-                                <!-- Generado dinámicamente -->
-                            </table>
+                            <table class="w-full text-left text-sm whitespace-nowrap" id="tablaClasificacionBreve"></table>
                         </div>
                     </div>
                 </div>
@@ -691,9 +688,7 @@
                 </div>
                 <p class="text-sm text-slate-500">Selecciona un equipo para ver su plantilla completa, estadísticas o rol de partidos</p>
             </div>
-            <div id="equiposGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                <!-- Generado dinámicamente -->
-            </div>
+            <div id="equiposGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"></div>
         </section>
 
         <!-- 3. VISTA JUGADORES -->
@@ -714,9 +709,7 @@
                     class="w-full px-4 py-3 pl-11 bg-white border border-slate-300 rounded-2xl text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-orange-500 shadow-sm">
                 <span class="absolute inset-y-0 left-0 flex items-center pl-4 text-slate-400">🔍</span>
             </div>
-            <div id="jugadoresGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-                <!-- Generado dinámicamente -->
-            </div>
+            <div id="jugadoresGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6"></div>
         </section>
 
         <!-- 4. VISTA ESTADÍSTICAS -->
@@ -738,9 +731,7 @@
             </div>
             <div class="glass-panel rounded-3xl overflow-hidden shadow-xl">
                 <div class="overflow-x-auto">
-                    <table class="w-full text-left border-collapse whitespace-nowrap" id="tablaEstadisticasCompletas">
-                        <!-- Generado dinámicamente -->
-                    </table>
+                    <table class="w-full text-left border-collapse whitespace-nowrap" id="tablaEstadisticasCompletas"></table>
                 </div>
             </div>
         </section>
@@ -752,24 +743,16 @@
                     <span class="text-xs uppercase font-extrabold tracking-widest text-orange-600">Reconocimientos</span>
                     <h2 class="text-3xl font-black text-slate-900">Mejor Jugador de la Jornada</h2>
                 </div>
-                <div class="flex items-center space-x-2 overflow-x-auto pb-2 w-full sm:w-auto" id="mvpJornadaSelectors">
-                    <!-- Generado dinámicamente -->
-                </div>
+                <div class="flex items-center space-x-2 overflow-x-auto pb-2 w-full sm:w-auto" id="mvpJornadaSelectors"></div>
             </div>
 
-            <!-- Tarjeta destacada Mejor Jugador -->
-            <div id="mvpDetalleContainer" class="glass-panel rounded-3xl p-6 sm:p-10 relative overflow-hidden shadow-xl border-orange-500/35">
-                <!-- Generado dinámicamente -->
-            </div>
+            <div id="mvpDetalleContainer" class="glass-panel rounded-3xl p-6 sm:p-10 relative overflow-hidden shadow-xl border-orange-500/35"></div>
 
-            <!-- Mejores Jugadores acumulados en la temporada (Ranking) -->
             <div class="space-y-4 pt-4">
                 <h3 class="text-2xl font-black text-slate-900 flex items-center space-x-2">
                     <span>👑 Mejores Jugadores Acumulados en la Temporada</span>
                 </h3>
-                <div id="mvpTemporadaList" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                    <!-- Generado dinámicamente -->
-                </div>
+                <div id="mvpTemporadaList" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"></div>
             </div>
         </section>
 
@@ -780,13 +763,9 @@
                     <span class="text-xs uppercase font-extrabold tracking-widest text-orange-600">Calendario</span>
                     <h2 class="text-3xl font-black text-slate-900">Jornadas y Partidos</h2>
                 </div>
-                <div class="flex items-center space-x-2 overflow-x-auto pb-2 w-full sm:w-auto" id="jornadasSelectors">
-                    <!-- Generado dinámicamente -->
-                </div>
+                <div class="flex items-center space-x-2 overflow-x-auto pb-2 w-full sm:w-auto" id="jornadasSelectors"></div>
             </div>
-            <div id="jornadasPartidosContainer" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <!-- Generado dinámicamente -->
-            </div>
+            <div id="jornadasPartidosContainer" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
         </section>
 
         <!-- 7. VISTA CLASIFICACIÓN -->
@@ -800,9 +779,7 @@
             </div>
             <div class="glass-panel rounded-3xl overflow-hidden shadow-xl">
                 <div class="overflow-x-auto">
-                    <table class="w-full text-left border-collapse whitespace-nowrap" id="tablaClasificacionCompleta">
-                        <!-- Generado dinámicamente -->
-                    </table>
+                    <table class="w-full text-left border-collapse whitespace-nowrap" id="tablaClasificacionCompleta"></table>
                 </div>
             </div>
         </section>
@@ -818,7 +795,6 @@
             </div>
 
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
-                <!-- Ubicación de la cancha -->
                 <div class="glass-panel p-6 sm:p-8 rounded-3xl space-y-6">
                     <div class="flex items-center space-x-3">
                         <div class="w-12 h-12 rounded-2xl bg-orange-500/10 text-orange-600 flex items-center justify-center font-bold text-xl">📍</div>
@@ -835,7 +811,6 @@
                     </div>
                 </div>
 
-                <!-- Página oficial de Facebook -->
                 <div class="glass-panel p-6 sm:p-8 rounded-3xl space-y-6 flex flex-col justify-between">
                     <div class="space-y-6">
                         <div class="flex items-center space-x-3">
@@ -849,9 +824,7 @@
                             Sigue todas las transmisiones en vivo, galerías de fotos, avisos oficiales y noticias de la Liga Norte de Cajeme en nuestra página oficial de Facebook.
                         </p>
                     </div>
-                    <div id="facebookSection" class="pt-6 border-t border-slate-200">
-                        <!-- Generado dinámicamente según LIGA_DATA.facebookUrl -->
-                    </div>
+                    <div id="facebookSection" class="pt-6 border-t border-slate-200"></div>
                 </div>
             </div>
         </section>
@@ -866,23 +839,19 @@
             <button onclick="cerrarModalJugador()" class="absolute top-4 right-4 z-10 w-10 h-10 rounded-full bg-slate-200 text-slate-700 hover:text-slate-900 flex items-center justify-center text-lg font-bold transition-colors">
                 ✕
             </button>
-            <div id="modalJugadorContent">
-                <!-- Generado dinámicamente -->
-            </div>
+            <div id="modalJugadorContent"></div>
         </div>
     </div>
 
     <!-- ========================================== -->
-    <!-- MODAL DE DETALLE DE EQUIPO Y CALENDARIO DEL EQUIPO -->
+    <!-- MODAL DE DETALLE DE EQUIPO -->
     <!-- ========================================== -->
     <div id="modalEquipo" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-md hidden fade-in">
         <div class="glass-panel w-full max-w-4xl rounded-3xl overflow-hidden shadow-2xl relative max-h-[90vh] overflow-y-auto">
             <button onclick="cerrarModalEquipo()" class="absolute top-4 right-4 z-10 w-10 h-10 rounded-full bg-slate-200 text-slate-700 hover:text-slate-900 flex items-center justify-center text-lg font-bold transition-colors">
                 ✕
             </button>
-            <div id="modalEquipoContent">
-                <!-- Generado dinámicamente -->
-            </div>
+            <div id="modalEquipoContent"></div>
         </div>
     </div>
 
@@ -900,20 +869,17 @@
     <!-- JAVASCRIPT DE LÓGICA Y RENDERIZADO -->
     <!-- ========================================== -->
     <script>
-        // Estado actual de la aplicación
         let vistaActual = 'inicio';
         let ordenEstadisticasActual = 'puntos';
         let jornadaSeleccionadaMVP = 1;
         let jornadaSeleccionadaPartidos = 1;
 
-        // Carga inicial y persistencia en localStorage
         document.addEventListener('DOMContentLoaded', () => {
             cargarDatosGuardados();
             renderizarTodo();
             setupFiltrosEquipos();
         });
 
-        // Cargar datos persistidos (puntosJugadoresPartidos y mvpJornadas) si existen
         function cargarDatosGuardados() {
             try {
                 const registrosGuardados = localStorage.getItem('lnc_puntosJugadoresPartidos');
@@ -943,14 +909,12 @@
             }
         }
 
-        // Cambiar entre vistas
         function cambiarVista(vista) {
             vistaActual = vista;
             document.querySelectorAll('main > section').forEach(sec => sec.classList.add('hidden'));
             const secActiva = document.getElementById(`vista-${vista}`);
             if (secActiva) secActiva.classList.remove('hidden');
 
-            // Actualizar botones de navegación escritorio
             document.querySelectorAll('.nav-btn').forEach(btn => {
                 if (btn.dataset.view === vista) {
                     btn.className = "nav-btn px-4 py-2 rounded-lg text-sm font-semibold transition-all text-orange-600 bg-orange-500/10";
@@ -962,13 +926,11 @@
             window.scrollTo({ top: 0, behavior: 'smooth' });
         }
 
-        // Toggle Menú Móvil
         function toggleMobileMenu() {
             const menu = document.getElementById('mobileMenu');
             menu.classList.toggle('hidden');
         }
 
-        // Normalización para comparaciones de nombres de equipo (sensible a DRINKERS)
         function normalizarNombreEquipo(nombre) {
             if (!nombre) return '';
             const n = nombre.trim().toUpperCase();
@@ -976,10 +938,9 @@
             return n;
         }
 
-        // Obtener ruta del logotipo de cada equipo
         function getLogoEquipo(nombre) {
             if (!nombre) return '';
-            const n = nombre.trim().toUpperCase();
+            const n = normalizarNombreEquipo(nombre);
             const logos = {
                 "DESTROYERS": "NLOGO/destroyers.jpg",
                 "PIRATAS": "NLOGO/piratas.jpg",
@@ -996,17 +957,12 @@
                 "Y-TEAM": "NLOGO/y-team.jpg",
                 "RANGERS": "NLOGO/rangers.jpg",
                 "PELICANOS": "NLOGO/pelicanos.jpg",
-                "HORTITEC": "NLOGO/hortitec.jpg"
+                "HORTITEC": "NLOGO/hortitec.jpg",
+                "ONI GYM": "NLOGO/onigym.jpg"
             };
             return logos[n] || "";
         }
 
-        // ========================================== -->
-        // FUNCIONES DE ESTADÍSTICAS Y CÁLCULOS AUTOMÁTICOS
-        // ========================================== -->
-
-        // Obtener jugadores enriquecidos con puntos, triples y partidos jugados.
-        // Un partido se contabiliza si el jugador participó (jugo === true) o si anotó puntos/triples en un partido finalizado.
         function getJugadores() {
             const partidosFinalizadosIds = LIGA_DATA.partidos
                 .filter(p => p.estado === 'finalizado')
@@ -1022,7 +978,6 @@
                 let triplesTotales = 0;
 
                 registrosValidos.forEach(r => {
-                    // Si jugo === true explícito, o no se definió pero sumó puntos > 0
                     const participo = (r.jugo !== undefined) ? r.jugo : ((r.puntos || 0) > 0 || (r.triples || 0) > 0);
                     if (participo) {
                         if (!partidosMap[r.partidoId]) {
@@ -1046,24 +1001,20 @@
             });
         }
         
-        // Calcular "Mejor jugador de la jornada" acumulados automáticamente
         function calcularMVPsJugador(nombreJugador) {
             return LIGA_DATA.mvpJornadas.filter(m => m.jugador.toLowerCase() === nombreJugador.toLowerCase()).length;
         }
 
-        // Utilidad: Generar avatar / iniciales
         function getAvatarHTML(nombre, color = '#f97316', size = 'w-12 h-12') {
             const initials = nombre.split(' ').map(n => n[0]).slice(0, 2).join('').toUpperCase();
             return `<div class="${size} rounded-2xl flex items-center justify-center font-black text-white shadow-md flex-shrink-0" style="background: linear-gradient(135deg, ${color}, #0f172a)">${initials}</div>`;
         }
 
-        // Utilidad: Calcular PPG
         function calcularPPG(puntos, partidos) {
             if (!partidos || partidos === 0) return '0.0';
             return (puntos / partidos).toFixed(1);
         }
 
-        // Renderizador maestro
         function renderizarTodo() {
             renderHeroStats();
             renderLideres();
@@ -1080,7 +1031,6 @@
             renderInformacionLiga();
         }
 
-        // 1. Render Hero Stats
         function renderHeroStats() {
             document.getElementById('statEquiposCount').textContent = LIGA_DATA.equipos.length;
             document.getElementById('statJugadoresCount').textContent = LIGA_DATA.jugadores.length;
@@ -1089,7 +1039,6 @@
             document.getElementById('statPartidosCount').textContent = partidosJugadosCount;
         }
 
-        // 2. Render Líder de la Liga (Puntos)
         function renderLideres() {
             const jugadores = getJugadores();
             if (!jugadores.length) {
@@ -1122,7 +1071,6 @@
             `;
         }
 
-        // 3. Render Top 10 Anotadores
         function renderTop10() {
             const top10 = [...getJugadores()].sort((a, b) => b.puntos - a.puntos).slice(0, 10);
             const container = document.getElementById('top10List');
@@ -1147,7 +1095,6 @@
             `).join('');
         }
 
-        // 3b. NUEVA TABLA: Render Líderes en Triples
         function renderTopTriples() {
             const topTriples = [...getJugadores()].sort((a, b) => b.triples - a.triples || b.puntos - a.puntos).slice(0, 10);
             const container = document.getElementById('topTriplesList');
@@ -1173,7 +1120,6 @@
             `).join('');
         }
 
-        // 4. Render Últimos Resultados (Solo partidos finalizados)
         function renderUltimosResultados() {
             const partidosFinalizados = LIGA_DATA.partidos.filter(p => p.estado === 'finalizado');
             const ultimos = [...partidosFinalizados].slice(-4).reverse();
@@ -1202,7 +1148,6 @@
             }).join('');
         }
 
-        // Calcular Clasificación ordenada por PUNTOS (Victoria = 2 pts, Derrota = 1 pt)
         function calcularClasificacion() {
             const stats = {};
             LIGA_DATA.equipos.forEach(eq => {
@@ -1258,7 +1203,6 @@
             });
         }
 
-        // 5. Render Clasificación Breve (Inicio)
         function renderClasificacionBreve() {
             const clasificacion = calcularClasificacion().slice(0, 4);
             const container = document.getElementById('tablaClasificacionBreve');
@@ -1291,7 +1235,6 @@
             `;
         }
 
-        // 6. Render Equipos con Logos y Botón "Ver partidos"
         function renderEquipos() {
             const container = document.getElementById('equiposGrid');
             const jugadores = getJugadores();
@@ -1331,7 +1274,6 @@
                             </div>
                         </div>
 
-                        <!-- Botones de Acción -->
                         <div class="grid grid-cols-2 gap-2 pt-2 border-t border-slate-100">
                             <button onclick="abrirDetalleEquipo('${eq.nombre}', 'plantilla')" class="px-3 py-2 bg-slate-100 hover:bg-slate-200 text-slate-800 text-xs font-bold rounded-xl transition-all text-center">
                                 👥 Plantilla
@@ -1345,7 +1287,6 @@
             }).join('');
         }
 
-        // Setup filtros de equipos en jugadores
         function setupFiltrosEquipos() {
             const select = document.getElementById('filtroEquipoJugadores');
             if (!select) return;
@@ -1353,7 +1294,6 @@
                 LIGA_DATA.equipos.map(eq => `<option value="${eq.nombre}">${eq.nombre}</option>`).join('');
         }
 
-        // 7. Render Jugadores
         function renderJugadores() {
             const filtroEquipo = document.getElementById('filtroEquipoJugadores')?.value || 'todos';
             const textoBusqueda = document.getElementById('busquedaJugadoresInput')?.value.toLowerCase() || '';
@@ -1406,7 +1346,6 @@
             `).join('');
         }
 
-        // 8. Render Estadísticas Completas
         function cambiarOrdenEstadisticas(orden) {
             ordenEstadisticasActual = orden;
             renderEstadisticasCompletas();
@@ -1460,7 +1399,6 @@
             `;
         }
 
-        // 9. Render Vista "Mejor Jugador de la Jornada"
         function renderMVPSection() {
             const jornadasMVP = LIGA_DATA.mvpJornadas;
             const selectorsContainer = document.getElementById('mvpJornadaSelectors');
@@ -1503,7 +1441,6 @@
                 `;
             }
 
-            // Render Mejores Jugadores Temporada calculados automáticamente
             const mvpConteo = {};
             getJugadores().forEach(j => {
                 const totalMvp = calcularMVPsJugador(j.nombre);
@@ -1539,7 +1476,6 @@
             renderMVPSection();
         }
 
-        // 10. Render Jornadas Section
         function renderJornadasSection() {
             const jornadas = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
             const selectorsContainer = document.getElementById('jornadasSelectors');
@@ -1551,20 +1487,9 @@
             `).join('');
 
             const partidosJornada = LIGA_DATA.partidos.filter(p => p.jornada === jornadaSeleccionadaPartidos);
-            const equipoDescansa = partidosJornada.length > 0 ? partidosJornada[0].descansa : null;
             const container = document.getElementById('jornadasPartidosContainer');
             
-            let html = '';
-            if (equipoDescansa) {
-                html += `
-                    <div class="col-span-full p-4 rounded-2xl bg-orange-500/10 border border-orange-500/30 text-center flex items-center justify-center space-x-2">
-                        <span class="text-base">☕</span>
-                        <span class="text-sm font-black text-orange-700 uppercase tracking-wider">Equipo que descansa en la Jornada ${jornadaSeleccionadaPartidos}: <span class="underline">${equipoDescansa}</span></span>
-                    </div>
-                `;
-            }
-
-            html += partidosJornada.map(p => {
+            container.innerHTML = partidosJornada.map(p => {
                 if (p.estado === 'pendiente') {
                     return `
                         <div class="glass-panel p-5 sm:p-6 rounded-3xl flex flex-col justify-between space-y-4 border border-amber-500/20">
@@ -1607,8 +1532,6 @@
                     `;
                 }
             }).join('');
-
-            container.innerHTML = html;
         }
 
         function seleccionarJornadaPartidos(j) {
@@ -1616,7 +1539,6 @@
             renderJornadasSection();
         }
 
-        // 11. Render Clasificación Completa
         function renderClasificacionCompleta() {
             const clasificacion = calcularClasificacion();
             const container = document.getElementById('tablaClasificacionCompleta');
@@ -1655,7 +1577,6 @@
             `;
         }
 
-        // 12. Render Información de la Liga
         function renderInformacionLiga() {
             const fbContainer = document.getElementById('facebookSection');
             if (!fbContainer) return;
@@ -1676,7 +1597,6 @@
             }
         }
 
-        // Buscador Global
         function handleGlobalSearch(query, isMobile = false) {
             const containerId = isMobile ? 'mobileSearchResults' : 'searchResults';
             let dropdown = document.getElementById(containerId);
@@ -1753,7 +1673,6 @@
             if (searchInput) searchInput.value = '';
         }
 
-        // Modal Perfil de Jugador
         function abrirPerfilJugador(id) {
             const j = getJugadores().find(item => item.id === id);
             if (!j) return;
@@ -1805,7 +1724,6 @@
             document.getElementById('modalJugador').classList.add('hidden');
         }
 
-        // Modal Detalle de Equipo con Solapas: Plantilla vs Ver Partidos (15 Jornadas)
         function abrirDetalleEquipo(nombreEquipo, pestanaInicial = 'plantilla') {
             const eq = LIGA_DATA.equipos.find(e => normalizarNombreEquipo(e.nombre) === normalizarNombreEquipo(nombreEquipo));
             if (!eq) return;
@@ -1813,7 +1731,6 @@
             const modal = document.getElementById('modalEquipo');
             const content = document.getElementById('modalEquipoContent');
 
-            // Partidos del equipo en las 15 jornadas respetando orden local/visitante
             const partidosEquipo = LIGA_DATA.partidos.filter(p => 
                 normalizarNombreEquipo(p.local) === normalizarNombreEquipo(eq.nombre) || 
                 normalizarNombreEquipo(p.visitante) === normalizarNombreEquipo(eq.nombre)
@@ -1834,7 +1751,6 @@
                             </div>
                         </div>
 
-                        <!-- Selector de Pestañas -->
                         <div class="flex items-center space-x-2 bg-slate-100 p-1.5 rounded-2xl self-start sm:self-auto">
                             <button id="tabBtnPlantilla" onclick="cambiarPestanaEquipo('plantilla')" class="px-4 py-2 text-xs sm:text-sm font-bold rounded-xl transition-all">
                                 👥 Plantilla
@@ -1845,7 +1761,6 @@
                         </div>
                     </div>
 
-                    <!-- Contenido Pestaña 1: Plantilla -->
                     <div id="tabContentPlantilla" class="space-y-4">
                         <h4 class="text-sm font-extrabold text-orange-600 uppercase tracking-wider">Plantilla Oficial de Jugadores</h4>
                         <div class="overflow-x-auto">
@@ -1878,11 +1793,10 @@
                         </div>
                     </div>
 
-                    <!-- Contenido Pestaña 2: Partidos del Equipo -->
                     <div id="tabContentPartidos" class="space-y-4 hidden">
                         <div class="flex items-center justify-between">
                             <h4 class="text-sm font-extrabold text-orange-600 uppercase tracking-wider">Calendario Oficial de Juegos — 15 Jornadas</h4>
-                            <span class="text-xs text-slate-500 font-semibold">Mostrando ${partidosEquipo.length} de 14 encuentros</span>
+                            <span class="text-xs text-slate-500 font-semibold">Mostrando ${partidosEquipo.length} encuentros</span>
                         </div>
                         <div class="space-y-3">
                             ${partidosEquipo.map(p => {
@@ -1960,10 +1874,6 @@
             document.getElementById('modalEquipo').classList.add('hidden');
         }
 
-        // ======================================================
-        // SISTEMA DE REGISTRO DE PARTICIPACIÓN Y ESTADÍSTICAS EN PARTIDOS
-        // Soporta marcar la participación explícita (jugo = true/false), puntos y triples
-        // ======================================================
         function registrarPartidoEstadisticas(partidoId, listaJugadoresData, puntosLocal, puntosVisitante, mejorJugadorData = null) {
             const partido = LIGA_DATA.partidos.find(p => p.id === partidoId);
             if (!partido) return;
@@ -1972,12 +1882,9 @@
             partido.puntosLocal = puntosLocal;
             partido.puntosVisitante = puntosVisitante;
 
-            // Eliminar registros previos de este partido para evitar duplicidad
             LIGA_DATA.puntosJugadoresPartidos = LIGA_DATA.puntosJugadoresPartidos.filter(r => r.partidoId !== partidoId);
 
-            // Agregar los nuevos registros de participación/puntos
             listaJugadoresData.forEach(item => {
-                // item: { jugador: "Nombre", puntos: 10, triples: 2, jugo: true }
                 if (item.jugo || item.puntos > 0 || item.triples > 0) {
                     LIGA_DATA.puntosJugadoresPartidos.push({
                         partidoId: partidoId,
@@ -1990,7 +1897,6 @@
             });
 
             if (mejorJugadorData) {
-                // mejorJugadorData: { jornada: 1, jugador: "Nombre", equipo: "Equipo", puntos: 25, motivo: "..." }
                 LIGA_DATA.mvpJornadas = LIGA_DATA.mvpJornadas.filter(m => m.jornada !== partido.jornada);
                 LIGA_DATA.mvpJornadas.push(mejorJugadorData);
             }
