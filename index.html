@@ -86,12 +86,10 @@
         subtitulo: "Estadísticas oficiales de la liga",
         
         // Enlace de la página oficial de Facebook
-        facebookUrl: "[https://www.facebook.com/LigaNorteDeCajeme](https://www.facebook.com/LigaNorteDeCajeme)", 
+        facebookUrl: "https://www.facebook.com/LigaNorteDeCajeme", 
 
         // ======================================================
         // 🏀 EQUIPOS Y JUGADORES
-        // INSTRUCCIÓN: Dónde agregar el nombre y número de un jugador:
-        // Puedes agregarlos dentro del arreglo 'jugadores' indicando su id, nombre, numero, posicion y equipo correspondiente.
         // ======================================================
         equipos: [
             { id: 1, nombre: "DESTROYERS", abreviatura: "DES", ciudad: "Cajeme", color: "#3b82f6" },
@@ -340,17 +338,14 @@
 
         // ======================================================
         // 📅 CALENDARIO Y PARTIDOS (ROL OFICIAL EXACTO - 15 JORNADAS)
-        // INSTRUCCIÓN: Cómo actualizar las estadísticas cuando termine un nuevo partido:
-        // 1. Cambia el estado del partido en este arreglo 'partidos' de "pendiente" a "finalizado".
-        // 2. Registra el marcador en 'puntosLocal' y 'puntosVisitante'.
         // ======================================================
         partidos: [
             // JORNADA 1 (10 al 12 de noviembre de 2026)
             { id: 1, jornada: 1, fecha: "10 de noviembre de 2026", dia: "Martes", hora: "7:30 PM", local: "DRINKERS", visitante: "ZOMBIES", estado: "finalizado", puntosLocal: 60, puntosVisitante: 54 },
             { id: 2, jornada: 1, fecha: "10 de noviembre de 2026", dia: "Martes", hora: "8:30 PM", local: "ONI GYM", visitante: "TITANES", estado: "Finalizado", puntosLocal: 63, puntosVisitante: 65 },
-            { id: 3, jornada: 1, fecha: "11 de noviembre de 2026", dia: "Miércoles", hora: "7:00 PM", local: "ZORROS", visitante: "PLAZA", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-            { id: 4, jornada: 1, fecha: "11 de noviembre de 2026", dia: "Miércoles", hora: "8:00 PM", local: "FINCA DON CHEMA", visitante: "TERESIANO", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-            { id: 5, jornada: 1, fecha: "11 de noviembre de 2026", dia: "Miércoles", hora: "9:00 PM", local: "PELICANOS", visitante: "LIRIX", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+            { id: 3, jornada: 1, fecha: "11 de noviembre de 2026", dia: "Miércoles", hora: "7:00 PM", local: "ZORROS", visitante: "PLAZA", estado: "Finalizado", puntosLocal: 42, puntosVisitante: 38 },
+            { id: 4, jornada: 1, fecha: "11 de noviembre de 2026", dia: "Miércoles", hora: "8:00 PM", local: "FINCA DON CHEMA", visitante: "TERESIANO", estado: "Finalizado", puntosLocal: 54, puntosVisitante: 47 },
+            { id: 5, jornada: 1, fecha: "11 de noviembre de 2026", dia: "Miércoles", hora: "9:00 PM", local: "PELICANOS", visitante: "LIRIX", estado: "Finalizado", puntosLocal: 51, puntosVisitante: 55 },
             { id: 6, jornada: 1, fecha: "12 de noviembre de 2026", dia: "Jueves", hora: "7:00 PM", local: "DESTROYERS", visitante: "HORTITEC", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
             { id: 7, jornada: 1, fecha: "12 de noviembre de 2026", dia: "Jueves", hora: "8:00 PM", local: "RANGERS", visitante: "Y-TEAM", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
             { id: 8, jornada: 1, fecha: "12 de noviembre de 2026", dia: "Jueves", hora: "9:00 PM", local: "SPARTANS", visitante: "PIRATAS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
@@ -498,39 +493,70 @@
 
         // ======================================================
         // 🏀 REGISTRO DE ESTADÍSTICAS Y MVP
-        // INSTRUCCIÓN: Dónde registrar puntos totales y triples por partido:
-        // Agrega un objeto por cada jugador dentro de 'puntosJugadoresPartidos' indicando:
-        // - partidoId: ID del partido correspondiente.
-        // - jugador: Nombre exacto del jugador.
-        // - puntos: Puntos totales anotados en el partido.
-        // - triples: Cantidad de triples anotados en el partido.
-        // - jugo: true (indica participación).
         // ======================================================
-       puntosJugadoresPartidos: [
-    // Estadísticas del Partido 1: Drinkers vs Zombies (Jornada 1)
-    { partidoId: 1, jugador: "David Uvalle", puntos: 21, triples: 3, jugo: true },
-    { partidoId: 1, jugador: "Ivan Ruiz Jr.", puntos: 4, triples: 0, jugo: true },
-    { partidoId: 1, jugador: "Juan Bastidas", puntos: 12, triples: 0, jugo: true },
-    { partidoId: 1, jugador: "Alejandro Quiróz", puntos: 7, triples: 1, jugo: true },
-    { partidoId: 1, jugador: "Adrian Valenzuela", puntos: 8, triples: 0, jugo: true },
-    { partidoId: 1, jugador: "Daniel Cordova", puntos: 19, triples: 3, jugo: true },
-    { partidoId: 1, jugador: "Leonardo Vega", puntos: 15, triples: 2, jugo: true },
-    { partidoId: 1, jugador: "Emanuel Lopez", puntos: 13, triples: 3, jugo: true },
-    { partidoId: 1, jugador: "Rolando Campagne", puntos: 14, triples: 0, jugo: true },
-    { partidoId: 1, jugador: "Gustavo Vega", puntos: 2, triples: 0, jugo: true },
+        puntosJugadoresPartidos: [
+            // Estadísticas del Partido 1: Drinkers vs Zombies (Jornada 1)
+            { partidoId: 1, jugador: "David Uvalle", puntos: 21, triples: 3, jugo: true },
+            { partidoId: 1, jugador: "Ivan Ruiz Jr.", puntos: 4, triples: 0, jugo: true },
+            { partidoId: 1, jugador: "Juan Bastidas", puntos: 12, triples: 0, jugo: true },
+            { partidoId: 1, jugador: "Alejandro Quiróz", puntos: 7, triples: 1, jugo: true },
+            { partidoId: 1, jugador: "Adrian Valenzuela", puntos: 8, triples: 0, jugo: true },
+            { partidoId: 1, jugador: "Daniel Cordova", puntos: 19, triples: 3, jugo: true },
+            { partidoId: 1, jugador: "Leonardo Vega", puntos: 15, triples: 2, jugo: true },
+            { partidoId: 1, jugador: "Emanuel Lopez", puntos: 13, triples: 3, jugo: true },
+            { partidoId: 1, jugador: "Rolando Campagne", puntos: 14, triples: 0, jugo: true },
+            { partidoId: 1, jugador: "Gustavo Vega", puntos: 2, triples: 0, jugo: true },
 
-    // Estadísticas del Partido 2: ONI GYM vs TITANES (Jornada 1)
-    { partidoId: 2, jugador: "Daniel Orlando Silva De la cruz", puntos: 10, triples: 2, jugo: true },
-    { partidoId: 2, jugador: "Jose Armando Castro Lopez", puntos: 6, triples: 0, jugo: true },
-    { partidoId: 2, jugador: "Gerardo Guillen Vazquez", puntos: 2, triples: 0, jugo: true },
-    { partidoId: 2, jugador: "Alejandro Quiróz", puntos: 7, triples: 1, jugo: true },
-    { partidoId: 2, jugador: "Cesar Ivan Robles Gomez", puntos: 35, triples: 9, jugo: true },
-    { partidoId: 2, jugador: "Sergio Ivan Ochoa Valenzuela", puntos: 8, triples: 0, jugo: true },
-    { partidoId: 2, jugador: "Alejandro Urbalejo Lopez", puntos: 13, triples: 2, jugo: true },
-    { partidoId: 2, jugador: "Luis Fernando Robles Zavala", puntos: 11, triples: 1, jugo: true },
-    { partidoId: 2, jugador: "Xavier Enos Valdez Toledo", puntos: 15, triples: 1, jugo: true },
-    { partidoId: 2, jugador: "Axel Francisco Bojorquez Rey", puntos: 12, triples: 2, jugo: true }
-],
+            // Estadísticas del Partido 2: ONI GYM vs TITANES (Jornada 1)
+            { partidoId: 2, jugador: "Daniel Orlando Silva De la cruz", puntos: 10, triples: 2, jugo: true },
+            { partidoId: 2, jugador: "Jose Armando Castro Lopez", puntos: 6, triples: 0, jugo: true },
+            { partidoId: 2, jugador: "Gerardo Guillen Vazquez", puntos: 2, triples: 0, jugo: true },
+            { partidoId: 2, jugador: "Alejandro Quiróz", puntos: 7, triples: 1, jugo: true },
+            { partidoId: 2, jugador: "Cesar Ivan Robles Gomez", puntos: 35, triples: 9, jugo: true },
+            { partidoId: 2, jugador: "Sergio Ivan Ochoa Valenzuela", puntos: 8, triples: 0, jugo: true },
+            { partidoId: 2, jugador: "Alejandro Urbalejo Lopez", puntos: 13, triples: 2, jugo: true },
+            { partidoId: 2, jugador: "Luis Fernando Robles Zavala", puntos: 11, triples: 1, jugo: true },
+            { partidoId: 2, jugador: "Xavier Enos Valdez Toledo", puntos: 15, triples: 1, jugo: true },
+            { partidoId: 2, jugador: "Axel Francisco Bojorquez Rey", puntos: 12, triples: 2, jugo: true },
+
+            // Estadísticas del Partido 3: ZORROS vs PLAZA (Jornada 1)
+            { partidoId: 3, jugador: "TADEO RASCON (JUVENIL)", puntos: 7, triples: 0, jugo: true },
+            { partidoId: 3, jugador: "PEDRO MENDOZA", puntos: 15, triples: 0, jugo: true },
+            { partidoId: 3, jugador: "ALFONSO VALENCIA (FLECHA)", puntos: 17, triples: 0, jugo: true },
+            { partidoId: 3, jugador: "JESUS ROSAS (AZTECA)", puntos: 3, triples: 0, jugo: true },
+            { partidoId: 3, jugador: "Emmanuel Liogon Melendrez", puntos: 7, triples: 0, jugo: true },
+            { partidoId: 3, jugador: "Luis Alejandro Melendrez Lopez", puntos: 11, triples: 0, jugo: true },
+            { partidoId: 3, jugador: "Jose M. Zamudio Estrada", puntos: 9, triples: 1, jugo: true },
+            { partidoId: 3, jugador: "Juan Rascon", puntos: 7, triples: 0, jugo: true },
+            { partidoId: 3, jugador: "Andres Garcia", puntos: 2, triples: 0, jugo: true },
+            { partidoId: 3, jugador: "Vicente Noriega", puntos: 2, triples: 0, jugo: true },
+
+            // Estadísticas del Partido 4: FINCA DON CHEMA vs TERESIANO (Jornada 1)
+            { partidoId: 4, jugador: "Javier Perez", puntos: 2, triples: 0, jugo: true },
+            { partidoId: 4, jugador: "Jorge Gonzales", puntos: 13, triples: 1, jugo: true },
+            { partidoId: 4, jugador: "Raul Guillen", puntos: 10, triples: 0, jugo: true },
+            { partidoId: 4, jugador: "Jesus Castro", puntos: 4, triples: 0, jugo: true },
+            { partidoId: 4, jugador: "Roberto Luna", puntos: 19, triples: 1, jugo: true },
+            { partidoId: 4, jugador: "Ricardo Minjarez", puntos: 6, triples: 0, jugo: true },
+            { partidoId: 4, jugador: "Andrés Ernesto Lucero Salas", puntos: 6, triples: 0, jugo: true },
+            { partidoId: 4, jugador: "Luis René Alatorre Gil", puntos: 8, triples: 0, jugo: true },
+            { partidoId: 4, jugador: "Lamberto Antillon Jerkov", puntos: 8, triples: 0, jugo: true },
+            { partidoId: 4, jugador: "José Pablo Rodríguez Soto", puntos: 16, triples: 1, jugo: true },
+            { partidoId: 4, jugador: "Santiago Borquez López", puntos: 9, triples: 3, jugo: true },
+
+            // Estadísticas del Partido 5: PELICANOS vs LIRIX (Jornada 1)
+            { partidoId: 5, jugador: "SERGIO BOJORQUEZ", puntos: 26, triples: 3, jugo: true },
+            { partidoId: 5, jugador: "HERIBERTO ALVAREZ", puntos: 7, triples: 1, jugo: true },
+            { partidoId: 5, jugador: "ALVARO ALMADA", puntos: 5, triples: 1, jugo: true },
+            { partidoId: 5, jugador: "FRANCISCO VÁZQUEZ", puntos: 6, triples: 0, jugo: true },
+            { partidoId: 5, jugador: "ANGEL LIMÓN", puntos: 2, triples: 0, jugo: true },
+            { partidoId: 5, jugador: "JOSÉ ESTRADA", puntos: 3, triples: 0, jugo: true },
+            { partidoId: 5, jugador: "RODRIGO VALENZUELA", puntos: 4, triples: 0, jugo: true },
+            { partidoId: 5, jugador: "JOSE ZAMORA", puntos: 5, triples: 1, jugo: true },
+            { partidoId: 5, jugador: "EDGAR BERELLEZA", puntos: 2, triples: 0, jugo: true },
+            { partidoId: 5, jugador: "DEMIAN VALDEZ", puntos: 25, triples: 1, jugo: true },
+            { partidoId: 5, jugador: "HARUM CÁZARES", puntos: 6, triples: 0, jugo: true }
+        ],
         mvpJornadas: []
     };
 </script>
@@ -844,7 +870,7 @@
                     Esta es la sede oficial donde se disputan todos los encuentros y emocionantes jornadas de la Liga Norte de Cajeme. ¡Te esperamos para apoyar a tu equipo favorito!
                 </p>
                 <div class="w-full h-72 sm:h-96 rounded-2xl overflow-hidden shadow-md border border-slate-200">
-                    <iframe src="[https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d238.1056582210343!2d-109.94647465840987!3d27.57640938034886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86c86b00384cab9b%3A0xf4696caf0c1ae3ec!2sCancha%20de%20B%C3%A1squetbol%20%234!5e1!3m2!1ses-419!2smx!4v1793493845291!5m2!1ses-419!2smx](https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d238.1056582210343!2d-109.94647465840987!3d27.57640938034886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86c86b00384cab9b%3A0xf4696caf0c1ae3ec!2sCancha%20de%20B%C3%A1squetbol%20%234!5e1!3m2!1ses-419!2smx!4v1793493845291!5m2!1ses-419!2smx)" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d238.1056582210343!2d-109.94647465840987!3d27.57640938034886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86c86b00384cab9b%3A0xf4696caf0c1ae3ec!2sCancha%20de%20B%C3%A1squetbol%20%234!5e1!3m2!1ses-419!2smx!4v1793493845291!5m2!1ses-419!2smx" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
                 </div>
             </div>
 
@@ -898,7 +924,7 @@
 <footer class="mt-20 border-t border-slate-200 bg-white py-8 text-center text-slate-500 text-sm">
     <div class="max-w-7xl mx-auto px-4 space-y-2">
         <p class="font-bold text-slate-800">LIGA NORTE DE CAJEME — Sitio Oficial de Estadísticas</p>
-        <p>Desarrollado por <a href="[https://nnstudioweb.com](https://nnstudioweb.com)" target="_blank" rel="noopener noreferrer" class="text-orange-600 hover:underline font-semibold">nnstudioweb.com</a>. Todos los derechos reservados © 2026.</p>
+        <p>Desarrollado por <a href="https://nnstudioweb.com" target="_blank" rel="noopener noreferrer" class="text-orange-600 hover:underline font-semibold">nnstudioweb.com</a>. Todos los derechos reservados © 2026.</p>
     </div>
 </footer>
 
@@ -920,13 +946,40 @@
     function cargarDatosGuardados() {
         try {
             const registrosGuardados = localStorage.getItem('lnc_puntosJugadoresPartidos');
+
             if (registrosGuardados) {
-                LIGA_DATA.puntosJugadoresPartidos = JSON.parse(registrosGuardados);
+                const guardados = JSON.parse(registrosGuardados);
+                const combinados = new Map();
+
+                const claveRegistro = (registro) => {
+                    const nombre = String(registro.jugador || '')
+                        .trim()
+                        .toLocaleLowerCase('es');
+                    return `${registro.partidoId}::${nombre}`;
+                };
+
+                if (Array.isArray(guardados)) {
+                    guardados.forEach(registro => {
+                        if (registro && registro.jugador != null) {
+                            combinados.set(claveRegistro(registro), registro);
+                        }
+                    });
+                }
+
+                LIGA_DATA.puntosJugadoresPartidos.forEach(registro => {
+                    if (registro && registro.jugador != null) {
+                        combinados.set(claveRegistro(registro), registro);
+                    }
+                });
+
+                LIGA_DATA.puntosJugadoresPartidos = Array.from(combinados.values());
             }
+
             const mvpsGuardados = localStorage.getItem('lnc_mvpJornadas');
             if (mvpsGuardados) {
                 LIGA_DATA.mvpJornadas = JSON.parse(mvpsGuardados);
             }
+
             const partidosGuardados = localStorage.getItem('lnc_partidos');
             if (partidosGuardados) {
                 LIGA_DATA.partidos = JSON.parse(partidosGuardados);
