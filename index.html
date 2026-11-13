@@ -288,6 +288,7 @@
             { id: 147, nombre: "Alex Castro", numero: 8, posicion: "Desconocida", equipo: "Y-TEAM" },
             { id: 148, nombre: "Alfredo Pérez", numero: 13, posicion: "Desconocida", equipo: "Y-TEAM" },
             { id: 149, nombre: "José Luis Beltrán", numero: 5, posicion: "Desconocida", equipo: "Y-TEAM" },
+            { id: 198, nombre: "Antonio Lutz", numero: "Desconocido", posicion: "Desconocida", equipo: "Y-TEAM" },
 
             // RANGERS
             { id: 150, nombre: "Leonel Ivan Aldaco Martinez", numero: 30, posicion: "Desconocida", equipo: "RANGERS" },
@@ -302,6 +303,7 @@
             { id: 159, nombre: "Miguel Arturo Tapia Garcia", numero: 7, posicion: "Desconocida", equipo: "RANGERS" },
             { id: 160, nombre: "Alan Rogelio Castelo Olivas", numero: 13, posicion: "Desconocida", equipo: "RANGERS" },
             { id: 161, nombre: "Andres Ivan Garcia Zavala", numero: 5, posicion: "Desconocida", equipo: "RANGERS" },
+            { id: 197, nombre: "Ethan Preciado", numero: "Desconocido", posicion: "Desconocida", equipo: "RANGERS" },
 
             // PELICANOS
             { id: 162, nombre: "MARIO SEPULVEDA", numero: 23, posicion: "Desconocida", equipo: "PELICANOS" },
@@ -327,6 +329,7 @@
             { id: 180, nombre: "Brayan aguilar", numero: 78, posicion: "Desconocida", equipo: "HORTITEC" },
             { id: 181, nombre: "Francisco valenzuela", numero: 8, posicion: "Desconocida", equipo: "HORTITEC" },
             { id: 182, nombre: "Jose carras", numero: "07", posicion: "Desconocida", equipo: "HORTITEC" },
+            { id: 196, nombre: "Natali Hernandez", numero: "Desconocido", posicion: "Desconocida", equipo: "HORTITEC" },
 
             // ONI GYM
             { id: 183, nombre: "David Meza Lopez", numero: 6, posicion: "Desconocida", equipo: "ONI GYM" },
@@ -350,9 +353,9 @@
             { id: 3, jornada: 1, fecha: "11 de noviembre de 2026", dia: "Miércoles", hora: "7:00 PM", local: "ZORROS", visitante: "PLAZA", estado: "Finalizado", puntosLocal: 42, puntosVisitante: 38 },
             { id: 4, jornada: 1, fecha: "11 de noviembre de 2026", dia: "Miércoles", hora: "8:00 PM", local: "FINCA DON CHEMA", visitante: "TERESIANO", estado: "Finalizado", puntosLocal: 54, puntosVisitante: 47 },
             { id: 5, jornada: 1, fecha: "11 de noviembre de 2026", dia: "Miércoles", hora: "9:00 PM", local: "PELICANOS", visitante: "LIRIX", estado: "Finalizado", puntosLocal: 51, puntosVisitante: 55 },
-            { id: 6, jornada: 1, fecha: "12 de noviembre de 2026", dia: "Jueves", hora: "7:00 PM", local: "DESTROYERS", visitante: "HORTITEC", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-            { id: 7, jornada: 1, fecha: "12 de noviembre de 2026", dia: "Jueves", hora: "8:00 PM", local: "RANGERS", visitante: "Y-TEAM", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-            { id: 8, jornada: 1, fecha: "12 de noviembre de 2026", dia: "Jueves", hora: "9:00 PM", local: "SPARTANS", visitante: "PIRATAS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+            { id: 6, jornada: 1, fecha: "12 de noviembre de 2026", dia: "Jueves", hora: "7:00 PM", local: "DESTROYERS", visitante: "HORTITEC", estado: "finalizado", puntosLocal: 75, puntosVisitante: 45 },
+            { id: 7, jornada: 1, fecha: "12 de noviembre de 2026", dia: "Jueves", hora: "8:00 PM", local: "RANGERS", visitante: "Y-TEAM", estado: "finalizado", puntosLocal: 39, puntosVisitante: 75 },
+            { id: 8, jornada: 1, fecha: "12 de noviembre de 2026", dia: "Jueves", hora: "9:00 PM", local: "SPARTANS", visitante: "PIRATAS", estado: "finalizado", puntosLocal: 52, puntosVisitante: 54 },
 
             // JORNADA 2 (17 al 19 de noviembre de 2026)
             { id: 9, jornada: 2, fecha: "17 de noviembre de 2026", dia: "Martes", hora: "7:30 PM", local: "ONI GYM", visitante: "HORTITEC", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
@@ -559,9 +562,54 @@
             { partidoId: 5, jugador: "JOSE ZAMORA", puntos: 5, triples: 1, jugo: true },
             { partidoId: 5, jugador: "EDGAR BERELLEZA", puntos: 2, triples: 0, jugo: true },
             { partidoId: 5, jugador: "DEMIAN VALDEZ", puntos: 25, triples: 1, jugo: true },
-            { partidoId: 5, jugador: "HARUM CÁZARES", puntos: 6, triples: 0, jugo: true }
+            { partidoId: 5, jugador: "HARUM CÁZARES", puntos: 6, triples: 0, jugo: true },
+
+            // Estadísticas del Partido 6: DESTROYERS vs HORTITEC (Jornada 1)
+            { partidoId: 6, jugador: "Jorge Alberto Borbon Zuñiga", puntos: 11, triples: 0, jugo: true },
+            { partidoId: 6, jugador: "Carlos Rene Ponce Castro", puntos: 6, triples: 0, jugo: true },
+            { partidoId: 6, jugador: "Saul Andres Ozuna Montes", puntos: 1, triples: 0, jugo: true },
+            { partidoId: 6, jugador: "Martin Lugo", puntos: 12, triples: 1, jugo: true },
+            { partidoId: 6, jugador: "Adrian Gastelum", puntos: 9, triples: 2, jugo: true },
+            { partidoId: 6, jugador: "Francisco Lugo Minjares", puntos: 12, triples: 2, jugo: true },
+            { partidoId: 6, jugador: "Luis Angel Nolasco Ramos", puntos: 2, triples: 0, jugo: true },
+            { partidoId: 6, jugador: "Jesus Alvares", puntos: 22, triples: 6, jugo: true },
+            { partidoId: 6, jugador: "Benjamin terrazas", puntos: 3, triples: 0, jugo: true },
+            { partidoId: 6, jugador: "Emir sonoqui", puntos: 2, triples: 0, jugo: true },
+            { partidoId: 6, jugador: "Pablo perez", puntos: 9, triples: 1, jugo: true },
+            { partidoId: 6, jugador: "Jose carras", puntos: 19, triples: 4, jugo: true },
+            { partidoId: 6, jugador: "Natali Hernandez", puntos: 10, triples: 0, jugo: true },
+
+            // Estadísticas del Partido 7: RANGERS vs Y-TEAM (Jornada 1)
+            { partidoId: 7, jugador: "Leonel Ivan Aldaco Martinez", puntos: 26, triples: 5, jugo: true },
+            { partidoId: 7, jugador: "Jesus Francisco Quiñones Renteria", puntos: 4, triples: 0, jugo: true },
+            { partidoId: 7, jugador: "Carlos Javier Avitia Vazquez", puntos: 3, triples: 1, jugo: true },
+            { partidoId: 7, jugador: "Diego Josian Aguilar Sepulveda", puntos: 2, triples: 0, jugo: true },
+            { partidoId: 7, jugador: "Alan Rogelio Castelo Olivas", puntos: 2, triples: 0, jugo: true },
+            { partidoId: 7, jugador: "Ethan Preciado", puntos: 3, triples: 0, jugo: true },
+            { partidoId: 7, jugador: "Dante Silva", puntos: 23, triples: 2, jugo: true },
+            { partidoId: 7, jugador: "Nicolas Espinoza", puntos: 12, triples: 0, jugo: true },
+            { partidoId: 7, jugador: "Pablo Briones", puntos: 16, triples: 0, jugo: true },
+            { partidoId: 7, jugador: "Emilio Pérez", puntos: 3, triples: 1, jugo: true },
+            { partidoId: 7, jugador: "Alfredo Pérez", puntos: 13, triples: 1, jugo: true },
+            { partidoId: 7, jugador: "Antonio Lutz", puntos: 7, triples: 0, jugo: true },
+
+            // Estadísticas del Partido 8: SPARTANS vs PIRATAS (Jornada 1)
+            { partidoId: 8, jugador: "Alejandro Trujillo Meza", puntos: 8, triples: 0, jugo: true },
+            { partidoId: 8, jugador: "Gastón Almada", puntos: 9, triples: 1, jugo: true },
+            { partidoId: 8, jugador: "Luis Abraham Córdova Andrade", puntos: 8, triples: 0, jugo: true },
+            { partidoId: 8, jugador: "Daniel Alberto Reatiga Ocampo", puntos: 7, triples: 0, jugo: true },
+            { partidoId: 8, jugador: "Rafael Armando Sánchez Chavira", puntos: 4, triples: 1, jugo: true },
+            { partidoId: 8, jugador: "Diego Arturo Soto Farias", puntos: 10, triples: 0, jugo: true },
+            { partidoId: 8, jugador: "Jorge Emanuel Meza López", puntos: 6, triples: 2, jugo: true },
+            { partidoId: 8, jugador: "Dany Villanueva", puntos: 8, triples: 0, jugo: true },
+            { partidoId: 8, jugador: "Carlos Parra Cota", puntos: 3, triples: 1, jugo: true },
+            { partidoId: 8, jugador: "Jesus Gabriel Alcantar Ochoa", puntos: 10, triples: 0, jugo: true },
+            { partidoId: 8, jugador: "Jonatan Jasiel Cantua Olivas", puntos: 19, triples: 1, jugo: true },
+            { partidoId: 8, jugador: "Juan David Garcia Vega", puntos: 2, triples: 0, jugo: true }
         ],
-        mvpJornadas: []
+        mvpJornadas: [
+            { jornada: 1, jugador: "Cesar Ivan Robles Gomez", equipo: "ONI GYM", puntos: 35, triples: 9, motivo: "Extraordinaria actuación ofensiva con 35 puntos y 9 triples." }
+        ]
     };
 </script>
 
@@ -673,7 +721,7 @@
                     <p class="text-[10px] sm:text-xs uppercase tracking-wider text-slate-500 mt-1 font-semibold">Equipos</p>
                 </div>
                 <div class="bg-white/80 p-3 sm:p-4 rounded-2xl border border-slate-200 text-center sm:text-left">
-                    <span class="text-2xl sm:text-4xl font-black text-orange-600" id="statJugadoresCount">195</span>
+                    <span class="text-2xl sm:text-4xl font-black text-orange-600" id="statJugadoresCount">198</span>
                     <p class="text-[10px] sm:text-xs uppercase tracking-wider text-slate-500 mt-1 font-semibold">Jugadores</p>
                 </div>
                 <div class="bg-white/80 p-3 sm:p-4 rounded-2xl border border-slate-200 text-center sm:text-left">
