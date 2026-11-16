@@ -316,6 +316,10 @@
             { id: 169, nombre: "SANTIAGO SANTAMARIA", numero: 12, posicion: "Desconocida", equipo: "PELICANOS" },
             { id: 170, nombre: "CUTINO MECHUCA", numero: 34, posicion: "Desconocida", equipo: "PELICANOS" },
             { id: 171, nombre: "PELAGIO DE COOCRIT", numero: 7, posicion: "Desconocida", equipo: "PELICANOS" },
+            { id: 172, nombre: "Zdan Ramirez", numero: 4, posicion: "Desconocida", equipo: "PELICANOS" },
+            { id: 173, nombre: "Juan Alday", numero: 5, posicion: "Desconocida", equipo: "PELICANOS" },
+            { id: 174, nombre: "Orlando Castillo Lachica", numero: 27, posicion: "Desconocida", equipo: "PELICANOS" },
+
 
             // HORTITEC
             { id: 172, nombre: "Benjamin terrazas", numero: 30, posicion: "Desconocida", equipo: "HORTITEC" },
@@ -554,7 +558,9 @@
             // Estadísticas del Partido 5: PELICANOS vs LIRIX (Jornada 1)
             { partidoId: 5, jugador: "SERGIO BOJORQUEZ", puntos: 26, triples: 3, jugo: true },
             { partidoId: 5, jugador: "HERIBERTO ALVAREZ", puntos: 7, triples: 1, jugo: true },
-            { partidoId: 5, jugador: "ALVARO ALMADA", puntos: 5, triples: 1, jugo: true },
+            { partidoId: 5, jugador: "ALVARO ALMADA", puntos: 6, triples: 1, jugo: true },
+            { partidoId: 5, jugador: "Juan Alday", puntos: 7, triples: 0, jugo: true },
+            { partidoId: 5, jugador: "Orlando Castillo Lachica", puntos: 5, triples: 0, jugo: true },
             { partidoId: 5, jugador: "FRANCISCO VÁZQUEZ", puntos: 6, triples: 0, jugo: true },
             { partidoId: 5, jugador: "ANGEL LIMÓN", puntos: 2, triples: 0, jugo: true },
             { partidoId: 5, jugador: "JOSÉ ESTRADA", puntos: 3, triples: 0, jugo: true },
@@ -990,66 +996,9 @@
     let jornadaSeleccionadaPartidos = 1;
 
     document.addEventListener('DOMContentLoaded', () => {
-        cargarDatosGuardados();
         renderizarTodo();
         setupFiltrosEquipos();
     });
-
-    function cargarDatosGuardados() {
-        try {
-            const registrosGuardados = localStorage.getItem('lnc_puntosJugadoresPartidos');
-
-            if (registrosGuardados) {
-                const guardados = JSON.parse(registrosGuardados);
-                const combinados = new Map();
-
-                const claveRegistro = (registro) => {
-                    const nombre = String(registro.jugador || '')
-                        .trim()
-                        .toLocaleLowerCase('es');
-                    return `${registro.partidoId}::${nombre}`;
-                };
-
-                if (Array.isArray(guardados)) {
-                    guardados.forEach(registro => {
-                        if (registro && registro.jugador != null) {
-                            combinados.set(claveRegistro(registro), registro);
-                        }
-                    });
-                }
-
-                LIGA_DATA.puntosJugadoresPartidos.forEach(registro => {
-                    if (registro && registro.jugador != null) {
-                        combinados.set(claveRegistro(registro), registro);
-                    }
-                });
-
-                LIGA_DATA.puntosJugadoresPartidos = Array.from(combinados.values());
-            }
-
-            const mvpsGuardados = localStorage.getItem('lnc_mvpJornadas');
-            if (mvpsGuardados) {
-                LIGA_DATA.mvpJornadas = JSON.parse(mvpsGuardados);
-            }
-
-            const partidosGuardados = localStorage.getItem('lnc_partidos');
-            if (partidosGuardados) {
-                LIGA_DATA.partidos = JSON.parse(partidosGuardados);
-            }
-        } catch (e) {
-            console.error("Error al cargar datos de localStorage:", e);
-        }
-    }
-
-    function guardarDatos() {
-        try {
-            localStorage.setItem('lnc_puntosJugadoresPartidos', JSON.stringify(LIGA_DATA.puntosJugadoresPartidos));
-            localStorage.setItem('lnc_mvpJornadas', JSON.stringify(LIGA_DATA.mvpJornadas));
-            localStorage.setItem('lnc_partidos', JSON.stringify(LIGA_DATA.partidos));
-        } catch (e) {
-            console.error("Error al guardar datos en localStorage:", e);
-        }
-    }
 
     function cambiarVista(vista) {
         vistaActual = vista;
@@ -2043,7 +1992,6 @@
             LIGA_DATA.mvpJornadas.push(mejorJugadorData);
         }
 
-        guardarDatos();
         renderizarTodo();
     }
 </script>
