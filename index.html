@@ -2,7 +2,13 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sitio oficial de la Liga Norte de Cajeme: estadísticas de jugadores y equipos, clasificación, líderes anotadores, MVP, jornadas y resultados de la temporada 2026.">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="preconnect" href="https://cdn.tailwindcss.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="image" href="LOGOLIGANORTE.jpg">
     <title>Liga Norte de Cajeme | Sitio Oficial</title>
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -35,7 +41,8 @@
         }
     </script>
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"></noscript>
     <style>
         body {
             font-family: 'Inter', sans-serif;
@@ -250,6 +257,7 @@
             { id: 116, nombre: "HARUM CÁZARES", numero: 18, posicion: "Desconocida", equipo: "LIRIX" },
             { id: 117, nombre: "ANGEL PARTIDA", numero: 30, posicion: "Desconocida", equipo: "LIRIX" },
             { id: 118, nombre: "ANGEL TONA", numero: 9, posicion: "Desconocida", equipo: "LIRIX" },
+            { id: 214, nombre: "Angel Picos", numero: 7, posicion: "Desconocida", equipo: "LIRIX" },
 
             // TERESIANO
             { id: 119, nombre: "Adrián Murillo Hernández", numero: 22, posicion: "Desconocida", equipo: "TERESIANO" },
@@ -280,6 +288,7 @@
             { id: 142, nombre: "Gustavo Aispuro", numero: 25, posicion: "Desconocida", equipo: "DRINKERS" },
             { id: 143, nombre: "Omar Vasquez", numero: 15, posicion: "Desconocida", equipo: "DRINKERS" },
             { id: 213, nombre: "Luis Diaz", numero: 2, posicion: "Desconocida", equipo: "DRINKERS" },
+            { id: 215, nombre: "Santiago Baldenegro", numero: 0, posicion: "Desconocida", equipo: "DRINKERS" },
 
             // Y-TEAM
             { id: 144, nombre: "Dante Silva", numero: 0, posicion: "Desconocida", equipo: "Y-TEAM" },
@@ -343,7 +352,7 @@
             { id: 191, nombre: "Brayan aguilar", numero: 78, posicion: "Desconocida", equipo: "HORTITEC" },
             { id: 192, nombre: "Francisco valenzuela", numero: 8, posicion: "Desconocida", equipo: "HORTITEC" },
             { id: 193, nombre: "Jose carras", numero: "07", posicion: "Desconocida", equipo: "HORTITEC" },
-            { id: 194, nombre: "Natali Hernandez", numero: "Desconocido", posicion: "Desconocida", equipo: "HORTITEC" },
+            { id: 194, nombre: "Natalia Hernandez", numero: "Desconocido", posicion: "Desconocida", equipo: "HORTITEC" },
             { id: 195, nombre: "Diego Camacho", numero: "Desconocido", posicion: "Desconocida", equipo: "HORTITEC" },
             { id: 196, nombre: "Gadiel Felix", numero: "Desconocido", posicion: "Desconocida", equipo: "HORTITEC" },
 
@@ -400,8 +409,8 @@
             { id: 16, jornada: 2, fecha: "19 de noviembre de 2026", dia: "Jueves", hora: "9:00 PM", local: "PELICANOS", visitante: "DRINKERS", estado: "finalizado", puntosLocal: 81, puntosVisitante: 88 },
 
             // JORNADA 3 (24 al 26 de noviembre de 2026)
-            { id: 17, jornada: 3, fecha: "24 de noviembre de 2026", dia: "Martes", hora: "7:30 PM", local: "HORTITEC", visitante: "PIRATAS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
-            { id: 18, jornada: 3, fecha: "24 de noviembre de 2026", dia: "Martes", hora: "8:30 PM", local: "LIRIX", visitante: "DRINKERS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
+            { id: 17, jornada: 3, fecha: "24 de noviembre de 2026", dia: "Martes", hora: "7:30 PM", local: "HORTITEC", visitante: "PIRATAS", estado: "finalizado", puntosLocal: 49, puntosVisitante: 61 },
+            { id: 18, jornada: 3, fecha: "24 de noviembre de 2026", dia: "Martes", hora: "8:30 PM", local: "LIRIX", visitante: "DRINKERS", estado: "finalizado", puntosLocal: 69, puntosVisitante: 91 },
             { id: 19, jornada: 3, fecha: "25 de noviembre de 2026", dia: "Miércoles", hora: "7:00 PM", local: "TITANES", visitante: "PELICANOS", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
             { id: 20, jornada: 3, fecha: "25 de noviembre de 2026", dia: "Miércoles", hora: "8:00 PM", local: "TERESIANO", visitante: "Y-TEAM", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
             { id: 21, jornada: 3, fecha: "25 de noviembre de 2026", dia: "Miércoles", hora: "9:00 PM", local: "ZOMBIES", visitante: "PLAZA", estado: "pendiente", puntosLocal: null, puntosVisitante: null },
@@ -881,6 +890,63 @@
             { partidoId: 16, jugador: "Omar Vasquez", puntos: 0, triples: 0, jugo: true },
             { partidoId: 16, jugador: "Luis Diaz", puntos: 15, triples: 1, jugo: true },
 
+            // Estadisticas del partido 17: HORTITEC VS PIRATAS (Jornada 3)
+            { partidoId: 17, jugador: "Benjamin terrazas", puntos: 0, triples: 0, jugo: true },
+            { partidoId: 17, jugador: "Emir sonoqui", puntos: 0, triples: 0, jugo: true },
+            { partidoId: 17, jugador: "Pablo perez", puntos: 11, triples: 3, jugo: true },
+            { partidoId: 17, jugador: "Luis angulo", puntos: 0, triples: 0, jugo: true },
+            { partidoId: 17, jugador: "Luis angulo jr", puntos: 12, triples: 3, jugo: true },
+            { partidoId: 17, jugador: "Javier favela", puntos: 0, triples: 0, jugo: true },
+            { partidoId: 17, jugador: "Manuel ross", puntos: 7, triples: 0, jugo: true },
+            { partidoId: 17, jugador: "German valle", puntos: 0, triples: 0, jugo: true },
+            { partidoId: 17, jugador: "Brayan aguilar", puntos: 10, triples: 0, jugo: true },
+            { partidoId: 17, jugador: "Francisco valenzuela", puntos: 0, triples: 0, jugo: true },
+            { partidoId: 17, jugador: "Jose carras", puntos: 0, triples: 0, jugo: true },
+            { partidoId: 17, jugador: "Natalia Hernandez", puntos: 10, triples: 0, jugo: true },
+            { partidoId: 17, jugador: "Diego camacho", puntos: 9, triples: 1, jugo: true },
+            { partidoId: 17, jugador: "Gadiel Felix", puntos: 0, triples: 0, jugo: true },
+            { partidoId: 17, jugador: "Sosimo Olivas Palafox", puntos: 0, triples: 0, jugo: true },
+            { partidoId: 17, jugador: "Adrian Alejandro Cuen Urquidez", puntos: 2, triples: 0, jugo: true },
+            { partidoId: 17, jugador: "Juan Jose Beltran Vilches", puntos: 0, triples: 0, jugo: true },
+            { partidoId: 17, jugador: "Juan Jose Beltran Acosta", puntos: 0, triples: 0, jugo: true },
+            { partidoId: 17, jugador: "Juan Edgardo Gomez Cota", puntos: 0, triples: 0, jugo: true },
+            { partidoId: 17, jugador: "Arturo Gomez Cota", puntos: 17, triples: 5, jugo: true },
+            { partidoId: 17, jugador: "Jesus Ernesto Flores Portillo", puntos: 12, triples: 0, jugo: true },
+            { partidoId: 17, jugador: "Carlos Parra Cota", puntos: 0, triples: 0, jugo: true },
+            { partidoId: 17, jugador: "Francisco Jesus Alcantar Gallardo", puntos: 2, triples: 0, jugo: true },
+            { partidoId: 17, jugador: "Jesus Gabriel Alcantar Ochoa", puntos: 13, triples: 0, jugo: true },
+            { partidoId: 17, jugador: "Jonatan Jasiel Cantua Olivas", puntos: 0, triples: 0, jugo: true },
+            { partidoId: 17, jugador: "Juan David Garcia Vega", puntos: 0, triples: 0, jugo: true },
+            { partidoId: 17, jugador: "Angel Urias", puntos: 8, triples: 2, jugo: true },
+            { partidoId: 17, jugador: "Francisco Barraza (Chapo)", puntos: 5, triples: 0, jugo: true },
+
+            // Estadisticas del partido 18: LIRIX VS DRINKERS (Jornada 3)
+            { partidoId: 18, jugador: "FRANCISCO VÁZQUEZ", puntos: 0, triples: 0, jugo: true },
+            { partidoId: 18, jugador: "ANGEL LIMÓN", puntos: 2, triples: 0, jugo: true },
+            { partidoId: 18, jugador: "JOSÉ ESTRADA", puntos: 4, triples: 0, jugo: true },
+            { partidoId: 18, jugador: "ALEJANDRO HERNANDEZ", puntos: 0, triples: 0, jugo: true },
+            { partidoId: 18, jugador: "YAHEL VALENCIA", puntos: 0, triples: 0, jugo: true },
+            { partidoId: 18, jugador: "RODRIGO VALENZUELA", puntos: 7, triples: 0, jugo: true },
+            { partidoId: 18, jugador: "JOSE ZAMORA", puntos: 2, triples: 0, jugo: true },
+            { partidoId: 18, jugador: "OMAR LUTZ", puntos: 0, triples: 0, jugo: true },
+            { partidoId: 18, jugador: "EDGAR BERELLEZA", puntos: 0, triples: 0, jugo: true },
+            { partidoId: 18, jugador: "DEMIAN VALDEZ", puntos: 32, triples: 4, jugo: true },
+            { partidoId: 18, jugador: "HARUM CÁZARES", puntos: 0, triples: 0, jugo: true },
+            { partidoId: 18, jugador: "ANGEL PARTIDA", puntos: 0, triples: 0, jugo: true },
+            { partidoId: 18, jugador: "ANGEL TONA", puntos: 0, triples: 0, jugo: true },
+            { partidoId: 18, jugador: "Angel Picos", puntos: 22, triples: 4, jugo: true },
+            { partidoId: 18, jugador: "Daniel Cordova", puntos: 12, triples: 2, jugo: true },
+            { partidoId: 18, jugador: "José Cordova", puntos: 5, triples: 1, jugo: true },
+            { partidoId: 18, jugador: "Antonio Cordova", puntos: 0, triples: 0, jugo: true },
+            { partidoId: 18, jugador: "Emanuel Lopez", puntos: 5, triples: 1, jugo: true },
+            { partidoId: 18, jugador: "Leonardo Vega", puntos: 4, triples: 0, jugo: true },
+            { partidoId: 18, jugador: "Gustavo Vega", puntos: 18, triples: 0, jugo: true },
+            { partidoId: 18, jugador: "Rolando Campagne", puntos: 17, triples: 0, jugo: true },
+            { partidoId: 18, jugador: "Gustavo Aispuro", puntos: 0, triples: 0, jugo: true },
+            { partidoId: 18, jugador: "Omar Vasquez", puntos: 0, triples: 0, jugo: true },
+            { partidoId: 18, jugador: "Santiago Baldenegro", puntos: 2, triples: 0, jugo: true },
+            { partidoId: 18, jugador: "Luis Diaz", puntos: 22, triples: 6, jugo: true },
+
         ],
                mvpJornadas: [
             {
@@ -919,7 +985,7 @@
                         <span class="text-[10px] sm:text-xs uppercase tracking-widest text-orange-600 font-extrabold">Sitio Oficial</span>
                         <h1 class="text-base sm:text-2xl font-black tracking-tight text-slate-900">LIGA NORTE DE CAJEME</h1>
                     </div>
-                    <img src="LOGOLIGANORTE.jpg" alt="Logo Liga Norte de Cajeme" class="w-10 h-10 object-contain rounded-full">
+                    <img src="LOGOLIGANORTE.jpg" alt="Logo Liga Norte de Cajeme" width="40" height="40" fetchpriority="high" decoding="async" class="w-10 h-10 object-contain rounded-full">
                 </div>
             </div>
 
@@ -1279,14 +1345,50 @@
     let jornadaSeleccionadaMVP = 1;
     let jornadaSeleccionadaPartidos = 1;
 
+    // Vistas ya generadas (carga diferida): cada sección se genera la primera vez que se abre
+    const vistasRenderizadas = {};
+    const RENDERS_POR_VISTA = {
+        inicio: () => {
+            renderHeroStats();
+            renderLideres();
+            renderTop10();
+            renderTopTriples();
+            renderUltimosResultados();
+            renderClasificacionBreve();
+        },
+        equipos: () => renderEquipos(),
+        jugadores: () => renderJugadores(),
+        estadisticas: () => renderEstadisticasCompletas(),
+        mvp: () => renderMVPSection(),
+        jornadas: () => renderJornadasSection(),
+        clasificacion: () => renderClasificacionCompleta(),
+        informacion: () => renderInformacionLiga()
+    };
+
+    function asegurarVistaRenderizada(vista) {
+        if (vistasRenderizadas[vista]) return;
+        const fn = RENDERS_POR_VISTA[vista];
+        if (fn) fn();
+        vistasRenderizadas[vista] = true;
+    }
+
+    // Invalida cachés de cálculo y marca todas las vistas para regenerarse
+    function invalidarCaches() {
+        _cacheJugadores = null;
+        _cacheMVPs = null;
+        _cacheClasificacion = null;
+        Object.keys(vistasRenderizadas).forEach(k => { vistasRenderizadas[k] = false; });
+    }
+
     document.addEventListener('DOMContentLoaded', () => {
-        renderizarTodo();
         setupFiltrosEquipos();
+        asegurarVistaRenderizada('inicio');
     });
 
     function cambiarVista(vista) {
         vistaActual = vista;
         document.querySelectorAll('main > section').forEach(sec => sec.classList.add('hidden'));
+        asegurarVistaRenderizada(vista);
         const secActiva = document.getElementById(`vista-${vista}`);
         if (secActiva) secActiva.classList.remove('hidden');
 
@@ -1346,24 +1448,39 @@
         return logos[n] || "";
     }
 
-    function getJugadores() {
-        const partidosFinalizadosIds = LIGA_DATA.partidos
-            .filter(p => p.estado && p.estado.toLowerCase() === 'finalizado')
-            .map(p => p.id);
+    let _cacheJugadores = null;
+    let _cacheMVPs = null;
+    let _cacheClasificacion = null;
 
-        return LIGA_DATA.jugadores
+    function getJugadores() {
+        if (_cacheJugadores) return _cacheJugadores;
+
+        const partidosFinalizadosIds = new Set(
+            LIGA_DATA.partidos
+                .filter(p => p.estado && p.estado.toLowerCase() === 'finalizado')
+                .map(p => p.id)
+        );
+
+        // Índice único de registros por jugador (una sola pasada)
+        const registrosPorJugador = new Map();
+        LIGA_DATA.puntosJugadoresPartidos.forEach(r => {
+            const key = r.jugador.toLowerCase();
+            let lista = registrosPorJugador.get(key);
+            if (!lista) { lista = []; registrosPorJugador.set(key, lista); }
+            lista.push(r);
+        });
+
+        _cacheJugadores = LIGA_DATA.jugadores
             .filter(j => {
                 if (normalizarNombreEquipo(j.equipo) === 'ZORROS' && j.nombre.toUpperCase() === 'YOHAN CABRAL') {
-                    const tieneHistorial = LIGA_DATA.puntosJugadoresPartidos.some(r => r.jugador.toLowerCase() === j.nombre.toLowerCase());
+                    const tieneHistorial = registrosPorJugador.has(j.nombre.toLowerCase());
                     return tieneHistorial;
                 }
                 return true;
             })
             .map(j => {
-                const registrosValidos = LIGA_DATA.puntosJugadoresPartidos.filter(r => 
-                    r.jugador.toLowerCase() === j.nombre.toLowerCase() && 
-                    partidosFinalizadosIds.includes(r.partidoId)
-                );
+                const registros = registrosPorJugador.get(j.nombre.toLowerCase()) || [];
+                const registrosValidos = registros.filter(r => partidosFinalizadosIds.has(r.partidoId));
 
                 const partidosMap = {};
                 let triplesTotales = 0;
@@ -1390,10 +1507,18 @@
                     partidos
                 };
             });
+        return _cacheJugadores;
     }
     
     function calcularMVPsJugador(nombreJugador) {
-        return LIGA_DATA.mvpJornadas.filter(m => m.jugador.toLowerCase() === nombreJugador.toLowerCase()).length;
+        if (!_cacheMVPs) {
+            _cacheMVPs = new Map();
+            LIGA_DATA.mvpJornadas.forEach(m => {
+                const key = m.jugador.toLowerCase();
+                _cacheMVPs.set(key, (_cacheMVPs.get(key) || 0) + 1);
+            });
+        }
+        return _cacheMVPs.get(nombreJugador.toLowerCase()) || 0;
     }
 
     function getAvatarHTML(nombre, color = '#f97316', size = 'w-12 h-12') {
@@ -1407,19 +1532,9 @@
     }
 
     function renderizarTodo() {
-        renderHeroStats();
-        renderLideres();
-        renderTop10();
-        renderTopTriples();
-        renderUltimosResultados();
-        renderClasificacionBreve();
-        renderEquipos();
-        renderJugadores();
-        renderEstadisticasCompletas();
-        renderMVPSection();
-        renderJornadasSection();
-        renderClasificacionCompleta();
-        renderInformacionLiga();
+        // Regenera únicamente la vista visible; las demás se regeneran al abrirlas
+        invalidarCaches();
+        asegurarVistaRenderizada(vistaActual);
     }
 
     function renderHeroStats() {
@@ -1540,6 +1655,11 @@
     }
 
     function calcularClasificacion() {
+        if (!_cacheClasificacion) _cacheClasificacion = _calcularClasificacionBase();
+        return _cacheClasificacion.slice();
+    }
+
+    function _calcularClasificacionBase() {
         const stats = {};
         LIGA_DATA.equipos.forEach(eq => {
             stats[eq.nombre] = {
@@ -1639,7 +1759,7 @@
                     <div class="cursor-pointer" onclick="abrirDetalleEquipo('${eq.nombre}', 'plantilla')">
                         <div class="flex items-center space-x-4 mb-4">
                             <div class="w-14 h-14 sm:w-16 sm:h-16 rounded-2xl bg-white border border-slate-200 flex items-center justify-center overflow-hidden flex-shrink-0 shadow-sm p-1.5 relative">
-                                <img src="${logoPath}" alt="${eq.nombre}" class="w-full h-full object-contain" onerror="this.onerror=null; this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                <img src="${logoPath}" alt="${eq.nombre}" width="64" height="64" loading="lazy" decoding="async" class="w-full h-full object-contain" onerror="this.onerror=null; this.style.display='none'; this.nextElementSibling.style.display='flex';">
                                 <div class="absolute inset-0 items-center justify-center font-black text-sm text-white rounded-2xl hidden" style="background: linear-gradient(135deg, ${eq.color}, #0f172a)">
                                     ${eq.abreviatura}
                                 </div>
